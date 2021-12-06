@@ -59,6 +59,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |    Hard    | problem_297  |     ×     |
 | 326  | [Power of Three](https://leetcode.com/problems/power-of-three/) |    Easy    | problem_326  |     ×     |
 | 328  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) |   Medium   | problem_328  |     ×     |
+| 383  | [Ransom Note](https://leetcode-cn.com/problems/ransom-note/) |    Easy    | problem_383  |     ×     |
 | 547  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) |   Medium   | problem_547  |     ×     |
 | 650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) |   Medium   | problem_650  |     ×     |
 | 684  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) |   Medium   | problem_684  |     ×     |
