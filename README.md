@@ -66,9 +66,13 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 725  | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) |   Medium   | problem_725  |     ×     |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) |    Easy    | problem_876  |     ×     |
 | 912  | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |   Medium   | problem_912  |     √     |
+| 1816 | [Truncate Sentence](https://leetcode-cn.com/problems/truncate-sentence/) |    Easy    | problem_1816 |     ×     |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) |    Easy    | problem_2000 |     ×     |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/) |   Medium   | problem_2001 |     ×     |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) |    Easy    | problem_2011 |     ×     |
+| 2094 | [Finding 3-Digit Even Numbers](https://leetcode-cn.com/problems/finding-3-digit-even-numbers/) |    Easy    | problem_2094 |     ×     |
+| 5943 | [Delete the Middle Node of a Linked List](https://leetcode-cn.com/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   | problem_5943 |     ×     |
+| 5944 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode-cn.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   | problem_5944 |     ×     |
 
 ## Coding Interviews
 
