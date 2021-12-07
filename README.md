@@ -70,6 +70,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 912  |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   | problem_912  |     √     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    | problem_1005 |     ×     |
 | 1034 | [边界着色](https://leetcode-cn.com/problems/coloring-a-border) |   Medium   | problem_1034 |     ×     |
+| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/) |    Easy    | problem_1446 |     ×     |
 | 1816 | [截断句子](https://leetcode-cn.com/problems/truncate-sentence) |    Easy    | problem_1816 |     ×     |
 | 2000 | [反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word) |    Easy    | problem_2000 |     ×     |
 | 2001 | [可互换矩形的组数](https://leetcode-cn.com/problems/number-of-pairs-of-interchangeable-rectangles) |   Medium   | problem_2001 |     ×     |
