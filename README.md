@@ -45,6 +45,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 145  | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) |    Easy    | problem_145  |     ×     |
 | 148  |    [排序链表](https://leetcode-cn.com/problems/sort-list)    |   Medium   | problem_148  |     √     |
 | 160  | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) |    Easy    | problem_160  |     ×     |
+| 179  |  [最大数](https://leetcode-cn.com/problems/largest-number/)  |   Medium   | problem_179  |     ×     |
 | 203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements) |    Easy    | problem_203  |     ×     |
 | 206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) |    Easy    | problem_206  |     ×     |
 | 208  | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) |   Medium   | problem_208  |     ×     |
