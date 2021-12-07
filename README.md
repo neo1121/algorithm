@@ -60,6 +60,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 326  |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    | problem_326  |     ×     |
 | 328  | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list) |   Medium   | problem_328  |     ×     |
 | 383  |    [赎金信](https://leetcode-cn.com/problems/ransom-note)    |    Easy    | problem_383  |     ×     |
+| 386  | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) |   Medium   | problem_386  |     √     |
 | 506  | [相对名次](https://leetcode-cn.com/problems/relative-ranks)  |    Easy    | problem_506  |     ×     |
 | 547  | [省份数量](https://leetcode-cn.com/problems/number-of-provinces) |   Medium   | problem_547  |     ×     |
 | 650  | [只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard) |   Medium   | problem_650  |     ×     |
