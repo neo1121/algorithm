@@ -69,6 +69,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) |    Easy    | problem_876  |     ×     |
 | 912  | [Sort an Array](https://leetcode.com/problems/sort-an-array/) |   Medium   | problem_912  |     √     |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) |    Easy    | problem_1005 |     ×     |
+| 1034 | [Coloring A Border](https://leetcode-cn.com/problems/coloring-a-border/) |   Medium   | problem_1034 |     ×     |
 | 1816 | [Truncate Sentence](https://leetcode-cn.com/problems/truncate-sentence/) |    Easy    | problem_1816 |     ×     |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) |    Easy    | problem_2000 |     ×     |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/) |   Medium   | problem_2001 |     ×     |
