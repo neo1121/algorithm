@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Solution {
-    static class myComparator implements Comparator<Integer> {
+    static class MyComparator implements Comparator<Integer> {
 
         @Override
         public int compare(Integer t1, Integer t2) {
@@ -38,7 +38,7 @@ public class Solution {
             return "0";
         }
         Integer[] boxedNums = Arrays.stream(nums).boxed().toArray(Integer[]::new);
-        Arrays.sort(boxedNums, new myComparator());
+        Arrays.sort(boxedNums, new MyComparator());
         StringBuilder sb = new StringBuilder();
         for (Integer boxedNum : boxedNums) {
             sb.append(boxedNum);
@@ -48,7 +48,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Integer[] nums = new Integer[]{3, 43, 48, 94, 85, 33, 64, 32, 63, 66};
-        Arrays.sort(nums, new myComparator());
+        Arrays.sort(nums, new MyComparator());
         System.out.println(Arrays.toString(nums));
     }
 }
