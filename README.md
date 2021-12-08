@@ -89,6 +89,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID            |                            Title                             | Difficulty | Extension |
 | ------------- | :----------------------------------------------------------: | :--------: | :-------: |
+| 剑指 Offer 38 | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) |   Medium   |     ×     |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |    Hard    |     ×     |
 
 ## Coding Interviews  II
