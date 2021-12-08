@@ -16,7 +16,6 @@ public class Solution {
             return 0;
         }
         Arrays.sort(intervals, new MyComparator());
-        System.out.println(Arrays.deepToString(intervals));
         int end = Integer.MIN_VALUE;
         int count = 0;
         for (int[] interval : intervals) {
