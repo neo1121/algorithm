@@ -20,6 +20,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |    Easy    |     ×     |
 | 23   | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) |    Hard    |     ×     |
 | 24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |   Medium   |     ×     |
+| 46   |   [全排列](https://leetcode-cn.com/problems/permutations/)   |   Medium   |     ×     |
 | 52   |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |     ×     |
 | 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) |    Easy    |     √     |
 | 61   |   [旋转链表](https://leetcode-cn.com/problems/rotate-list)   |   Medium   |     ×     |
