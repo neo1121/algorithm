@@ -73,6 +73,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 689  | [三个无重叠子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |    Hard    |  Timeout  |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
 | 725  | [分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts) |   Medium   |     ×     |
+| 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
 | 876  | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) |    Easy    |     ×     |
 | 912  |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   |     √     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
