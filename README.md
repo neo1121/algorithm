@@ -104,7 +104,6 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
-| 52   |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |     ×     |
 | 179  |  [最大数](https://leetcode-cn.com/problems/largest-number/)  |   Medium   |     ×     |
 | 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) |   Medium   |     ×     |
 | 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) |    Easy    |     √     |
@@ -118,6 +117,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ------------- | :----------------------------------------------------------: | :--------: | :-------: |
 | 46            |   [全排列](https://leetcode-cn.com/problems/permutations/)   |   Medium   |     ×     |
 | 47            | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |   Medium   |     ×     |
+| 52            |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |     ×     |
 | 326           |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    |     ×     |
 | 486           | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner/) |   Medium   |     ×     |
 | 784           | [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) |   Medium   |     ×     |
