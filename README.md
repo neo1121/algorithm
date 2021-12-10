@@ -21,6 +21,17 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 912           |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   |     √     |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |    Hard    |     ×     |
 
+### 常见排序算法比较
+
+|          | 时间复杂度 | 空间复杂度 | 能否实现稳定性 |
+| -------- | :--------: | :--------: | :------------: |
+| 选择排序 |   O(n²)    |    O(1)    |       ×        |
+| 冒泡排序 |   O(n²)    |    O(1)    |       √        |
+| 插入排序 |   O(n²)    |    O(1)    |       √        |
+| 归并排序 |  O(nlogn)  |    O(n)    |       √        |
+| 快速排序 |  O(nlogn)  |  O(logn)   |       ×        |
+| 堆排序   |  O(nlogn)  |    O(1)    |       ×        |
+
 
 
 ## 堆
