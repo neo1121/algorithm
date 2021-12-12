@@ -1,7 +1,7 @@
 package algorithm.leetcode.problem_5934;
 
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.HashMap;
 
 public class Solution {
     public int[] maxSubsequence(int[] nums, int k) {
@@ -10,20 +10,19 @@ public class Solution {
         }
         int[] sortedNums = nums.clone();
         Arrays.sort(sortedNums);
-        System.out.println(Arrays.toString(sortedNums));
-        HashSet<Integer> set = new HashSet<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = sortedNums.length - 1; i >= sortedNums.length - k; i--) {
-            set.add(sortedNums[i]);
+            int count = map.getOrDefault(sortedNums[i], 0);
+            map.put(sortedNums[i], count + 1);
         }
-        System.out.println(set);
         int[] ret = new int[k];
         int index = 0;
-        int pos = sortedNums.length - k;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == sortedNums[pos]) {
-                ret[index++] = nums[i];
-                pos += 1;
-                if (index >= k) {
+        for (int num : nums) {
+            int count = map.getOrDefault(num, 0);
+            if (count > 0) {
+                map.put(num, count - 1);
+                ret[index++] = num;
+                if(index>=k){
                     break;
                 }
             }

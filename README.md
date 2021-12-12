@@ -163,9 +163,10 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 数组
 
-| ID   |                           Title                            | Difficulty | Extension |
-| ---- | :--------------------------------------------------------: | :--------: | :-------: |
-| 704  | [二分查找](https://leetcode-cn.com/problems/binary-search) |    Easy    |     ×     |
+| ID   |                            Title                             | Difficulty | Extension |
+| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
+| 5934 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
 
 
 

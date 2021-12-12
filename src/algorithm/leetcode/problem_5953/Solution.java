@@ -15,10 +15,10 @@ public class Solution {
     }
 
     public long process(int beg, int end, int[] nums, HashSet<String> set) {
-        if (beg > end || end >= nums.length || set.contains(beg + "" + end)) {
+        if (beg > end || end >= nums.length || set.contains(beg + "-" + end)) {
             return 0;
         }
-        set.add(beg + "" + end);
+        set.add(beg + "-" + end);
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for (int i = beg; i <= end; i++) {
