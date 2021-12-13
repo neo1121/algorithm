@@ -134,6 +134,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 326           |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    |     ×     |
 | 486           | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner/) |   Medium   |     ×     |
 | 784           | [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) |   Medium   |     ×     |
+| 2104          | [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/) |   Medium   |     ×     |
 | 剑指 Offer 38 | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) |   Medium   |     ×     |
 
 
