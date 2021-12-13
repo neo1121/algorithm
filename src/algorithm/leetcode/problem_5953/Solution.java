@@ -1,31 +1,30 @@
 package algorithm.leetcode.problem_5953;
 
-import java.util.HashSet;
-
 public class Solution {
     public long subArrayRanges(int[] nums) {
-        if (nums.length == 1) {
-            return 0;
+        int ret = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int max = Integer.MIN_VALUE;
+            int min = Integer.MAX_VALUE;
+            for (int j = i; j < nums.length; j++) {
+                max = Math.max(max, nums[j]);
+                min = Math.min(min, nums[j]);
+            }
+            ret += max - min;
         }
-        if (nums.length == 2) {
-            return Math.abs(nums[0] - nums[1]);
-        }
-        HashSet<String> set = new HashSet<>();
-        return process(0, 0, nums, set);
+        return ret;
     }
 
-    public long process(int beg, int end, int[] nums, HashSet<String> set) {
-        if (beg > end || end >= nums.length || set.contains(beg + "-" + end)) {
+    public long process(int beg, int end, int[] nums) {
+        if (beg > end || end >= nums.length) {
             return 0;
         }
-        set.add(beg + "-" + end);
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for (int i = beg; i <= end; i++) {
             max = Math.max(max, nums[i]);
             min = Math.min(min, nums[i]);
         }
-        System.out.printf("%d, %d, %d\n", beg, end, max - min);
-        return max - min + process(beg + 1, end, nums, set) + process(beg, end + 1, nums, set);
+        return max - min + process(beg, end + 1, nums);
     }
 }

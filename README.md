@@ -118,6 +118,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 179  |  [最大数](https://leetcode-cn.com/problems/largest-number/)  |   Medium   |     ×     |
 | 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) |   Medium   |     ×     |
 | 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) |    Easy    |     √     |
+| 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |     ×     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
 
 
@@ -231,6 +232,15 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 2094 | [找出 3 位偶数](https://leetcode-cn.com/problems/finding-3-digit-even-numbers) |    Easy    |     ×     |
+
+
+
+## 模拟
+
+| ID   |                            Title                             | Difficulty | Extension |
+| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 5952 |  [环和杆](https://leetcode-cn.com/problems/rings-and-rods/)  |    Easy    |     ×     |
+| 5954 | [给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/) |   Medium   |     ×     |
 
 
 
