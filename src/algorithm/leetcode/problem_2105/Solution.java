@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5954;
+package algorithm.leetcode.problem_2105;
 
 public class Solution {
     public int minimumRefill(int[] plants, int capacityA, int capacityB) {

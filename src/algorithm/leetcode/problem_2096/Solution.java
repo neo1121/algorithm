@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5944;
+package algorithm.leetcode.problem_2096;
 
 class TreeNode {
     int val;

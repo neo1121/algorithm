@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5943;
+package algorithm.leetcode.problem_2095;
 
 class ListNode {
     int val;

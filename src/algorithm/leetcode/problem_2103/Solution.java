@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5952;
+package algorithm.leetcode.problem_2103;
 
 public class Solution {
     public int countPoints(String rings) {

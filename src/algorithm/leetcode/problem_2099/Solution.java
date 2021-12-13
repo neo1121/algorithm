@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5934;
+package algorithm.leetcode.problem_2099;
 
 import java.util.Arrays;
 import java.util.HashMap;
