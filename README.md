@@ -171,6 +171,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |     ×     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
 | 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
 
