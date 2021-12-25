@@ -88,6 +88,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 222               | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) |   Medium   |     ×     |
 | 236               | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) |   Medium   |     ×     |
 | 297               | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) |    Hard    |     ×     |
+| 1609              |  [奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)   |   Medium   |     ×     |
 | 2096              | [从二叉树一个节点到另一个节点每一步的方向](https://leetcode-cn.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   |     ×     |
 | 剑指 Offer II 053 | [二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/) |   Medium   |     ×     |
 
