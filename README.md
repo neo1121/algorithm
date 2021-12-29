@@ -251,6 +251,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |     ×     |
 | 1518 | [换酒问题](https://leetcode-cn.com/problems/water-bottles/)  |    Easy    |     ×     |
+| 1995 | [统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/) |    Easy    |     ×     |
 | 2103 |  [环和杆](https://leetcode-cn.com/problems/rings-and-rods/)  |    Easy    |     ×     |
 | 2105 | [给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/) |   Medium   |     ×     |
 
