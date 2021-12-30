@@ -121,6 +121,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) |   Medium   |     ×     |
 | 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) |    Easy    |     √     |
 | 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |     ×     |
+| 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) |   Medium   |     ×     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
 
 
