@@ -177,6 +177,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |     ×     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
+| 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/) |    Easy    |     ×     |
 | 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
 
 
