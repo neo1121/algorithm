@@ -232,6 +232,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 7    | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) |    Easy    |     ×     |
 | 9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |    Easy    |     ×     |
+| 390  | [消除游戏](https://leetcode-cn.com/problems/elimination-game/) |   Medium   |     ×     |
 | 507  |  [完美数](https://leetcode-cn.com/problems/perfect-number/)  |    Easy    |     ×     |
 | 650  | [只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard) |   Medium   |     ×     |
 | 1154 | [一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/) |    Easy    |     ×     |
