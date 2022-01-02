@@ -39,7 +39,6 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 295  | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) |    Hard    |     ×     |
-| 5969 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
 
 
 
@@ -124,6 +123,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |     ×     |
 | 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) |   Medium   |     ×     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
+| 5969 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
 
 
 
