@@ -39,6 +39,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 295  | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) |    Hard    |     ×     |
+| 5969 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
 
 
 
