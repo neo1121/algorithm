@@ -239,6 +239,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 507  |  [完美数](https://leetcode-cn.com/problems/perfect-number/)  |    Easy    |     ×     |
 | 650  | [只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard) |   Medium   |     ×     |
 | 1154 | [一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/) |    Easy    |     ×     |
+| 1185 | [一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/) |    Easy    |     ×     |
 | 2001 | [可互换矩形的组数](https://leetcode-cn.com/problems/number-of-pairs-of-interchangeable-rectangles) |   Medium   |     ×     |
 | 2011 | [执行操作后的变量值](https://leetcode-cn.com/problems/final-value-of-variable-after-performing-operations) |    Easy    |     ×     |
 | 2110 | [股票平滑下跌阶段的数目](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) |   Medium   |     ×     |
