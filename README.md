@@ -42,6 +42,14 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 
 
+## 栈
+
+| ID   |                            Title                            | Difficulty | Extension |
+| ---- | :---------------------------------------------------------: | :--------: | :-------: |
+| 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/) |   Medium   |     ×     |
+
+
+
 ## 链表
 
 | ID                |                            Title                             | Difficulty | Extension |
