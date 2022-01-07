@@ -172,6 +172,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 1078 | [Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) |    Easy    |     ×     |
 | 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/) |    Easy    |     ×     |
 | 1576 | [替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) |    Easy    |     ×     |
+| 1614 | [括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/) |    Easy    |     ×     |
 | 1816 | [截断句子](https://leetcode-cn.com/problems/truncate-sentence) |    Easy    |     ×     |
 | 1859 | [将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence/) |    Easy    |     ×     |
 | 2000 | [反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word) |    Easy    |     ×     |
