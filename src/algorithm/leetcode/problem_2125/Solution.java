@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5968;
+package algorithm.leetcode.problem_2125;
 
 public class Solution {
     public int numberOfBeams(String[] bank) {

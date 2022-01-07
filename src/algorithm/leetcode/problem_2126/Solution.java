@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5969;
+package algorithm.leetcode.problem_2126;
 
 import java.util.PriorityQueue;
 

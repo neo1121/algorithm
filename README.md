@@ -131,7 +131,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |     ×     |
 | 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) |   Medium   |     ×     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
-| 5969 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
+| 2126 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
 
 
 
@@ -179,7 +179,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2108 | [找出数组中的第一个回文字符串](https://leetcode-cn.com/problems/find-first-palindromic-string-in-the-array/) |    Easy    |     ×     |
 | 2109 | [向字符串添加空格](https://leetcode-cn.com/problems/adding-spaces-to-a-string/) |   Medium   |     ×     |
 | 2114 | [句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/) |    Easy    |     ×     |
-| 5967 | [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/) |    Easy    |     ×     |
+| 2124 | [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/) |    Easy    |     ×     |
 
 
 
@@ -191,7 +191,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
 | 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/) |    Easy    |     ×     |
 | 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
-| 5968 | [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/) |   Medium   |     ×     |
+| 2125 | [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/) |   Medium   |     ×     |
 
 
 

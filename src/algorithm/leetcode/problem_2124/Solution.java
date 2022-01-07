@@ -1,4 +1,4 @@
-package algorithm.leetcode.problem_5967;
+package algorithm.leetcode.problem_2124;
 
 public class Solution {
     public boolean checkString(String s) {
