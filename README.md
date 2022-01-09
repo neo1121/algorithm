@@ -188,6 +188,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 26   | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |    Easy    |     ×     |
 | 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |     ×     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
 | 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/) |    Easy    |     ×     |
