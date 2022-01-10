@@ -76,6 +76,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 725               | [分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts) |   Medium   |     ×     |
 | 876               | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) |    Easy    |     ×     |
 | 2095              | [删除链表的中间节点](https://leetcode-cn.com/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   |     ×     |
+| 2130              | [链表最大孪生和](https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/) |   Medium   |     ×     |
 | 剑指 Offer II 027 |     [回文链表](https://leetcode-cn.com/problems/aMhZSa/)     |    Easy    |     ×     |
 
 
