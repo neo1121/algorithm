@@ -216,6 +216,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 127  |   [单词接龙](https://leetcode-cn.com/problems/word-ladder)   |    Hard    |     ×     |
 | 1034 | [边界着色](https://leetcode-cn.com/problems/coloring-a-border) |   Medium   |     ×     |
+| 1036 | [逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/) |    Hard    |     ×     |
 
 
 
