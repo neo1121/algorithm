@@ -127,6 +127,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 179  |  [最大数](https://leetcode-cn.com/problems/largest-number/)  |   Medium   |     ×     |
+| 334  | [递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) |   Medium   |     ×     |
 | 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) |   Medium   |     ×     |
 | 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) |    Easy    |     √     |
 | 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |     ×     |
