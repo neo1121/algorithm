@@ -39,6 +39,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 295  | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) |    Hard    |     ×     |
+| 373  | [查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) |   Medium   |     ×     |
 
 
 
