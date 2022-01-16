@@ -257,6 +257,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 7    | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) |    Easy    |     ×     |
 | 9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |    Easy    |     ×     |
 | 89   |   [格雷编码](https://leetcode-cn.com/problems/gray-code/)    |   Medium   |     ×     |
+| 382  | [链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/) |   Medium   |     ×     |
 | 390  | [消除游戏](https://leetcode-cn.com/problems/elimination-game/) |   Medium   |     ×     |
 | 507  |  [完美数](https://leetcode-cn.com/problems/perfect-number/)  |    Easy    |     ×     |
 | 650  | [只有两个键的键盘](https://leetcode-cn.com/problems/2-keys-keyboard) |   Medium   |     ×     |
