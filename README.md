@@ -187,6 +187,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2114 | [句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/) |    Easy    |     ×     |
 | 2124 | [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/) |    Easy    |     ×     |
 | 2129 | [将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/) |    Easy    |     ×     |
+| 2138 | [将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/) |    Easy    |     ×     |
 
 
 
