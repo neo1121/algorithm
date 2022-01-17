@@ -135,6 +135,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) |   Medium   |     ×     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
 | 2126 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
+| 2139 | [得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/) |   Medium   |     ×     |
 
 
 
