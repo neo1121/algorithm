@@ -164,6 +164,15 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 
 
+## 哈希
+
+| ID   |                            Title                             | Difficulty | Extension |
+| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) |    Easy    |     ×     |
+| 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
+
+
+
 ## 字符串
 
 | ID   |                            Title                             | Difficulty | Extension |
