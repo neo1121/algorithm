@@ -161,6 +161,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 3    | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |   Medium   |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
+| 220  | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) |   Medium   |     ×     |
 
 
 
