@@ -283,6 +283,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 1716 | [计算力扣银行的钱](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/) |    Easy    |     √     |
 | 2001 | [可互换矩形的组数](https://leetcode-cn.com/problems/number-of-pairs-of-interchangeable-rectangles) |   Medium   |     ×     |
 | 2011 | [执行操作后的变量值](https://leetcode-cn.com/problems/final-value-of-variable-after-performing-operations) |    Easy    |     ×     |
+| 2029 | [石子游戏 IX](https://leetcode-cn.com/problems/stone-game-ix/) |   Medium   |     ×     |
 | 2110 | [股票平滑下跌阶段的数目](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) |   Medium   |     ×     |
 | 2119 | [反转两次的数字](https://leetcode-cn.com/problems/a-number-after-a-double-reversal/) |    Easy    |     ×     |
 
