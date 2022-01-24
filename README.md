@@ -137,6 +137,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2126 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
 | 2139 | [得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/) |   Medium   |     ×     |
 | 2144 | [打折购买糖果的最小开销](https://leetcode-cn.com/problems/minimum-cost-of-buying-candies-with-discount/) |    Easy    |     ×     |
+| 2145 | [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/) |   Medium   |     ×     |
 
 
 
