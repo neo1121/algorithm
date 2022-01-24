@@ -240,6 +240,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 1034 | [边界着色](https://leetcode-cn.com/problems/coloring-a-border) |   Medium   |     ×     |
 | 1036 | [逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/) |    Hard    |     ×     |
 | 1345 | [跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/) |    Hard    |     ×     |
+| 2146 | [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/) |   Medium   |     ×     |
 
 
 
