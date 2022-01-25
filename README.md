@@ -228,6 +228,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
 | 2125 | [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/) |   Medium   |     ×     |
 | 2148 | [元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) |    Easy    |     ×     |
+| 2150 | [找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/) |   Medium   |     ×     |
 
 
 
