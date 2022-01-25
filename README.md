@@ -34,6 +34,14 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 
 
+## 队列
+
+| ID   |                            Title                             | Difficulty | Extension |
+| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 2149 | [按符号重排数组](https://leetcode-cn.com/problems/rearrange-array-elements-by-sign/) |   Medium   |     ×     |
+
+
+
 ## 堆
 
 | ID   |                            Title                             | Difficulty | Extension |
