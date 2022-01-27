@@ -205,6 +205,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 1816 | [截断句子](https://leetcode-cn.com/problems/truncate-sentence) |    Easy    |     ×     |
 | 1859 | [将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence/) |    Easy    |     ×     |
 | 2000 | [反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word) |    Easy    |     ×     |
+| 2047 | [句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/) |    Easy    |     ×     |
 | 2108 | [找出数组中的第一个回文字符串](https://leetcode-cn.com/problems/find-first-palindromic-string-in-the-array/) |    Easy    |     ×     |
 | 2109 | [向字符串添加空格](https://leetcode-cn.com/problems/adding-spaces-to-a-string/) |   Medium   |     ×     |
 | 2114 | [句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/) |    Easy    |     ×     |
