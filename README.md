@@ -19,6 +19,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 88            | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) |    Easy    |     ×     |
 | 506           | [相对名次](https://leetcode-cn.com/problems/relative-ranks)  |    Easy    |     ×     |
 | 912           |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   |     √     |
+| 1996          | [游戏中弱角色的数量](https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/) |   Medium   |     ×     |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |    Hard    |     ×     |
 
 ### 常见排序算法比较
