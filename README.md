@@ -182,6 +182,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) |    Easy    |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
+| 884  | [两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/) |    Easy    |     ×     |
 
 
 
