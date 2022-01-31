@@ -235,6 +235,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2148 | [元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) |    Easy    |     ×     |
 | 2150 | [找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/) |   Medium   |     ×     |
 | 2154 | [将找到的值乘以 2](https://leetcode-cn.com/problems/keep-multiplying-found-values-by-two/) |    Easy    |     ×     |
+| 2155 | [分组得分最高的所有下标](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) |   Medium   |     ×     |
 
 
 
