@@ -226,6 +226,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 26   | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |    Easy    |     ×     |
 | 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |     ×     |
 | 35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) |    Easy    |     ×     |
+| 36   | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) |   Medium   |     ×     |
 | 66   |      [加一](https://leetcode-cn.com/problems/plus-one/)      |    Easy    |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
