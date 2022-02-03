@@ -230,6 +230,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
 | 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) |    Easy    |     ×     |
+| 1725 | [可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/) |    Easy    |     ×     |
 | 2013 | [检测正方形](https://leetcode-cn.com/problems/detect-squares/) |   Medium   |     ×     |
 | 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/) |    Easy    |     ×     |
 | 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
