@@ -271,6 +271,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
 | 386  | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) |   Medium   |     √     |
+| 1219 | [黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/) |   Medium   |     ×     |
 
 
 
