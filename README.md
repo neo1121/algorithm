@@ -322,6 +322,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |   Medium   |     ×     |
 | 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |    Easy    |     ×     |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |     ×     |
