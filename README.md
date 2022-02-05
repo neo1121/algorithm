@@ -15,7 +15,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 排序
 
 | ID            |                            Title                             | Difficulty | Extension |
-| ------------- | :----------------------------------------------------------: | :--------: | :-------: |
+| :------------ | :----------------------------------------------------------: | :--------: | :-------: |
 | 88            | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) |    Easy    |     ×     |
 | 506           | [相对名次](https://leetcode-cn.com/problems/relative-ranks)  |    Easy    |     ×     |
 | 912           |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   |     √     |
@@ -25,20 +25,20 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ### 常见排序算法比较
 
 |          | 时间复杂度 | 空间复杂度 | 能否实现稳定性 |
-| -------- | :--------: | :--------: | :------------: |
+| :------: | :--------: | :--------: | :------------: |
 | 选择排序 |   O(n²)    |    O(1)    |       ×        |
 | 冒泡排序 |   O(n²)    |    O(1)    |       √        |
 | 插入排序 |   O(n²)    |    O(1)    |       √        |
 | 归并排序 |  O(nlogn)  |    O(n)    |       √        |
 | 快速排序 |  O(nlogn)  |  O(logn)   |       ×        |
-| 堆排序   |  O(nlogn)  |    O(1)    |       ×        |
+|  堆排序  |  O(nlogn)  |    O(1)    |       ×        |
 
 
 
 ## 队列
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 2149 | [按符号重排数组](https://leetcode-cn.com/problems/rearrange-array-elements-by-sign/) |   Medium   |     ×     |
 
 
@@ -46,7 +46,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 堆
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 295  | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) |    Hard    |     ×     |
 | 373  | [查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) |   Medium   |     ×     |
 
@@ -55,7 +55,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 栈
 
 | ID   |                            Title                            | Difficulty | Extension |
-| ---- | :---------------------------------------------------------: | :--------: | :-------: |
+| :--- | :---------------------------------------------------------: | :--------: | :-------: |
 | 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/) |   Medium   |     ×     |
 
 
@@ -63,7 +63,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 链表
 
 | ID                |                            Title                             | Difficulty | Extension |
-| ----------------- | :----------------------------------------------------------: | :--------: | :-------: |
+| :---------------- | :----------------------------------------------------------: | :--------: | :-------: |
 | 19                | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |   Medium   |     ×     |
 | 21                | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |    Easy    |     ×     |
 | 23                | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) |    Hard    |     ×     |
@@ -94,7 +94,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 二叉树
 
 | ID                |                            Title                             | Difficulty | Extension |
-| ----------------- | :----------------------------------------------------------: | :--------: | :-------: |
+| :---------------- | :----------------------------------------------------------: | :--------: | :-------: |
 | 94                | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) |    Easy    |     ×     |
 | 98                | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) |   Medium   |     √     |
 | 100               |     [相同的树](https://leetcode.com/problems/same-tree/)     |    Easy    |     ×     |
@@ -116,7 +116,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 图
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 547  | [省份数量](https://leetcode-cn.com/problems/number-of-provinces) |   Medium   |     ×     |
 | 684  | [冗余连接](https://leetcode-cn.com/problems/redundant-connection) |   Medium   |     ×     |
 | 851  | [喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich/) |   Medium   |     ×     |
@@ -126,7 +126,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 前缀树
 
 | ID                |                            Title                             | Difficulty | Extension |
-| ----------------- | :----------------------------------------------------------: | :--------: | :-------: |
+| :---------------- | :----------------------------------------------------------: | :--------: | :-------: |
 | 208               | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree) |   Medium   |     ×     |
 | 剑指 Offer II 062 |    [实现前缀树](https://leetcode-cn.com/problems/QC3q1f/)    |   Medium   |     ×     |
 
@@ -135,7 +135,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 贪心策略
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 179  |  [最大数](https://leetcode-cn.com/problems/largest-number/)  |   Medium   |     ×     |
 | 334  | [递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) |   Medium   |     ×     |
 | 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) |   Medium   |     ×     |
@@ -154,7 +154,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 暴力递归
 
 | ID            |                            Title                             | Difficulty | Extension |
-| ------------- | :----------------------------------------------------------: | :--------: | :-------: |
+| :------------ | :----------------------------------------------------------: | :--------: | :-------: |
 | 17            | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |   Medium   |     ×     |
 | 46            |   [全排列](https://leetcode-cn.com/problems/permutations/)   |   Medium   |     ×     |
 | 47            | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |   Medium   |     ×     |
@@ -170,7 +170,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 滑动窗口
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 3    | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |   Medium   |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 220  | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) |   Medium   |     ×     |
@@ -180,7 +180,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 哈希
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) |    Easy    |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 884  | [两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/) |    Easy    |     ×     |
@@ -190,7 +190,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 字符串
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 14   | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) |    Easy    |     ×     |
 | 28   | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) |    Easy    |     ×     |
 | 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) |    Easy    |     √     |
@@ -222,7 +222,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 数组
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 26   | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |    Easy    |     ×     |
 | 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |     ×     |
 | 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Medium   |     ×     |
@@ -248,7 +248,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 动态规划
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 121  | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) |    Easy    |     ×     |
 | 913  | [猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/)  |    Hard    |     ×     |
 | 1220 | [统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/) |    Hard    |     ×     |
@@ -258,7 +258,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## BFS
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 127  |   [单词接龙](https://leetcode-cn.com/problems/word-ladder)   |    Hard    |     ×     |
 | 1034 | [边界着色](https://leetcode-cn.com/problems/coloring-a-border) |   Medium   |     ×     |
 | 1036 | [逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/) |    Hard    |     ×     |
@@ -271,7 +271,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## DFS
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 386  | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) |   Medium   |     √     |
 | 1219 | [黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/) |   Medium   |     ×     |
 
@@ -280,7 +280,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 位运算
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 136  | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) |    Easy    |     ×     |
 | 260  | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) |   Medium   |     ×     |
 | 268  | [丢失的数字](https://leetcode-cn.com/problems/missing-number) |    Easy    |     √     |
@@ -290,7 +290,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 数学
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 7    | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) |    Easy    |     ×     |
 | 9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |    Easy    |     ×     |
 | 89   |   [格雷编码](https://leetcode-cn.com/problems/gray-code/)    |   Medium   |     ×     |
@@ -315,7 +315,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 枚举
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 2094 | [找出 3 位偶数](https://leetcode-cn.com/problems/finding-3-digit-even-numbers) |    Easy    |     ×     |
 
 
@@ -323,7 +323,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 ## 模拟
 
 | ID   |                            Title                             | Difficulty | Extension |
-| ---- | :----------------------------------------------------------: | :--------: | :-------: |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |   Medium   |     ×     |
 | 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |    Easy    |     ×     |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
