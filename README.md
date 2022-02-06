@@ -143,6 +143,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |     ×     |
 | 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) |   Medium   |     ×     |
 | 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |     ×     |
+| 1405 | [最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/) |   Medium   |     ×     |
 | 1414 | [和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) |   Medium   |     ×     |
 | 2126 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |     ×     |
 | 2139 | [得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/) |   Medium   |     ×     |
