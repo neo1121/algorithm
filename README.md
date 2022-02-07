@@ -49,6 +49,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 295  | [数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream) |    Hard    |     ×     |
 | 373  | [查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) |   Medium   |     ×     |
+| 2161 | [根据给定数字划分数组](https://leetcode-cn.com/problems/partition-array-according-to-given-pivot/) |   Medium   |     ×     |
 
 
 
