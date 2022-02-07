@@ -152,6 +152,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2144 | [打折购买糖果的最小开销](https://leetcode-cn.com/problems/minimum-cost-of-buying-candies-with-discount/) |    Easy    |     ×     |
 | 2145 | [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/) |   Medium   |     ×     |
 | 2160 | [拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) |    Easy    |     ×     |
+| 2165 | [重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/) |   Medium   |     ×     |
 
 
 
