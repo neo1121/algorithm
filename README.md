@@ -265,7 +265,6 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 127  |   [单词接龙](https://leetcode-cn.com/problems/word-ladder)   |    Hard    |     ×     |
-| 200  | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |   Medium   |     ×     |
 | 1034 | [边界着色](https://leetcode-cn.com/problems/coloring-a-border) |   Medium   |     ×     |
 | 1036 | [逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/) |    Hard    |     ×     |
 | 1345 | [跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/) |    Hard    |     ×     |
@@ -278,7 +277,9 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 200  | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |   Medium   |     ×     |
 | 386  | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) |   Medium   |     √     |
+| 463  | [岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/) |    Easy    |     ×     |
 | 1219 | [黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/) |   Medium   |     ×     |
 
 
