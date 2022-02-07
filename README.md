@@ -337,6 +337,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2103 |  [环和杆](https://leetcode-cn.com/problems/rings-and-rods/)  |    Easy    |     ×     |
 | 2105 | [给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/) |   Medium   |     ×     |
 | 2120 | [执行所有后缀指令](https://leetcode-cn.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/) |   Medium   |     ×     |
+| 2162 | [设置时间的最少代价](https://leetcode-cn.com/problems/minimum-cost-to-set-cooking-time/) |   Medium   |     ×     |
 
 
 
