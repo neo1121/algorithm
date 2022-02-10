@@ -158,16 +158,21 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 暴力递归
 
+| ID   |                            Title                             | Difficulty | Extension |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 486  | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner/) |   Medium   |     ×     |
+
+
+
+## 回溯
+
 | ID            |                            Title                             | Difficulty | Extension |
 | :------------ | :----------------------------------------------------------: | :--------: | :-------: |
 | 17            | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |   Medium   |     ×     |
 | 46            |   [全排列](https://leetcode-cn.com/problems/permutations/)   |   Medium   |     ×     |
 | 47            | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |   Medium   |     ×     |
 | 52            |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |     ×     |
-| 326           |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    |     ×     |
-| 486           | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner/) |   Medium   |     ×     |
 | 784           | [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) |   Medium   |     ×     |
-| 2104          | [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/) |   Medium   |     ×     |
 | 剑指 Offer 38 | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) |   Medium   |     ×     |
 
 
@@ -244,6 +249,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2013 | [检测正方形](https://leetcode-cn.com/problems/detect-squares/) |   Medium   |     ×     |
 | 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/) |    Easy    |     ×     |
 | 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |     ×     |
+| 2104 | [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/) |   Medium   |     ×     |
 | 2125 | [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/) |   Medium   |     ×     |
 | 2148 | [元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) |    Easy    |     ×     |
 | 2150 | [找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/) |   Medium   |     ×     |
@@ -308,6 +314,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |    Easy    |     ×     |
 | 89   |   [格雷编码](https://leetcode-cn.com/problems/gray-code/)    |   Medium   |     ×     |
 | 292  |    [Nim 游戏](https://leetcode-cn.com/problems/nim-game)     |    Easy    |     ×     |
+| 326  |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    |     ×     |
 | 539  | [最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) |   Medium   |     ×     |
 | 382  | [链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/) |   Medium   |     ×     |
 | 390  | [消除游戏](https://leetcode-cn.com/problems/elimination-game/) |   Medium   |     ×     |
