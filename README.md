@@ -169,6 +169,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID            |                            Title                             | Difficulty | Extension |
 | :------------ | :----------------------------------------------------------: | :--------: | :-------: |
 | 17            | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |   Medium   |     ×     |
+| 22            | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |   Medium   |     ×     |
 | 46            |   [全排列](https://leetcode-cn.com/problems/permutations/)   |   Medium   |     ×     |
 | 47            | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |   Medium   |     ×     |
 | 52            |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |     ×     |
