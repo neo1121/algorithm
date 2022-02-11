@@ -174,6 +174,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 46            |   [全排列](https://leetcode-cn.com/problems/permutations/)   |   Medium   |     ×     |
 | 47            | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |   Medium   |     ×     |
 | 52            |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |     ×     |
+| 78            |      [子集](https://leetcode-cn.com/problems/subsets/)       |   Medium   |     ×     |
 | 784           | [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) |   Medium   |     ×     |
 | 剑指 Offer 38 | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) |   Medium   |     ×     |
 
