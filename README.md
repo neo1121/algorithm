@@ -16,6 +16,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID            |                            Title                             | Difficulty | Extension |
 | :------------ | :----------------------------------------------------------: | :--------: | :-------: |
+| 75            |  [颜色分类](https://leetcode-cn.com/problems/sort-colors/)   |   Medium   |     ×     |
 | 88            | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) |    Easy    |     ×     |
 | 506           | [相对名次](https://leetcode-cn.com/problems/relative-ranks)  |    Easy    |     ×     |
 | 912           |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   |     √     |
