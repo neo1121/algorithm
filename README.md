@@ -314,6 +314,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 7    | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) |    Easy    |     ×     |
 | 9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |    Easy    |     ×     |
+| 31   | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) |   Medium   |     ×     |
 | 89   |   [格雷编码](https://leetcode-cn.com/problems/gray-code/)    |   Medium   |     ×     |
 | 292  |    [Nim 游戏](https://leetcode-cn.com/problems/nim-game)     |    Easy    |     ×     |
 | 326  |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    |     ×     |
