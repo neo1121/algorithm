@@ -61,6 +61,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                            | Difficulty | Extension |
 | :--- | :---------------------------------------------------------: | :--------: | :-------: |
 | 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/) |   Medium   |     ×     |
+| 155  |    [最小栈](https://leetcode-cn.com/problems/min-stack/)    |    Easy    |     ×     |
 
 
 
