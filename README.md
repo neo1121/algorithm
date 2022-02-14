@@ -265,6 +265,15 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 
 
+## 二分
+
+| ID   |                            Title                             | Difficulty | Extension |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 540  | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) |   Medium   |     ×     |
+| 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
+
+
+
 ## 动态规划
 
 | ID   |                            Title                             | Difficulty | Extension |
@@ -311,6 +320,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 136  | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) |    Easy    |     ×     |
 | 260  | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) |   Medium   |     ×     |
 | 268  | [丢失的数字](https://leetcode-cn.com/problems/missing-number) |    Easy    |     √     |
+| 540  | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) |   Medium   |     ×     |
 | 2166 | [设计位集](https://leetcode-cn.com/problems/design-bitset/)  |   Medium   |     ×     |
 
 
