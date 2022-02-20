@@ -249,6 +249,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 66   |      [加一](https://leetcode-cn.com/problems/plus-one/)      |    Easy    |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
+| 717  | [1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) |    Easy    |     ×     |
 | 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) |    Easy    |     ×     |
 | 1725 | [可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/) |    Easy    |     ×     |
 | 1748 | [唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/) |    Easy    |     ×     |
