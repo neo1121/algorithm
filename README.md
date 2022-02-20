@@ -370,6 +370,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |   Medium   |     ×     |
 | 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |    Easy    |     ×     |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
+| 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  |   Medium   |     ×     |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |     ×     |
 | 1342 | [将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/) |    Easy    |     ×     |
 | 1518 | [换酒问题](https://leetcode-cn.com/problems/water-bottles/)  |    Easy    |     ×     |
