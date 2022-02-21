@@ -53,6 +53,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 373  | [查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/) |   Medium   |     ×     |
 | 2161 | [根据给定数字划分数组](https://leetcode-cn.com/problems/partition-array-according-to-given-pivot/) |   Medium   |     ×     |
 | 2164 | [对奇偶下标分别排序](https://leetcode-cn.com/problems/sort-even-and-odd-indices-independently/) |    Easy    |     ×     |
+| 2182 | [构造限制重复的字符串](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/) |   Medium   |     ×     |
 
 
 
