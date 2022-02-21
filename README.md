@@ -385,6 +385,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2120 | [执行所有后缀指令](https://leetcode-cn.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/) |   Medium   |     ×     |
 | 2162 | [设置时间的最少代价](https://leetcode-cn.com/problems/minimum-cost-to-set-cooking-time/) |   Medium   |     ×     |
 | 2169 | [得到 0 的操作数](https://leetcode-cn.com/problems/count-operations-to-obtain-zero/) |    Easy    |     ×     |
+| 2180 | [统计各位数字之和为偶数的整数个数](https://leetcode-cn.com/problems/count-integers-with-even-digit-sum/) |    Easy    |     ×     |
 
 
 
