@@ -243,6 +243,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 15   |      [三数之和](https://leetcode-cn.com/problems/3sum/)      |   Medium   |     ×     |
 | 26   | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |    Easy    |     ×     |
 | 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |     ×     |
 | 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Medium   |     ×     |
