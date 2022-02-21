@@ -158,6 +158,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2145 | [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/) |   Medium   |     ×     |
 | 2160 | [拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) |    Easy    |     ×     |
 | 2165 | [重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/) |   Medium   |     ×     |
+| 2178 | [拆分成最多数目的偶整数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) |   Medium   |     ×     |
 
 
 
