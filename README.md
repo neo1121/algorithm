@@ -171,6 +171,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 62   |  [不同路径](https://leetcode-cn.com/problems/unique-paths/)  |   Medium   |     ×     |
+| 64   | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) |   Medium   |     ×     |
 | 486  | [预测赢家](https://leetcode-cn.com/problems/predict-the-winner/) |   Medium   |     ×     |
 
 

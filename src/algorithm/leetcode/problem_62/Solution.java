@@ -14,7 +14,7 @@ public class Solution {
         if (map.containsKey(hashKey)) {
             return map.get(hashKey);
         }
-        if (x > m || y > n) {
+        if (x >= m || y >= n) {
             return 0;
         }
         if (x == m - 1 && y == n - 1) {
