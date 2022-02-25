@@ -140,6 +140,14 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 
 
+## 并查集
+
+| ID   |                            Title                             | Difficulty | Extension |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 128  | [最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) |   Medium   |     ×     |
+
+
+
 ## 贪心策略
 
 | ID   |                            Title                             | Difficulty | Extension |
