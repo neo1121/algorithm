@@ -385,6 +385,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 647  | [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) |   Medium   |     ×     |
 | 2094 | [找出 3 位偶数](https://leetcode-cn.com/problems/finding-3-digit-even-numbers) |    Easy    |     ×     |
 
 
