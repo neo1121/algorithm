@@ -5,16 +5,40 @@ public class Solution {
         if (needle.equals("")) {
             return 0;
         }
-        int len = needle.length();
-        for (int i = 0; i < haystack.length(); i++) {
-            if (i + len > haystack.length()) {
-                return -1;
-            }
-            String substring = haystack.substring(i, i + len);
-            if (substring.equals(needle)) {
-                return i;
+        int[] next = getNextArr(needle);
+        int i = 0;
+        int j = 0;
+        while (i < haystack.length() && j < needle.length()) {
+            if (haystack.charAt(i) == needle.charAt(j)) {
+                i++;
+                j++;
+            } else if (j == 0) {
+                i++;
+            } else {
+                j = next[j];
             }
         }
-        return -1;
+        return j == needle.length() ? i - j : -1;
+    }
+
+    public int[] getNextArr(String s) {
+        if (s.length() == 1) {
+            return new int[]{-1};
+        }
+        int[] next = new int[s.length()];
+        next[0] = -1;
+        next[1] = 0;
+        int i = 2;
+        int p = 0;
+        while (i < s.length()) {
+            if (s.charAt(i - 1) == s.charAt(p)) {
+                next[i++] = ++p;
+            } else if (p > 0) {
+                p = next[p];
+            } else {
+                next[i++] = 0;
+            }
+        }
+        return next;
     }
 }

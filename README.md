@@ -226,7 +226,6 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 14   | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) |    Easy    |     ×     |
-| 28   | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) |    Easy    |     ×     |
 | 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) |    Easy    |     √     |
 | 306  | [累加数](https://leetcode-cn.com/problems/additive-number/)  |   Medium   |     ×     |
 | 383  |    [赎金信](https://leetcode-cn.com/problems/ransom-note)    |    Easy    |     ×     |
@@ -253,6 +252,14 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2129 | [将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/) |    Easy    |     ×     |
 | 2138 | [将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/) |    Easy    |     ×     |
 | 2156 | [查找给定哈希值的子串](https://leetcode-cn.com/problems/find-substring-with-given-hash-value/) |   Medium   |     ×     |
+
+
+
+## KMP
+
+| ID   |                            Title                             | Difficulty | Extension |
+| :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 28   | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) |    Easy    |     ×     |
 
 
 
