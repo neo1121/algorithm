@@ -34,10 +34,4 @@ public class Solution {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        for (int i = 0; i < 1000; i++) {
-            System.out.print((char) ((int) (Math.random() * 26) + 'a'));
-        }
-    }
 }

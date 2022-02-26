@@ -230,6 +230,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) |    Easy    |     √     |
 | 306  | [累加数](https://leetcode-cn.com/problems/additive-number/)  |   Medium   |     ×     |
 | 383  |    [赎金信](https://leetcode-cn.com/problems/ransom-note)    |    Easy    |     ×     |
+| 392  | [判断子序列](https://leetcode-cn.com/problems/is-subsequence/) |    Easy    |     ×     |
 | 686  | [重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/) |   Medium   |     ×     |
 | 709  | [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/) |    Easy    |     ×     |
 | 748  | [最短补全词](https://leetcode-cn.com/problems/shortest-completing-word/) |    Easy    |     ×     |
