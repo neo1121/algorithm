@@ -125,6 +125,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 207  | [课程表](https://leetcode-cn.com/problems/course-schedule/)  |   Medium   |     ×     |
 | 547  | [省份数量](https://leetcode-cn.com/problems/number-of-provinces) |   Medium   |     ×     |
 | 684  | [冗余连接](https://leetcode-cn.com/problems/redundant-connection) |   Medium   |     ×     |
 | 851  | [喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich/) |   Medium   |     ×     |
