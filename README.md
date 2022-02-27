@@ -19,6 +19,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 56            | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) |   Medium   |     ×     |
 | 75            |  [颜色分类](https://leetcode-cn.com/problems/sort-colors/)   |   Medium   |     ×     |
 | 88            | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) |    Easy    |     ×     |
+| 215           | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |   Medium   |     ×     |
 | 506           | [相对名次](https://leetcode-cn.com/problems/relative-ranks)  |    Easy    |     ×     |
 | 912           |  [排序数组](https://leetcode-cn.com/problems/sort-an-array)  |   Medium   |     √     |
 | 1996          | [游戏中弱角色的数量](https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/) |   Medium   |     ×     |
@@ -113,6 +114,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 144               | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) |    Easy    |     ×     |
 | 145               | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) |    Easy    |     ×     |
 | 222               | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) |   Medium   |     ×     |
+| 226               | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) |    Easy    |     ×     |
 | 236               | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) |   Medium   |     ×     |
 | 297               | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) |    Hard    |     ×     |
 | 1609              |  [奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)   |   Medium   |     ×     |
