@@ -4,3 +4,7 @@
 *.iws
 .idea/
 out/
+
+# Go
+*.mod
+main.go

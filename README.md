@@ -229,6 +229,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 6    | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) |   Medium   |     ×     |
 | 14   | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) |    Easy    |     ×     |
 | 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) |    Easy    |     √     |
 | 306  | [累加数](https://leetcode-cn.com/problems/additive-number/)  |   Medium   |     ×     |
@@ -256,6 +257,8 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2129 | [将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/) |    Easy    |     ×     |
 | 2138 | [将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/) |    Easy    |     ×     |
 | 2156 | [查找给定哈希值的子串](https://leetcode-cn.com/problems/find-substring-with-given-hash-value/) |   Medium   |     ×     |
+| 2185 | [统计包含给定前缀的字符串](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) |    Easy    |     ×     |
+| 2186 | [使两字符串互为字母异位词的最少步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) |   Medium   |     ×     |
 
 
 
@@ -280,6 +283,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 48   |  [旋转图像](https://leetcode-cn.com/problems/rotate-image/)  |   Medium   |     ×     |
 | 66   |      [加一](https://leetcode-cn.com/problems/plus-one/)      |    Easy    |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
+| 283  |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    |    Easy    |     ×     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
 | 717  | [1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) |    Easy    |     ×     |
 | 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) |    Easy    |     ×     |
