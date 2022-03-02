@@ -362,6 +362,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 136  | [只出现一次的数字](https://leetcode-cn.com/problems/single-number) |    Easy    |     ×     |
 | 260  | [只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii) |   Medium   |     ×     |
 | 268  | [丢失的数字](https://leetcode-cn.com/problems/missing-number) |    Easy    |     √     |
+| 461  | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) |    Easy    |     ×     |
 | 540  | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) |   Medium   |     ×     |
 | 2166 | [设计位集](https://leetcode-cn.com/problems/design-bitset/)  |   Medium   |     ×     |
 
