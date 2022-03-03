@@ -376,6 +376,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 9    | [回文数](https://leetcode-cn.com/problems/palindrome-number/) |    Easy    |     ×     |
 | 31   | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) |   Medium   |     ×     |
 | 89   |   [格雷编码](https://leetcode-cn.com/problems/gray-code/)    |   Medium   |     ×     |
+| 258  |   [各位相加](https://leetcode-cn.com/problems/add-digits/)   |    Easy    |     ×     |
 | 292  |    [Nim 游戏](https://leetcode-cn.com/problems/nim-game)     |    Easy    |     ×     |
 | 326  |  [3 的幂](https://leetcode-cn.com/problems/power-of-three)   |    Easy    |     ×     |
 | 539  | [最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) |   Medium   |     ×     |
@@ -414,6 +415,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |   Medium   |     ×     |
 | 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |    Easy    |     ×     |
+| 258  |   [各位相加](https://leetcode-cn.com/problems/add-digits/)   |    Easy    |     ×     |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
 | 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  |   Medium   |     ×     |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |     ×     |
