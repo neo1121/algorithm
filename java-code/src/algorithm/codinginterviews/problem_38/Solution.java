@@ -9,7 +9,7 @@ public class Solution {
         char[] str = s.toCharArray();
         ArrayList<String> res = new ArrayList<>();
         process(str, 0, res);
-        return res.toArray(String[]::new);
+        return res.toArray(new String[res.size()]);
     }
 
     public void process(char[] str, int index, ArrayList<String> res) {

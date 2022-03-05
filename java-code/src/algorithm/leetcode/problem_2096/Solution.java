@@ -39,6 +39,14 @@ public class Solution {
         return false;
     }
 
+    public static String repeat(String s, int time) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < time; i++) {
+            sb.append(s);
+        }
+        return sb.toString();
+    }
+
     public String getDirections(TreeNode root, int startValue, int destValue) {
         path = new StringBuilder();
         dfs(root, startValue);
@@ -56,6 +64,6 @@ public class Solution {
         }
         start = start.substring(index);
         dest = dest.substring(index);
-        return "U".repeat(start.length()) + dest;
+        return repeat("U", start.length()) + dest;
     }
 }

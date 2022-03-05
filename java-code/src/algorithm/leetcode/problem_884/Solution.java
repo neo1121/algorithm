@@ -23,6 +23,6 @@ public class Solution {
                 ret.add(entry.getKey());
             }
         }
-        return ret.toArray(String[]::new);
+        return ret.toArray(new String[ret.size()]);
     }
 }

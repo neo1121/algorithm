@@ -14,6 +14,6 @@ public class Solution {
                 ret.add(words[i + 2]);
             }
         }
-        return ret.toArray(String[]::new);
+        return ret.toArray(new String[ret.size()]);
     }
 }
