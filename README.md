@@ -319,6 +319,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
+| 53   | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/) |    Easy    |     ×     |
 | 55   |   [跳跃游戏](https://leetcode-cn.com/problems/jump-game/)    |   Medium   |     ×     |
 | 121  | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) |    Easy    |     ×     |
 | 913  | [猫和老鼠](https://leetcode-cn.com/problems/cat-and-mouse/)  |    Hard    |     ×     |
