@@ -385,6 +385,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 539  | [最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) |   Medium   |     ×     |
 | 382  | [链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/) |   Medium   |     ×     |
 | 390  | [消除游戏](https://leetcode-cn.com/problems/elimination-game/) |   Medium   |     ×     |
+| 504  |     [七进制数](https://leetcode-cn.com/problems/base-7/)     |    Easy    |     ×     |
 | 507  |  [完美数](https://leetcode-cn.com/problems/perfect-number/)  |    Easy    |     ×     |
 | 537  | [复数乘法](https://leetcode-cn.com/problems/complex-number-multiplication/) |   Medium   |     ×     |
 | 553  | [最优除法](https://leetcode-cn.com/problems/optimal-division/) |   Medium   |     ×     |
