@@ -303,6 +303,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2154 | [将找到的值乘以 2](https://leetcode-cn.com/problems/keep-multiplying-found-values-by-two/) |    Easy    |     ×     |
 | 2155 | [分组得分最高的所有下标](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) |   Medium   |     ×     |
 | 2176 | [统计数组中相等且可以被整除的数对](https://leetcode-cn.com/problems/count-equal-and-divisible-pairs-in-an-array/) |    Easy    |     ×     |
+| 2190 | [数组中紧跟 key 之后出现最频繁的数字](https://leetcode-cn.com/problems/most-frequent-number-following-key-in-an-array/) |    Easy    |     ×     |
 
 
 
