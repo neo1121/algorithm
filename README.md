@@ -178,6 +178,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2160 | [拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) |    Easy    |     ×     |
 | 2165 | [重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/) |   Medium   |     ×     |
 | 2178 | [拆分成最多数目的偶整数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) |   Medium   |     ×     |
+| 2195 | [向数组中追加 K 个整数](https://leetcode-cn.com/problems/append-k-integers-with-minimal-sum/) |   Medium   |     ×     |
 
 
 
