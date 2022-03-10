@@ -121,6 +121,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 589               | [N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) |    Easy    |     ×     |
 | 1609              |  [奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)   |   Medium   |     ×     |
 | 2096              | [从二叉树一个节点到另一个节点每一步的方向](https://leetcode-cn.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   |     ×     |
+| 2196              | [根据描述创建二叉树](https://leetcode-cn.com/problems/create-binary-tree-from-descriptions/) |   Medium   |     ×     |
 | 剑指 Offer II 053 | [二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/) |   Medium   |     ×     |
 
 
