@@ -134,6 +134,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 547  | [省份数量](https://leetcode-cn.com/problems/number-of-provinces) |   Medium   |     ×     |
 | 684  | [冗余连接](https://leetcode-cn.com/problems/redundant-connection) |   Medium   |     ×     |
 | 851  | [喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich/) |   Medium   |     ×     |
+| 2192 | [有向无环图中一个节点的所有祖先](https://leetcode-cn.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) |   Medium   |     ×     |
 
 
 
