@@ -427,6 +427,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |   Medium   |     ×     |
 | 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |    Easy    |     ×     |
 | 258  |   [各位相加](https://leetcode-cn.com/problems/add-digits/)   |    Easy    |     ×     |
+| 393  | [UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/) |   Medium   |     ×     |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
 | 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  |   Medium   |     ×     |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |     ×     |
