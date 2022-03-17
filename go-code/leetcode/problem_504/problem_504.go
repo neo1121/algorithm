@@ -1,4 +1,4 @@
-package leetcode
+package problem_504
 
 import (
 	"strconv"

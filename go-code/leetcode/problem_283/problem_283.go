@@ -1,4 +1,4 @@
-package leetcode
+package problem_283
 
 func moveZeroes(nums []int) {
 	for zeroIndex, nonZeroIndex, len := 0, 0, len(nums); zeroIndex < len && nonZeroIndex < len; nonZeroIndex++ {

@@ -1,4 +1,4 @@
-package leetcode
+package problem_152
 
 func maxProduct(nums []int) int {
 	ans := nums[0]

@@ -1,4 +1,4 @@
-package leetcode
+package problem_28
 
 func strStr(haystack string, needle string) int {
 	if len(needle) == 0 {

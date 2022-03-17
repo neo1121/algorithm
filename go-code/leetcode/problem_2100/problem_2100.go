@@ -1,4 +1,4 @@
-package leetcode
+package problem_2100
 
 func goodDaysToRobBank(security []int, time int) []int {
 	n := len(security)

@@ -1,4 +1,4 @@
-package leetcode
+package problem_258
 
 func addDigits(num int) int {
 	for num > 9 {

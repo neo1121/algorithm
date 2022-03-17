@@ -1,4 +1,4 @@
-package leetcode
+package problem_2104
 
 func subArrayRanges(nums []int) int64 {
 	ans := (int64)(0)

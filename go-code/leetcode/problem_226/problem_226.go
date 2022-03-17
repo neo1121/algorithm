@@ -1,4 +1,4 @@
-package leetcode
+package problem_226
 
 type TreeNode struct {
 	Val   int

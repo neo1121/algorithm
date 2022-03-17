@@ -1,4 +1,4 @@
-package leetcode
+package problem_599
 
 func findRestaurant(list1 []string, list2 []string) []string {
 	indexMap := map[string]int{}
