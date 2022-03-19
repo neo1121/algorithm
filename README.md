@@ -119,6 +119,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 236               | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree) |   Medium   |     ×     |
 | 297               | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) |    Hard    |     ×     |
 | 589               | [N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) |    Easy    |     ×     |
+| 606               | [根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/) |    Easy    |     ×     |
 | 1609              |  [奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)   |   Medium   |     ×     |
 | 2049              | [统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/) |   Medium   |     ×     |
 | 2096              | [从二叉树一个节点到另一个节点每一步的方向](https://leetcode-cn.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   |     ×     |
