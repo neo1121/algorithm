@@ -227,6 +227,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID   |                            Title                             | Difficulty | Extension |
 | :--- | :----------------------------------------------------------: | :--------: | :-------: |
 | 49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |   Medium   |     ×     |
+| 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) |   Medium   |     ×     |
 | 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) |    Easy    |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 599  | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) |    Easy    |     ×     |
@@ -294,6 +295,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 36   | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) |   Medium   |     ×     |
 | 48   |  [旋转图像](https://leetcode-cn.com/problems/rotate-image/)  |   Medium   |     ×     |
 | 66   |      [加一](https://leetcode-cn.com/problems/plus-one/)      |    Easy    |     ×     |
+| 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) |   Medium   |     ×     |
 | 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |     √     |
 | 283  |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    |    Easy    |     ×     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
