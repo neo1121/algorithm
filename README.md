@@ -413,6 +413,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2001 | [可互换矩形的组数](https://leetcode-cn.com/problems/number-of-pairs-of-interchangeable-rectangles) |   Medium   |     ×     |
 | 2011 | [执行操作后的变量值](https://leetcode-cn.com/problems/final-value-of-variable-after-performing-operations) |    Easy    |     ×     |
 | 2029 | [石子游戏 IX](https://leetcode-cn.com/problems/stone-game-ix/) |   Medium   |     ×     |
+| 2038 | [如果相邻两个颜色均相同则删除当前颜色](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/) |   Medium   |     ×     |
 | 2110 | [股票平滑下跌阶段的数目](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) |   Medium   |     ×     |
 | 2119 | [反转两次的数字](https://leetcode-cn.com/problems/a-number-after-a-double-reversal/) |    Easy    |     ×     |
 | 2177 | [找到和为给定整数的三个连续整数](https://leetcode-cn.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/) |   Medium   |     ×     |
