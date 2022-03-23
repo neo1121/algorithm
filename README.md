@@ -455,6 +455,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2169 | [得到 0 的操作数](https://leetcode-cn.com/problems/count-operations-to-obtain-zero/) |    Easy    |     ×     |
 | 2180 | [统计各位数字之和为偶数的整数个数](https://leetcode-cn.com/problems/count-integers-with-even-digit-sum/) |    Easy    |     ×     |
 | 2194 | [Excel 表中某个范围内的单元格](https://leetcode-cn.com/problems/cells-in-a-range-on-an-excel-sheet/) |    Easy    |     ×     |
+| 2211 | [统计道路上的碰撞次数](https://leetcode-cn.com/problems/count-collisions-on-a-road/) |   Medium   |     ×     |
 
 
 
