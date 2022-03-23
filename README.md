@@ -184,6 +184,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 2178 | [拆分成最多数目的偶整数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) |   Medium   |     ×     |
 | 2195 | [向数组中追加 K 个整数](https://leetcode-cn.com/problems/append-k-integers-with-minimal-sum/) |   Medium   |     ×     |
 | 2207 | [字符串中最多数目的子字符串](https://leetcode-cn.com/problems/maximize-number-of-subsequences-in-a-string/) |   Medium   |     ×     |
+| 2208 | [将数组和减半的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) |   Medium   |     ×     |
 
 
 
