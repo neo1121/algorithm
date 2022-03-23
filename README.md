@@ -210,6 +210,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 78            |      [子集](https://leetcode-cn.com/problems/subsets/)       |   Medium   |     ×     |
 | 784           | [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) |   Medium   |     ×     |
 | 2044          | [统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |     ×     |
+| 2212          | [射箭比赛中的最大得分](https://leetcode-cn.com/problems/maximum-points-in-an-archery-competition/) |   Medium   |     ×     |
 | 剑指 Offer 38 | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) |   Medium   |     ×     |
 
 
