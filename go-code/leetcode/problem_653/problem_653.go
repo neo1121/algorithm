@@ -1,4 +1,4 @@
-package problem653
+package problem_653
 
 type TreeNode struct {
 	Val   int
@@ -21,7 +21,7 @@ func dfs(root *TreeNode, set []int, k int) bool {
 	if set[hash((*root).Val)] > 0 {
 		return true
 	}
-	need := hash(k-(*root).Val)
+	need := hash(k - (*root).Val)
 	if need >= 0 && need <= 20000 {
 		set[need] += 1
 	}

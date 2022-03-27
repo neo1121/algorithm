@@ -1,4 +1,4 @@
-package problem167
+package problem_167
 
 func twoSum(numbers []int, target int) []int {
 	set := make([]int, 2001)

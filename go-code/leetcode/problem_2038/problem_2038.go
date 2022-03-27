@@ -1,4 +1,4 @@
-package problem2038
+package problem_2038
 
 func winnerOfGame(colors string) bool {
 	aCount := 0

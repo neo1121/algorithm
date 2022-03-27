@@ -1,4 +1,4 @@
-package problem2043
+package problem_2043
 
 import "sync"
 
