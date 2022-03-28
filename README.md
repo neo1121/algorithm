@@ -389,6 +389,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 268  | [丢失的数字](https://leetcode-cn.com/problems/missing-number) |    Easy    |     √     |
 | 461  | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) |    Easy    |     ×     |
 | 540  | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) |   Medium   |     ×     |
+| 693  | [交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/) |    Easy    |     √     |
 | 2166 | [设计位集](https://leetcode-cn.com/problems/design-bitset/)  |   Medium   |     ×     |
 
 
@@ -446,6 +447,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 258  |   [各位相加](https://leetcode-cn.com/problems/add-digits/)   |    Easy    |     ×     |
 | 393  | [UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/) |   Medium   |     ×     |
 | 682  | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/)  |    Easy    |     ×     |
+| 693  | [交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/) |    Easy    |     √     |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |     ×     |
 | 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  |   Medium   |     ×     |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |     ×     |
