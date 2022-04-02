@@ -239,6 +239,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 720  | [词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/) |    Easy    |     ×     |
 | 884  | [两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/) |    Easy    |     ×     |
 | 1001 | [网格照明](https://leetcode-cn.com/problems/grid-illumination/) |    Hard    |     ×     |
+| 2215 | [找出两数组的不同](https://leetcode-cn.com/problems/find-the-difference-of-two-arrays/) |    Easy    |     ×     |
 
 
 
