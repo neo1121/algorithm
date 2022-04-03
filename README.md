@@ -336,6 +336,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 33   | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |   Medium   |     ×     |
 | 540  | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) |   Medium   |     ×     |
 | 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |     ×     |
+| 744  | [寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) |    Easy    |     ×     |
 
 
 
