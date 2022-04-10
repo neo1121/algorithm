@@ -239,6 +239,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 599  | [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) |    Easy    |  √   |  √   |
 | 653  | [两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) |    Easy    |  √   |      |
 | 720  | [词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/) |    Easy    |  √   |      |
+| 804  | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/) |    Easy    |  √   |  √   |
 | 884  | [两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/) |    Easy    |  √   |      |
 | 1001 | [网格照明](https://leetcode-cn.com/problems/grid-illumination/) |    Hard    |  √   |      |
 | 2215 | [找出两数组的不同](https://leetcode-cn.com/problems/find-the-difference-of-two-arrays/) |    Easy    |  √   |      |
