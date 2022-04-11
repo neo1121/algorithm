@@ -211,6 +211,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 47            | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |   Medium   |  √   |      |
 | 52            |  [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)   |    Hard    |  √   |      |
 | 78            |      [子集](https://leetcode-cn.com/problems/subsets/)       |   Medium   |  √   |      |
+| 357           | [统计各位数字都不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
 | 784           | [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) |   Medium   |  √   |      |
 | 2044          | [统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
 | 2212          | [射箭比赛中的最大得分](https://leetcode-cn.com/problems/maximum-points-in-an-archery-competition/) |   Medium   |  √   |      |
