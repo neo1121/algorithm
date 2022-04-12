@@ -112,6 +112,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 104               | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) |    Easy    |  √   |      |
 | 107               | [二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii) |   Medium   |  √   |      |
 | 110               | [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree) |    Easy    |  √   |      |
+| 114               | [二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) |   Medium   |  √   |  √   |
 | 144               | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal) |    Easy    |  √   |      |
 | 145               | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal) |    Easy    |  √   |      |
 | 222               | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) |   Medium   |  √   |      |
@@ -459,6 +460,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | 693  | [交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/) |    Easy    |  √   |  √   |
 | 762  | [二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/) |    Easy    |  √   |  √   |
 | 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |  √   |      |
+| 806  | [写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string/) |    Easy    |  √   |  √   |
 | 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  |   Medium   |  √   |      |
 | 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |  √   |      |
 | 1342 | [将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/) |    Easy    |  √   |      |
