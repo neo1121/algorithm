@@ -106,7 +106,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | ID                |                            Title                             | Difficulty | Java |  Go  |
 | :---------------- | :----------------------------------------------------------: | :--------: | :--: | :--: |
 | 94                | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal) |    Easy    |  √   |      |
-| 98                | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) |   Medium   |  √   |      |
+| 98                | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) |   Medium   |  √   |  √   |
 | 100               |     [相同的树](https://leetcode.com/problems/same-tree/)     |    Easy    |  √   |      |
 | 102               | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) |   Medium   |  √   |      |
 | 104               | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) |    Easy    |  √   |      |
