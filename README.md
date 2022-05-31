@@ -336,17 +336,18 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## DFS
 
-| ID   | Title                                                                   | Difficulty | Java | Go  |
-|:---- |:-----------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 79   | [单词搜索](https://leetcode-cn.com/problems/word-search/)                   | Medium     | √    |     |
-| 200  | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)             | Medium     | √    |     |
-| 386  | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/)      | Medium     | √    |     |
-| 463  | [岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/)             | Easy       | √    |     |
-| 695  | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)         | Medium     | √    | √   |
-| 1020 | [飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/)           | Medium     | √    |     |
-| 1219 | [黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/)        | Medium     | √    |     |
-| 1254 | [统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/) | Medium     | √    |     |
-| 1905 | [统计子岛屿](https://leetcode-cn.com/problems/count-sub-islands/)            | Medium     | √    |     |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 79   |  [单词搜索](https://leetcode-cn.com/problems/word-search/)   |   Medium   |  √   |      |
+| 200  | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |   Medium   |  √   |      |
+| 329  | [矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/) |    Hard    |      |  √   |
+| 386  | [字典序排数](https://leetcode-cn.com/problems/lexicographical-numbers/) |   Medium   |  √   |      |
+| 463  | [岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/) |    Easy    |  √   |      |
+| 695  | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) |   Medium   |  √   |  √   |
+| 1020 | [飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/) |   Medium   |  √   |      |
+| 1219 | [黄金矿工](https://leetcode-cn.com/problems/path-with-maximum-gold/) |   Medium   |  √   |      |
+| 1254 | [统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/) |   Medium   |  √   |      |
+| 1905 | [统计子岛屿](https://leetcode-cn.com/problems/count-sub-islands/) |   Medium   |  √   |      |
 
 ## 位运算
 
