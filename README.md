@@ -61,33 +61,34 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 链表
 
-| ID              | Title                                                                                     | Difficulty | Java | Go  |
-|:--------------- |:-----------------------------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 19              | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)      | Medium     | √    |     |
-| 21              | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                      | Easy       | √    |     |
-| 23              | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)                        | Hard       | √    |     |
-| 24              | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                       | Medium     | √    |     |
-| 61              | [旋转链表](https://leetcode-cn.com/problems/rotate-list)                                      | Medium     | √    |     |
-| 82              | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii) | Medium     | √    |     |
-| 83              | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)       | Easy       | √    |     |
-| 86              | [分隔链表](https://leetcode-cn.com/problems/partition-list)                                   | Medium     | √    | √   |
-| 92              | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii)                        | Medium     | √    |     |
-| 138             | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer)              | Medium     | √    |     |
-| 141             | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle)                                | Easy       | √    |     |
-| 142             | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii)                          | Medium     | √    |     |
-| 148             | [排序链表](https://leetcode-cn.com/problems/sort-list)                                        | Medium     | √    |     |
-| 160             | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists)                 | Easy       | √    |     |
-| 203             | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements)                    | Easy       | √    |     |
-| 206             | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list)                              | Easy       | √    |     |
-| 234             | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)                           | Easy       | √    |     |
-| 237             | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)                 | Easy       | √    |     |
-| 328             | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list)                             | Medium     | √    |     |
-| 725             | [分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts)                       | Medium     | √    |     |
-| 876             | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list)                     | Easy       | √    |     |
-| 2095            | [删除链表的中间节点](https://leetcode-cn.com/problems/delete-the-middle-node-of-a-linked-list/)    | Medium     | √    |     |
-| 2130            | [链表最大孪生和](https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/)            | Medium     | √    |     |
-| 2181            | [合并零之间的节点](https://leetcode-cn.com/problems/merge-nodes-in-between-zeros/)                | Medium     | √    |     |
-| 剑指 Offer II 027 | [回文链表](https://leetcode-cn.com/problems/aMhZSa/)                                          | Easy       | √    |     |
+| ID                |                            Title                             | Difficulty | Java |  Go  | C++  |
+| :---------------- | :----------------------------------------------------------: | :--------: | :--: | :--: | :--: |
+| 2                 |  [两数相加](https://leetcode.cn/problems/add-two-numbers/)   |   Medium   |      |  √   |  √   |
+| 19                | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |   Medium   |  √   |      |      |
+| 21                | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |    Easy    |  √   |      |      |
+| 23                | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) |    Hard    |  √   |      |      |
+| 24                | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |   Medium   |  √   |      |      |
+| 61                |   [旋转链表](https://leetcode-cn.com/problems/rotate-list)   |   Medium   |  √   |      |      |
+| 82                | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii) |   Medium   |  √   |      |      |
+| 83                | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) |    Easy    |  √   |      |      |
+| 86                | [分隔链表](https://leetcode-cn.com/problems/partition-list)  |   Medium   |  √   |  √   |      |
+| 92                | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) |   Medium   |  √   |      |      |
+| 138               | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer) |   Medium   |  √   |      |      |
+| 141               | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) |    Easy    |  √   |      |      |
+| 142               | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) |   Medium   |  √   |      |      |
+| 148               |    [排序链表](https://leetcode-cn.com/problems/sort-list)    |   Medium   |  √   |      |      |
+| 160               | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) |    Easy    |  √   |      |      |
+| 203               | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements) |    Easy    |  √   |      |      |
+| 206               | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list) |    Easy    |  √   |      |      |
+| 234               | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list) |    Easy    |  √   |      |      |
+| 237               | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list) |    Easy    |  √   |      |      |
+| 328               | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list) |   Medium   |  √   |      |      |
+| 725               | [分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts) |   Medium   |  √   |      |      |
+| 876               | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) |    Easy    |  √   |      |      |
+| 2095              | [删除链表的中间节点](https://leetcode-cn.com/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   |  √   |      |      |
+| 2130              | [链表最大孪生和](https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/) |   Medium   |  √   |      |      |
+| 2181              | [合并零之间的节点](https://leetcode-cn.com/problems/merge-nodes-in-between-zeros/) |   Medium   |  √   |      |      |
+| 剑指 Offer II 027 |     [回文链表](https://leetcode-cn.com/problems/aMhZSa/)     |    Easy    |  √   |      |      |
 
 ## 树
 
