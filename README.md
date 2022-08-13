@@ -147,31 +147,32 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 贪心策略
 
-| ID   | Title                                                                                                             | Difficulty | Java | Go  |
-|:---- |:-----------------------------------------------------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 5    | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)                                         | Medium     | √    |     |
-| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)                                            | Medium     | √    |     |
-| 179  | [最大数](https://leetcode-cn.com/problems/largest-number/)                                                           | Medium     | √    |     |
-| 334  | [递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/)                                      | Medium     | √    |     |
-| 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)                                              | Medium     | √    |     |
-| 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                                          | Easy       | √    |     |
-| 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)                                    | Medium     | √    |     |
-| 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/)                                                       | Medium     | √    |     |
-| 969  | [煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/)                                                         | Medium     | √    |     |
-| 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations)                         | Easy       | √    |     |
-| 1405 | [最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)                                                 | Medium     | √    |     |
-| 1414 | [和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) | Medium     | √    |     |
-| 2126 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/)                                                   | Medium     | √    |     |
-| 2139 | [得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/)                             | Medium     | √    |     |
-| 2144 | [打折购买糖果的最小开销](https://leetcode-cn.com/problems/minimum-cost-of-buying-candies-with-discount/)                     | Easy       | √    |     |
-| 2145 | [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/)                                          | Medium     | √    |     |
-| 2160 | [拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)        | Easy       | √    |     |
-| 2165 | [重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/)                             | Medium     | √    |     |
-| 2178 | [拆分成最多数目的偶整数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/)                        | Medium     | √    |     |
-| 2195 | [向数组中追加 K 个整数](https://leetcode-cn.com/problems/append-k-integers-with-minimal-sum/)                              | Medium     | √    |     |
-| 2207 | [字符串中最多数目的子字符串](https://leetcode-cn.com/problems/maximize-number-of-subsequences-in-a-string/)                    | Medium     | √    |     |
-| 2208 | [将数组和减半的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/)                          | Medium     | √    |     |
-| 2216 | [美化数组的最少删除数](https://leetcode-cn.com/problems/minimum-deletions-to-make-array-beautiful/)                         | Medium     | √    |     |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 5    | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) |   Medium   |  √   |      |
+| 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) |   Medium   |  √   |      |
+| 179  |  [最大数](https://leetcode-cn.com/problems/largest-number/)  |   Medium   |  √   |      |
+| 334  | [递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) |   Medium   |  √   |      |
+| 435  | [无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) |   Medium   |  √   |      |
+| 455  | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/) |    Easy    |  √   |      |
+| 768  | [最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/) |    Hard    |  √   |      |
+| 807  | [保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) |   Medium   |  √   |      |
+| 846  | [一手顺子](https://leetcode-cn.com/problems/hand-of-straights/) |   Medium   |  √   |      |
+| 969  | [煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/) |   Medium   |  √   |      |
+| 1005 | [K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations) |    Easy    |  √   |      |
+| 1405 | [最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/) |   Medium   |  √   |      |
+| 1414 | [和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) |   Medium   |  √   |      |
+| 2126 | [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/) |   Medium   |  √   |      |
+| 2139 | [得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/) |   Medium   |  √   |      |
+| 2144 | [打折购买糖果的最小开销](https://leetcode-cn.com/problems/minimum-cost-of-buying-candies-with-discount/) |    Easy    |  √   |      |
+| 2145 | [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/) |   Medium   |  √   |      |
+| 2160 | [拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) |    Easy    |  √   |      |
+| 2165 | [重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/) |   Medium   |  √   |      |
+| 2178 | [拆分成最多数目的偶整数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) |   Medium   |  √   |      |
+| 2195 | [向数组中追加 K 个整数](https://leetcode-cn.com/problems/append-k-integers-with-minimal-sum/) |   Medium   |  √   |      |
+| 2207 | [字符串中最多数目的子字符串](https://leetcode-cn.com/problems/maximize-number-of-subsequences-in-a-string/) |   Medium   |  √   |      |
+| 2208 | [将数组和减半的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) |   Medium   |  √   |      |
+| 2216 | [美化数组的最少删除数](https://leetcode-cn.com/problems/minimum-deletions-to-make-array-beautiful/) |   Medium   |  √   |      |
 
 ## 暴力递归
 
