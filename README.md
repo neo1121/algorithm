@@ -264,6 +264,12 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 |:--- |:-----------------------------------------------------------------:|:----------:|:----:|:---:|
 | 28  | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy       | √    | √   |
 
+## 单调栈
+
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 769  | [最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/) |   Medium   |  √   |      |
+
 ## 数组
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
