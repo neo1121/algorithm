@@ -266,43 +266,44 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 数组
 
-| ID   | Title                                                                                                              | Difficulty | Java | Go  |
-|:---- |:------------------------------------------------------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)                                                                     | Medium     | √    |     |
-| 26   | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)                               | Easy       | √    |     |
-| 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/)                                                           | Easy       | √    |     |
-| 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium     | √    |     |
-| 35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)                                                 | Easy       | √    |     |
-| 36   | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)                                                            | Medium     | √    |     |
-| 48   | [旋转图像](https://leetcode-cn.com/problems/rotate-image/)                                                             | Medium     | √    |     |
-| 66   | [加一](https://leetcode-cn.com/problems/plus-one/)                                                                   | Easy       | √    |     |
-| 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)                             | Medium     | √    |     |
-| 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)                                               | Easy       | √    |     |
-| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/)                                                               | Easy       | √    | √   |
-| 448  | [找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)                         | Easy       | √    | √   |
-| 674  | [最长连续递增序列](https://leetcode.cn/problems/longest-continuous-increasing-subsequence/)                                | Easy       |      | √   |
-| 704  | [二分查找](https://leetcode-cn.com/problems/binary-search)                                                             | Easy       | √    |     |
-| 717  | [1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)                                          | Easy       | √    |     |
-| 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)                         | Easy       | √    |     |
-| 986  | [区间列表的交集](https://leetcode.cn/problems/interval-list-intersections/)                                               | Medium     |      | √   |
-| 1725 | [可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)          | Easy       | √    |     |
-| 1748 | [唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)                                                 | Easy       | √    |     |
-| 1984 | [学生分数的最小差值](https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)           | Easy       | √    |     |
-| 2006 | [差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)               | Easy       | √    |     |
-| 2013 | [检测正方形](https://leetcode-cn.com/problems/detect-squares/)                                                          | Medium     | √    |     |
-| 2016 | [增量元素之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/)                    | Easy       | √    |     |
-| 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)                                   | Easy       | √    |     |
-| 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)            | Easy       | √    |     |
-| 2104 | [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)                                                 | Medium     | √    | √   |
-| 2125 | [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/)                                     | Medium     | √    |     |
-| 2148 | [元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)                | Easy       | √    |     |
-| 2150 | [找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/)                             | Medium     | √    |     |
-| 2154 | [将找到的值乘以 2](https://leetcode-cn.com/problems/keep-multiplying-found-values-by-two/)                                | Easy       | √    |     |
-| 2155 | [分组得分最高的所有下标](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)            | Medium     | √    |     |
-| 2176 | [统计数组中相等且可以被整除的数对](https://leetcode-cn.com/problems/count-equal-and-divisible-pairs-in-an-array/)                  | Easy       | √    |     |
-| 2190 | [数组中紧跟 key 之后出现最频繁的数字](https://leetcode-cn.com/problems/most-frequent-number-following-key-in-an-array/)           | Easy       | √    |     |
-| 2206 | [将数组划分成相等数对](https://leetcode-cn.com/problems/divide-array-into-equal-pairs/)                                      | Easy       | √    |     |
-| 2210 | [统计数组中峰和谷的数量](https://leetcode-cn.com/problems/count-hills-and-valleys-in-an-array/)                               | Easy       | √    |     |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 15   |      [三数之和](https://leetcode-cn.com/problems/3sum/)      |   Medium   |  √   |      |
+| 26   | [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |    Easy    |  √   |      |
+| 27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) |    Easy    |  √   |      |
+| 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Medium   |  √   |      |
+| 35   | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) |    Easy    |  √   |      |
+| 36   | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) |   Medium   |  √   |      |
+| 48   |  [旋转图像](https://leetcode-cn.com/problems/rotate-image/)  |   Medium   |  √   |      |
+| 66   |      [加一](https://leetcode-cn.com/problems/plus-one/)      |    Easy    |  √   |      |
+| 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) |   Medium   |  √   |      |
+| 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) |    Easy    |  √   |      |
+| 283  |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    |    Easy    |  √   |  √   |
+| 448  | [找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) |    Easy    |  √   |  √   |
+| 674  | [最长连续递增序列](https://leetcode.cn/problems/longest-continuous-increasing-subsequence/) |    Easy    |      |  √   |
+| 704  |  [二分查找](https://leetcode-cn.com/problems/binary-search)  |    Easy    |  √   |      |
+| 717  | [1比特与2比特字符](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/) |    Easy    |  √   |      |
+| 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) |    Easy    |  √   |      |
+| 986  | [区间列表的交集](https://leetcode.cn/problems/interval-list-intersections/) |   Medium   |      |  √   |
+| 1282 | [用户分组](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) |   Medium   |  √   |      |
+| 1725 | [可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/) |    Easy    |  √   |      |
+| 1748 | [唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/) |    Easy    |  √   |      |
+| 1984 | [学生分数的最小差值](https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) |    Easy    |  √   |      |
+| 2006 | [差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/) |    Easy    |  √   |      |
+| 2013 | [检测正方形](https://leetcode-cn.com/problems/detect-squares/) |   Medium   |  √   |      |
+| 2016 | [增量元素之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/) |    Easy    |  √   |      |
+| 2022 | [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/) |    Easy    |  √   |      |
+| 2099 | [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) |    Easy    |  √   |      |
+| 2104 | [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/) |   Medium   |  √   |  √   |
+| 2125 | [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/) |   Medium   |  √   |      |
+| 2148 | [元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) |    Easy    |  √   |      |
+| 2150 | [找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/) |   Medium   |  √   |      |
+| 2154 | [将找到的值乘以 2](https://leetcode-cn.com/problems/keep-multiplying-found-values-by-two/) |    Easy    |  √   |      |
+| 2155 | [分组得分最高的所有下标](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) |   Medium   |  √   |      |
+| 2176 | [统计数组中相等且可以被整除的数对](https://leetcode-cn.com/problems/count-equal-and-divisible-pairs-in-an-array/) |    Easy    |  √   |      |
+| 2190 | [数组中紧跟 key 之后出现最频繁的数字](https://leetcode-cn.com/problems/most-frequent-number-following-key-in-an-array/) |    Easy    |  √   |      |
+| 2206 | [将数组划分成相等数对](https://leetcode-cn.com/problems/divide-array-into-equal-pairs/) |    Easy    |  √   |      |
+| 2210 | [统计数组中峰和谷的数量](https://leetcode-cn.com/problems/count-hills-and-valleys-in-an-array/) |    Easy    |  √   |      |
 
 ## 二分
 
