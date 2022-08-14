@@ -271,6 +271,7 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
 | 496  | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) |    Easy    |  √   |      |
 | 503  | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) |   Medium   |  √   |      |
+| 739  | [每日温度](https://leetcode.cn/problems/daily-temperatures/) |   Medium   |  √   |      |
 | 769  | [最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/) |   Medium   |  √   |      |
 
 ## 数组
