@@ -224,39 +224,40 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 字符串
 
-| ID   | Title                                                                                                          | Difficulty | Java | Go  |
-|:---- |:--------------------------------------------------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 6    | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)                                                  | Medium     | √    | √   |
-| 14   | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)                                              | Easy       | √    |     |
-| 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word)                                              | Easy       | √    |     |
-| 306  | [累加数](https://leetcode-cn.com/problems/additive-number/)                                                       | Medium     | √    |     |
-| 383  | [赎金信](https://leetcode-cn.com/problems/ransom-note)                                                            | Easy       | √    |     |
-| 392  | [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)                                                      | Easy       | √    | √   |
-| 686  | [重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/)                                           | Medium     | √    |     |
-| 709  | [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)                                                     | Easy       | √    |     |
-| 748  | [最短补全词](https://leetcode-cn.com/problems/shortest-completing-word/)                                            | Easy       | √    |     |
-| 796  | [旋转字符串](https://leetcode-cn.com/problems/rotate-string/)                                                       | Easy       | √    | √   |
-| 917  | [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)                                               | Easy       | √    |     |
-| 1078 | [Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/)                                        | Easy       | √    |     |
-| 1189 | [“气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)                                     | Easy       | √    |     |
-| 1332 | [删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)                                   | Easy       | √    |     |
-| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/)                                               | Easy       | √    |     |
-| 1576 | [替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)           | Easy       | √    |     |
-| 1614 | [括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)                        | Easy       | √    |     |
-| 1629 | [按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)                                                    | Easy       | √    |     |
-| 1816 | [截断句子](https://leetcode-cn.com/problems/truncate-sentence)                                                     | Easy       | √    |     |
-| 1859 | [将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence/)                                                | Easy       | √    |     |
-| 2000 | [反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word)                                              | Easy       | √    |     |
-| 2047 | [句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)                             | Easy       | √    |     |
-| 2108 | [找出数组中的第一个回文字符串](https://leetcode-cn.com/problems/find-first-palindromic-string-in-the-array/)                 | Easy       | √    |     |
-| 2109 | [向字符串添加空格](https://leetcode-cn.com/problems/adding-spaces-to-a-string/)                                        | Medium     | √    |     |
-| 2114 | [句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/)                      | Easy       | √    |     |
-| 2124 | [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/)                    | Easy       | √    |     |
-| 2129 | [将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/)                                             | Easy       | √    |     |
-| 2138 | [将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/)                   | Easy       | √    |     |
-| 2156 | [查找给定哈希值的子串](https://leetcode-cn.com/problems/find-substring-with-given-hash-value/)                           | Medium     | √    |     |
-| 2185 | [统计包含给定前缀的字符串](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/)                           | Easy       | √    |     |
-| 2186 | [使两字符串互为字母异位词的最少步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | Medium     | √    |     |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 6    | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) |   Medium   |  √   |  √   |
+| 14   | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) |    Easy    |  √   |      |
+| 58   | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word) |    Easy    |  √   |      |
+| 306  | [累加数](https://leetcode-cn.com/problems/additive-number/)  |   Medium   |  √   |      |
+| 383  |    [赎金信](https://leetcode-cn.com/problems/ransom-note)    |    Easy    |  √   |      |
+| 392  | [判断子序列](https://leetcode-cn.com/problems/is-subsequence/) |    Easy    |  √   |  √   |
+| 686  | [重复叠加字符串匹配](https://leetcode-cn.com/problems/repeated-string-match/) |   Medium   |  √   |      |
+| 709  | [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/) |    Easy    |  √   |      |
+| 748  | [最短补全词](https://leetcode-cn.com/problems/shortest-completing-word/) |    Easy    |  √   |      |
+| 796  | [旋转字符串](https://leetcode-cn.com/problems/rotate-string/) |    Easy    |  √   |  √   |
+| 917  | [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/) |    Easy    |  √   |      |
+| 1078 | [Bigram 分词](https://leetcode-cn.com/problems/occurrences-after-bigram/) |    Easy    |  √   |      |
+| 1189 | [“气球” 的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/) |    Easy    |  √   |      |
+| 1332 | [删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) |    Easy    |  √   |      |
+| 1422 | [分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/) |    Easy    |  √   |      |
+| 1446 | [连续字符](https://leetcode-cn.com/problems/consecutive-characters/) |    Easy    |  √   |      |
+| 1576 | [替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) |    Easy    |  √   |      |
+| 1614 | [括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/) |    Easy    |  √   |      |
+| 1629 | [按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/) |    Easy    |  √   |      |
+| 1816 | [截断句子](https://leetcode-cn.com/problems/truncate-sentence) |    Easy    |  √   |      |
+| 1859 | [将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence/) |    Easy    |  √   |      |
+| 2000 | [反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word) |    Easy    |  √   |      |
+| 2047 | [句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/) |    Easy    |  √   |      |
+| 2108 | [找出数组中的第一个回文字符串](https://leetcode-cn.com/problems/find-first-palindromic-string-in-the-array/) |    Easy    |  √   |      |
+| 2109 | [向字符串添加空格](https://leetcode-cn.com/problems/adding-spaces-to-a-string/) |   Medium   |  √   |      |
+| 2114 | [句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/) |    Easy    |  √   |      |
+| 2124 | [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/) |    Easy    |  √   |      |
+| 2129 | [将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/) |    Easy    |  √   |      |
+| 2138 | [将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/) |    Easy    |  √   |      |
+| 2156 | [查找给定哈希值的子串](https://leetcode-cn.com/problems/find-substring-with-given-hash-value/) |   Medium   |  √   |      |
+| 2185 | [统计包含给定前缀的字符串](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) |    Easy    |  √   |      |
+| 2186 | [使两字符串互为字母异位词的最少步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) |   Medium   |  √   |      |
 
 ## KMP
 
