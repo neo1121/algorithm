@@ -37,9 +37,10 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 队列
 
-| ID   | Title                                                                         | Difficulty | Java | Go  |
-|:---- |:-----------------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 2149 | [按符号重排数组](https://leetcode-cn.com/problems/rearrange-array-elements-by-sign/) | Medium     | √    |     |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 641  | [设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/) |   Medium   |  √   |      |
+| 2149 | [按符号重排数组](https://leetcode-cn.com/problems/rearrange-array-elements-by-sign/) |   Medium   |  √   |      |
 
 ## 堆
 
