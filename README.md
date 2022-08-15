@@ -419,31 +419,32 @@ A collection of problems solved on the [LeetCode](https://leetcode-cn.com/) when
 
 ## 模拟
 
-| ID   | Title                                                                                                | Difficulty | Java | Go  |
-|:---- |:----------------------------------------------------------------------------------------------------:|:----------:|:----:|:---:|
-| 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)                                        | Medium     | √    |     |
-| 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)                                        | Easy       | √    |     |
-| 258  | [各位相加](https://leetcode-cn.com/problems/add-digits/)                                                 | Easy       | √    | √   |
-| 393  | [UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/)                                     | Medium     | √    |     |
-| 504  | [七进制数](https://leetcode-cn.com/problems/base-7/)                                                     | Easy       | √    | √   |
-| 682  | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/)                                              | Easy       | √    | √   |
-| 693  | [交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)                     | Easy       | √    | √   |
-| 762  | [二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/) | Easy       | √    | √   |
-| 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/)                                 | Medium     | √    |     |
-| 806  | [写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string/)                       | Easy       | √    | √   |
-| 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)                                              | Medium     | √    |     |
-| 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/)                                     | Easy       | √    |     |
-| 1342 | [将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)        | Easy       | √    |     |
-| 1518 | [换酒问题](https://leetcode-cn.com/problems/water-bottles/)                                              | Easy       | √    |     |
-| 1995 | [统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)                               | Easy       | √    |     |
-| 2028 | [找出缺失的观测数据](https://leetcode-cn.com/problems/find-missing-observations/)                             | Medium     | √    | √   |
-| 2043 | [简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)                                       | Medium     | √    | √   |
-| 2103 | [环和杆](https://leetcode-cn.com/problems/rings-and-rods/)                                              | Easy       | √    |     |
-| 2105 | [给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/)                                     | Medium     | √    |     |
-| 2120 | [执行所有后缀指令](https://leetcode-cn.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/) | Medium     | √    |     |
-| 2162 | [设置时间的最少代价](https://leetcode-cn.com/problems/minimum-cost-to-set-cooking-time/)                      | Medium     | √    |     |
-| 2169 | [得到 0 的操作数](https://leetcode-cn.com/problems/count-operations-to-obtain-zero/)                       | Easy       | √    |     |
-| 2180 | [统计各位数字之和为偶数的整数个数](https://leetcode-cn.com/problems/count-integers-with-even-digit-sum/)             | Easy       | √    |     |
-| 2194 | [Excel 表中某个范围内的单元格](https://leetcode-cn.com/problems/cells-in-a-range-on-an-excel-sheet/)            | Easy       | √    |     |
-| 2211 | [统计道路上的碰撞次数](https://leetcode-cn.com/problems/count-collisions-on-a-road/)                           | Medium     | √    |     |
-| 2221 | [数组的三角和](https://leetcode-cn.com/problems/find-triangular-sum-of-an-array/)                          | Medium     | √    |     |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 12   | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |   Medium   |  √   |      |
+| 13   | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |    Easy    |  √   |      |
+| 258  |   [各位相加](https://leetcode-cn.com/problems/add-digits/)   |    Easy    |  √   |  √   |
+| 393  | [UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/) |   Medium   |  √   |      |
+| 504  |     [七进制数](https://leetcode-cn.com/problems/base-7/)     |    Easy    |  √   |  √   |
+| 640  | [求解方程](https://leetcode.cn/problems/solve-the-equation/) |   Medium   |  √   |      |
+| 682  | [棒球比赛](https://leetcode-cn.com/problems/baseball-game/)  |    Easy    |  √   |  √   |
+| 693  | [交替位二进制数](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/) |    Easy    |  √   |  √   |
+| 762  | [二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/) |    Easy    |  √   |  √   |
+| 794  | [有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) |   Medium   |  √   |      |
+| 806  | [写字符串需要的行数](https://leetcode-cn.com/problems/number-of-lines-to-write-string/) |    Easy    |  √   |  √   |
+| 838  | [推多米诺](https://leetcode-cn.com/problems/push-dominoes/)  |   Medium   |  √   |      |
+| 997  | [找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) |    Easy    |  √   |      |
+| 1342 | [将数字变成 0 的操作次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/) |    Easy    |  √   |      |
+| 1518 | [换酒问题](https://leetcode-cn.com/problems/water-bottles/)  |    Easy    |  √   |      |
+| 1995 | [统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/) |    Easy    |  √   |      |
+| 2028 | [找出缺失的观测数据](https://leetcode-cn.com/problems/find-missing-observations/) |   Medium   |  √   |  √   |
+| 2043 | [简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/) |   Medium   |  √   |  √   |
+| 2103 |  [环和杆](https://leetcode-cn.com/problems/rings-and-rods/)  |    Easy    |  √   |      |
+| 2105 | [给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/) |   Medium   |  √   |      |
+| 2120 | [执行所有后缀指令](https://leetcode-cn.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/) |   Medium   |  √   |      |
+| 2162 | [设置时间的最少代价](https://leetcode-cn.com/problems/minimum-cost-to-set-cooking-time/) |   Medium   |  √   |      |
+| 2169 | [得到 0 的操作数](https://leetcode-cn.com/problems/count-operations-to-obtain-zero/) |    Easy    |  √   |      |
+| 2180 | [统计各位数字之和为偶数的整数个数](https://leetcode-cn.com/problems/count-integers-with-even-digit-sum/) |    Easy    |  √   |      |
+| 2194 | [Excel 表中某个范围内的单元格](https://leetcode-cn.com/problems/cells-in-a-range-on-an-excel-sheet/) |    Easy    |  √   |      |
+| 2211 | [统计道路上的碰撞次数](https://leetcode-cn.com/problems/count-collisions-on-a-road/) |   Medium   |  √   |      |
+| 2221 | [数组的三角和](https://leetcode-cn.com/problems/find-triangular-sum-of-an-array/) |   Medium   |  √   |      |
