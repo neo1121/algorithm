@@ -19,6 +19,7 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 | 88            | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array) |    Easy    |  √   |      |
 | 215           | [数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/) |   Medium   |  √   |  √   |
 | 506           |   [相对名次](https://leetcode.cn/problems/relative-ranks)    |    Easy    |  √   |      |
+| 899           |   [有序队列](https://leetcode.cn/problems/orderly-queue/)    |    Hard    |  √   |      |
 | 912           |    [排序数组](https://leetcode.cn/problems/sort-an-array)    |   Medium   |  √   |      |
 | 1996          | [游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/) |   Medium   |  √   |      |
 | 2191          | [将杂乱无章的数字排序](https://leetcode.cn/problems/sort-the-jumbled-numbers/) |   Medium   |  √   |      |
