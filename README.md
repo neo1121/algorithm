@@ -223,6 +223,7 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 | 804  | [唯一摩尔斯密码词](https://leetcode.cn/problems/unique-morse-code-words/) |    Easy    |  √   |  √   |
 | 884  | [两句话中的不常见单词](https://leetcode.cn/problems/uncommon-words-from-two-sentences/) |    Easy    |  √   |      |
 | 1001 | [网格照明](https://leetcode.cn/problems/grid-illumination/)  |    Hard    |  √   |      |
+| 1656 | [设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/) |    Easy    |  √   |      |
 | 2215 | [找出两数组的不同](https://leetcode.cn/problems/find-the-difference-of-two-arrays/) |    Easy    |  √   |      |
 
 ## 字符串
