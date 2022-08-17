@@ -274,6 +274,7 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 84   | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) |    Hard    |  √   |      |
 | 496  | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) |    Easy    |  √   |      |
 | 503  | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) |   Medium   |  √   |      |
 | 581  | [最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) |   Medium   |  √   |      |
