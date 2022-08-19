@@ -1,3 +1,5 @@
+[TOC]
+
 # Algorithm
 
 收录学习算法过程中在 [LeetCode](https://leetcode.cn/) 上做的题
@@ -9,6 +11,107 @@
 A collection of problems solved on the [LeetCode](https://leetcode.cn/) when watching [左程云算法课程](https://www.bilibili.com/video/BV13g41157hK?spm_id_from=333.999.0.0).
 
 [My LeetCode Homepage](https://leetcode.cn/u/neohv/)
+
+# HOT 100
+
+## 84.柱状图中最大的矩形
+
+给定 *n* 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
+
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
+
+链接: https://leetcode.cn/problems/largest-rectangle-in-histogram/
+
+分析: 每个柱子能构成的面积最大的矩形的高是该柱子的高度, 宽是左右两边第一个高度小于该柱子高度的两个柱子之间的距离
+
+Java 代码
+
+```java
+// 单调栈
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        Stack<Integer> stack = new Stack<>();
+        int max = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (!stack.isEmpty() && heights[stack.peek()] > heights[i]) {
+                int h = heights[stack.pop()];
+                int l = stack.isEmpty() ? -1 : stack.peek();
+                int area = h * (i - l - 1);
+                max = Math.max(area, max);
+            }
+            stack.push(i);
+        }
+        while (!stack.isEmpty()) {
+            int h = heights[stack.pop()];
+            int l = stack.isEmpty() ? -1 : stack.peek();
+            int area = h * (heights.length - l - 1);
+            max = Math.max(area, max);
+        }
+        return max;
+    }
+}
+// 优化1: 数组实现栈
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        // 
+        int[] stack = new int[heights.length]; 
+        int top = -1;
+        int max = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (top > -1 && heights[stack[top]] > heights[i]) {
+                int h = heights[stack[top--]];
+                int l = top == -1 ? -1 : stack[top];
+                int area = h * (i - l - 1);
+                max = Math.max(area, max);
+            }
+            stack[++top] = i;
+        }
+        while (top > -1) {
+            int h = heights[stack[top--]];
+            int l = top == -1 ? -1 : stack[top];
+            int area = h * (heights.length - l - 1);
+            max = Math.max(area, max);
+        }
+        return max;
+    }
+}
+// 优化2: 弹出相同高度的索引
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        int[] stack = new int[heights.length];
+        int top = -1;
+        int max = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (top > -1 && heights[stack[top]] > heights[i]) {
+                int h = heights[stack[top--]];
+                // 
+                while (top > -1 && heights[stack[top]] == h) {
+                    top -= 1;
+                }
+                int l = top == -1 ? -1 : stack[top];
+                int area = h * (i - l - 1);
+                max = Math.max(area, max);
+            }
+            stack[++top] = i;
+        }
+        while (top > -1) {
+            int h = heights[stack[top--]];
+            // 
+            while (top > -1 && heights[stack[top]] == h) {
+                top -= 1;
+            }
+            int l = top == -1 ? -1 : stack[top];
+            int area = h * (heights.length - l - 1);
+            max = Math.max(area, max);
+        }
+        return max;
+    }
+}
+```
+
+
+
+# Problems
 
 ## 排序
 
@@ -303,6 +406,7 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 | 747  | [至少是其他数字两倍的最大数](https://leetcode.cn/problems/largest-number-at-least-twice-of-others/) |    Easy    |  √   |      |
 | 986  | [区间列表的交集](https://leetcode.cn/problems/interval-list-intersections/) |   Medium   |      |  √   |
 | 1282 | [用户分组](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) |   Medium   |  √   |      |
+| 1450 | [在既定时间做作业的学生人数](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/) |    Easy    |  √   |      |
 | 1725 | [可以形成最大正方形的矩形数目](https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square/) |    Easy    |  √   |      |
 | 1748 | [唯一元素的和](https://leetcode.cn/problems/sum-of-unique-elements/) |    Easy    |  √   |      |
 | 1984 | [学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) |    Easy    |  √   |      |
