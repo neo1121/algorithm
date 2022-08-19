@@ -24,7 +24,7 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 
 分析: 每个柱子能构成的面积最大的矩形的高是该柱子的高度, 宽是左右两边第一个高度小于该柱子高度的两个柱子之间的距离
 
-Java 代码
+Java code
 
 ```java
 // 单调栈
@@ -105,6 +105,64 @@ class Solution {
             max = Math.max(area, max);
         }
         return max;
+    }
+}
+```
+
+## 85.最大矩形
+
+给定一个仅包含 `0` 和 `1` 、大小为 `rows x cols` 的二维二进制矩阵，找出只包含 `1` 的最大矩形，并返回其面积。
+
+链接: https://leetcode.cn/problems/maximal-rectangle/
+
+分析: 此题与 [84.柱状图中最大的矩形](#84.柱状图中最大的矩形) 类似, 可将二维数组视为一维数组, 统计连续 "1" 的个数, 对每行求最大矩形面积
+
+Java code
+
+```java
+class Solution {
+    public int maximalRectangle(char[][] matrix) {
+        int row = matrix.length;
+        int col = matrix[0].length;
+        int[] heights = new int[col];
+        int ans = 0;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (matrix[i][j] == '1') {
+                    heights[j] += 1;
+                } else {
+                    heights[j] = 0;
+                }
+            }
+            ans = Math.max(ans, getMax(heights));
+        }
+        return ans;
+    }
+
+    static int getMax(int[] heights) {
+        int[] indexStack = new int[heights.length];
+        int top = -1;
+        int area = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (top > -1 && heights[indexStack[top]] > heights[i]) {
+                int h = heights[indexStack[top--]];
+                while (top > -1 && h == heights[indexStack[top]]) {
+                    top -= 1;
+                }
+                int l = top > -1 ? indexStack[top] : -1;
+                area = Math.max(area, h * (i - l - 1));
+            }
+            indexStack[++top] = i;
+        }
+        while (top > -1) {
+            int h = heights[indexStack[top--]];
+            while (top > -1 && h == heights[indexStack[top]]) {
+                top -= 1;
+            }
+            int l = top > -1 ? indexStack[top] : -1;
+            area = Math.max(area, h * (heights.length - l - 1));
+        }
+        return area;
     }
 }
 ```
