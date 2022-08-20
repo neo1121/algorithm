@@ -51,6 +51,7 @@ class Solution {
 ```
 
 ```java
+// 单调栈
 // 优化1: 数组实现栈
 class Solution {
     public int largestRectangleArea(int[] heights) {
@@ -79,6 +80,7 @@ class Solution {
 ```
 
 ```java
+// 单调栈
 // 优化2: 弹出相同高度的索引
 class Solution {
     public int largestRectangleArea(int[] heights) {
@@ -124,6 +126,7 @@ class Solution {
 Java code
 
 ```java
+// 单调栈
 class Solution {
     public int maximalRectangle(char[][] matrix) {
         int row = matrix.length;
@@ -257,6 +260,69 @@ class Solution {
                 len - i + is - 1
         );
         return root;
+    }
+}
+```
+
+## 221.最大正方形
+
+在一个由 `'0'` 和 `'1'` 组成的二维矩阵内，找到只包含 `'1'` 的最大正方形，并返回其面积。
+
+链接: https://leetcode.cn/problems/maximal-square/
+
+分析: 矩阵求面积, 类比 [85.最大矩形](#最大矩形) 做法, 将其中的面积结算改为宽高中小的值的平方
+
+Java code
+
+```java
+// 单调栈
+class Solution {
+    public int maximalSquare(char[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int[] heights = new int[n];
+        int ans = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == '1') {
+                    heights[j] += 1;
+                } else {
+                    heights[j] = 0;
+                }
+            }
+            ans = Math.max(ans, getMax(heights));
+        }
+        return ans;
+    }
+
+    static int getMax(int[] heights) {
+        int[] indexStack = new int[heights.length];
+        int top = -1;
+        int area = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (top > -1 && heights[indexStack[top]] > heights[i]) {
+                int h = heights[indexStack[top--]];
+                while (top > -1 && h == heights[indexStack[top]]) {
+                    top -= 1;
+                }
+                int l = top > -1 ? indexStack[top] : -1;
+                int w = i - l - 1;
+                int len = Math.min(w, h);
+                area = Math.max(area, len * len);
+            }
+            indexStack[++top] = i;
+        }
+        while (top > -1) {
+            int h = heights[indexStack[top--]];
+            while (top > -1 && h == heights[indexStack[top]]) {
+                top -= 1;
+            }
+            int l = top > -1 ? indexStack[top] : -1;
+            int w = heights.length - l - 1;
+            int len = Math.min(w, h);
+            area = Math.max(area, len * len);
+        }
+        return area;
     }
 }
 ```
@@ -576,6 +642,7 @@ class Solution {
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
 | 84   | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) |    Hard    |  √   |      |
 | 85   | [最大矩形](https://leetcode.cn/problems/maximal-rectangle/)  |    Hard    |  √   |      |
+| 221  |  [最大正方形](https://leetcode.cn/problems/maximal-square/)  |   Medium   |  √   |      |
 | 496  | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) |    Easy    |  √   |      |
 | 503  | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) |   Medium   |  √   |      |
 | 581  | [最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) |   Medium   |  √   |      |
