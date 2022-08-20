@@ -50,6 +50,9 @@ class Solution {
         return max;
     }
 }
+```
+
+```java
 // 优化1: 数组实现栈
 class Solution {
     public int largestRectangleArea(int[] heights) {
@@ -75,6 +78,9 @@ class Solution {
         return max;
     }
 }
+```
+
+```java
 // 优化2: 弹出相同高度的索引
 class Solution {
     public int largestRectangleArea(int[] heights) {
@@ -167,7 +173,95 @@ class Solution {
 }
 ```
 
+## 105.从前序与中序遍历序列构造二叉树
 
+给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
+
+链接: https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+
+分析: 前序遍历序列总是 [根节点 [左子树] [右子树]], 中序遍历序列总是 [[左子树] 根节点 [右子树]], 对遍历序列进行递归即可构造出二叉树
+
+Java code
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+// 直接 copy 数组
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        int n = preorder.length;
+        if (n <= 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[0]);
+        int i = 0;
+        for (; i < n; i++) {
+            if (inorder[i] == preorder[0]) {
+                break;
+            }
+        }
+        root.left = buildTree(
+                Arrays.copyOfRange(preorder, 1, i + 1),
+                Arrays.copyOfRange(inorder, 0, i)
+        );
+        root.right = buildTree(
+                Arrays.copyOfRange(preorder, i + 1, n),
+                Arrays.copyOfRange(inorder, i + 1, n)
+        );
+        return root;
+    }
+}
+```
+
+```java
+// 优化: 使用索引
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        return build(preorder, inorder, 0, 0, preorder.length);
+    }
+
+    static TreeNode build(int[] preorder, int[] inorder, int ps, int is, int len) {
+        if (len <= 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[ps]);
+        int i = is;
+        for (; i < is + len; i++) {
+            if (inorder[i] == preorder[ps]) {
+                break;
+            }
+        }
+        root.left = build(
+                preorder,
+                inorder,
+                ps + 1,
+                is,
+                i - is
+        );
+        root.right = build(
+                preorder,
+                inorder,
+                ps + 1 + i - is,
+                i + 1,
+                len - i + is - 1
+        );
+        return root;
+    }
+}
+```
 
 # Problems
 
@@ -262,6 +356,7 @@ class Solution {
 | 100               |     [相同的树](https://leetcode.com/problems/same-tree/)     |    Easy    |  √   |      |
 | 102               | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal) |   Medium   |  √   |      |
 | 104               | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree) |    Easy    |  √   |      |
+| 105               | [从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |   Medium   |  √   |      |
 | 107               | [二叉树的层序遍历 II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii) |   Medium   |  √   |      |
 | 110               | [平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree) |    Easy    |  √   |      |
 | 114               | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) |   Medium   |  √   |  √   |
@@ -437,6 +532,7 @@ class Solution {
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
 | 84   | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) |    Hard    |  √   |      |
+| 85   | [最大矩形](https://leetcode.cn/problems/maximal-rectangle/)  |    Hard    |  √   |      |
 | 496  | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) |    Easy    |  √   |      |
 | 503  | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) |   Medium   |  √   |      |
 | 581  | [最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) |   Medium   |  √   |      |
