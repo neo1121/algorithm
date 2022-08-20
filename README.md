@@ -709,6 +709,7 @@ class Solution {
 | 152  | [乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) |   Medium   |  √   |  √   |
 | 913  |   [猫和老鼠](https://leetcode.cn/problems/cat-and-mouse/)    |    Hard    |  √   |      |
 | 1220 | [统计元音字母序列的数目](https://leetcode.cn/problems/count-vowels-permutation/) |    Hard    |  √   |      |
+| 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.cn/problems/count-square-submatrices-with-all-ones/) |   Medium   |  √   |      |
 | 2100 | [适合打劫银行的日子](https://leetcode.cn/problems/find-good-days-to-rob-the-bank/) |   Medium   |  √   |  √   |
 
 ## BFS
