@@ -731,6 +731,7 @@ class Solution {
    | 322  |    [零钱兑换](https://leetcode.cn/problems/coin-change/)     |   Medium   |  √   |      |
    | 746  | [使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |    Easy    |  √   |      |
    | 931  | [下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/) |   Medium   |  √   |      |
+   | 983  | [最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/) |   Medium   |  √   |      |
 
 ## BFS
 
