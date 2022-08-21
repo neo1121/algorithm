@@ -174,6 +174,63 @@ class Solution {
 }
 ```
 
+## 96.不同的二叉搜索树
+
+给你一个整数 `n` ，求恰由 `n` 个节点组成且节点值从 `1` 到 `n` 互不相同的 **二叉搜索树** 有多少种？返回满足题意的二叉搜索树的种数。
+
+链接: https://leetcode.cn/problems/unique-binary-search-trees/
+
+分析:
+
+1. 暴力递归
+
+   将 n 个节点看作数组, 可以任意选取一个节点 i 作为根节点, 其左右两边的元素分别作为左右子树, 分别进行递归可得左右两边可构成的不同的二叉搜索树数量, 左右两边数量相乘结果即为以节点 i 为根节点可构成的不同二叉搜索树数量
+
+   Java code
+
+   ```java
+   // 暴力递归
+   class Solution {
+       public int numTrees(int n) {
+           if (n <= 1) {
+               return 1;
+           }
+           int cnt = 0;
+           for (int i = 0; i < n; i++) {
+               int left = numTrees(i);
+               int right = numTrees(n - i - 1);
+               cnt += left * right;
+           }
+           return cnt;
+       }
+   }
+   ```
+
+2. 动态规划
+
+   由暴力递归的写法可以看出, 以 n 个节点构成的不同二叉搜索树数量与 0 ~ n-1 个节点构成的不同二叉搜索树数量有关
+
+   Java code
+
+   ```java
+   // 动态规划
+   class Solution {
+       public int numTrees(int n) {
+           // dp[i] 表示 i 个节点可构成的二叉树数量
+           int[] dp = new int[n + 1];
+           dp[0] = 1;
+           dp[1] = 1;
+           for (int i = 2; i <= n; i++) {
+               for (int j = 0; j < i; j++) {
+                   // dp[j] 为左子树数量, dp[i - j - 1] 为右子树数量
+                   dp[i] += dp[j] * dp[i - j - 1];
+               }
+           }
+           return dp[n];
+       }
+   }
+   ```
+
 ## 105.从前序与中序遍历序列构造二叉树
 
 给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
@@ -779,9 +836,17 @@ class Solution {
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
 | 53   | [最大子数组和](https://leetcode.cn/problems/maximum-subarray/) |    Easy    |  √   |  √   |
+| 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
+| 96   | [不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/) |   Medium   |  √   |      |
+| 120  |  [三角形最小路径和](https://leetcode.cn/problems/triangle/)  |   Medium   |  √   |      |
 | 121  | [买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock) |    Easy    |  √   |      |
 | 152  | [乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) |   Medium   |  √   |  √   |
+| 279  | [完全平方数](https://leetcode.cn/problems/perfect-squares/)  |   Medium   |  √   |      |
+| 322  |    [零钱兑换](https://leetcode.cn/problems/coin-change/)     |   Medium   |  √   |      |
+| 746  | [使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |    Easy    |  √   |      |
 | 913  |   [猫和老鼠](https://leetcode.cn/problems/cat-and-mouse/)    |    Hard    |  √   |      |
+| 931  | [下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/) |   Medium   |  √   |      |
+| 983  | [最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/) |   Medium   |  √   |      |
 | 1220 | [统计元音字母序列的数目](https://leetcode.cn/problems/count-vowels-permutation/) |    Hard    |  √   |      |
 | 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.cn/problems/count-square-submatrices-with-all-ones/) |   Medium   |  √   |      |
 | 2100 | [适合打劫银行的日子](https://leetcode.cn/problems/find-good-days-to-rob-the-bank/) |   Medium   |  √   |  √   |
