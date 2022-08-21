@@ -613,6 +613,7 @@ class Solution {
 | 1332 | [删除回文子序列](https://leetcode.cn/problems/remove-palindromic-subsequences/) |    Easy    |  √   |      |
 | 1422 | [分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/) |    Easy    |  √   |      |
 | 1446 | [连续字符](https://leetcode.cn/problems/consecutive-characters/) |    Easy    |  √   |      |
+| 1455 | [检查单词是否为句中其他单词的前缀](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) |    Easy    |  √   |      |
 | 1576 | [替换所有的问号](https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) |    Easy    |  √   |      |
 | 1614 | [括号的最大嵌套深度](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/) |    Easy    |  √   |      |
 | 1629 | [按键持续时间最长的键](https://leetcode.cn/problems/slowest-key/) |    Easy    |  √   |      |
