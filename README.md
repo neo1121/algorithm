@@ -327,6 +327,39 @@ class Solution {
 }
 ```
 
+## 279.完全平方数
+
+给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。
+
+完全平方数 是一个整数，其值等于另一个整数的平方；换句话说，其值等于一个整数自乘的积。例如，1、4、9 和 16 都是完全平方数，而 3 和 11 不是。
+
+链接: https://leetcode.cn/problems/perfect-squares
+
+分析: 典型的到达目标值的最小路径, 可以使用动态规划, 分别将到达 1 到 n 的最小完全平方数数量求出
+
+Java code
+
+```java
+// 动态规划
+class Solution {
+    public int numSquares(int n) {
+        int[] nums = new int[]{1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 2401, 2500, 2601, 2704, 2809, 2916, 3025, 3136, 3249, 3364, 3481, 3600, 3721, 3844, 3969, 4096, 4225, 4356, 4489, 4624, 4761, 4900, 5041, 5184, 5329, 5476, 5625, 5776, 5929, 6084, 6241, 6400, 6561, 6724, 6889, 7056, 7225, 7396, 7569, 7744, 7921, 8100, 8281, 8464, 8649, 8836, 9025, 9216, 9409, 9604, 9801, 10000};
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, 1, dp.length, Integer.MAX_VALUE);
+        int j = 0;
+        for (int i = 1; i < n + 1; i++) {
+            for (; j < nums.length && nums[j] < i; j++) {
+            }
+            int t = nums[j] == i ? j : j - 1;
+            for (; t >= 0; t--) {
+                dp[i] = Math.min(dp[i], dp[i - nums[t]] + 1);
+            }
+        }
+        return dp[n];
+    }
+}
+```
+
 ## 617.合并二叉树
 
 给你两棵二叉树： root1 和 root2 。
@@ -728,6 +761,7 @@ class Solution {
    | ID   |                            Title                             | Difficulty | Java |  Go  |
    | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
    | 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
+   | 279  | [完全平方数](https://leetcode.cn/problems/perfect-squares/)  |   Medium   |  √   |      |
    | 322  |    [零钱兑换](https://leetcode.cn/problems/coin-change/)     |   Medium   |  √   |      |
    | 746  | [使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |    Easy    |  √   |      |
    | 931  | [下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/) |   Medium   |  √   |      |
