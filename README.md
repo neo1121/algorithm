@@ -713,6 +713,20 @@ class Solution {
 | 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.cn/problems/count-square-submatrices-with-all-ones/) |   Medium   |  √   |      |
 | 2100 | [适合打劫银行的日子](https://leetcode.cn/problems/find-good-days-to-rob-the-bank/) |   Medium   |  √   |  √   |
 
+根据 [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns) 将动态规划分为以下几类:
+
+1. 到达目标值的最大(最小)路径
+
+   描述:
+
+   给一个目标值, 找到到达该目标值的最大(最小)花费 / 路径 / 和
+
+   解法:
+
+   在所有可能的路径中找到达到当前状态的最大(最小)路径, 再加一个值作为当前状态
+
+   
+
 ## BFS
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
