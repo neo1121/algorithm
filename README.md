@@ -730,6 +730,7 @@ class Solution {
    | 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
    | 322  |    [零钱兑换](https://leetcode.cn/problems/coin-change/)     |   Medium   |  √   |      |
    | 746  | [使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |    Easy    |  √   |      |
+   | 931  | [下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/) |   Medium   |  √   |      |
 
 ## BFS
 
