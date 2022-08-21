@@ -725,7 +725,10 @@ class Solution {
 
    在所有可能的路径中找到达到当前状态的最大(最小)路径, 再加一个值作为当前状态
 
-   
+   | ID   |                            Title                             | Difficulty | Java |  Go  |
+   | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+   | 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
+   | 746  | [使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |    Easy    |  √   |      |
 
 ## BFS
 
