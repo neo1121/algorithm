@@ -14,9 +14,10 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 
 ## 84.柱状图中最大的矩形
 
-给定 *n* 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
-
-求在该柱状图中，能够勾勒出来的矩形的最大面积。
+> 给定 *n* 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
+>
+> 求在该柱状图中，能够勾勒出来的矩形的最大面积。
+>
 
 链接: https://leetcode.cn/problems/largest-rectangle-in-histogram/
 
@@ -117,7 +118,8 @@ class Solution {
 
 ## 85.最大矩形
 
-给定一个仅包含 `0` 和 `1` 、大小为 `rows x cols` 的二维二进制矩阵，找出只包含 `1` 的最大矩形，并返回其面积。
+> 给定一个仅包含 `0` 和 `1` 、大小为 `rows x cols` 的二维二进制矩阵，找出只包含 `1` 的最大矩形，并返回其面积。
+>
 
 链接: https://leetcode.cn/problems/maximal-rectangle/
 
@@ -176,7 +178,8 @@ class Solution {
 
 ## 96.不同的二叉搜索树
 
-给你一个整数 `n` ，求恰由 `n` 个节点组成且节点值从 `1` 到 `n` 互不相同的 **二叉搜索树** 有多少种？返回满足题意的二叉搜索树的种数。
+> 给你一个整数 `n` ，求恰由 `n` 个节点组成且节点值从 `1` 到 `n` 互不相同的 **二叉搜索树** 有多少种？返回满足题意的二叉搜索树的种数。
+>
 
 链接: https://leetcode.cn/problems/unique-binary-search-trees/
 
@@ -233,7 +236,8 @@ class Solution {
 
 ## 105.从前序与中序遍历序列构造二叉树
 
-给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
+> 给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
+>
 
 链接: https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 
@@ -321,9 +325,56 @@ class Solution {
 }
 ```
 
+## 139.单词拆分
+
+> 给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s 。
+>
+> 注意：不要求字典中出现的单词全部都使用，并且字典中的单词可以重复使用。
+
+链接: https://leetcode.cn/problems/word-break
+
+分析: 字符串 s 中的 i 位置能否到达与 i-单词长度 位置是否能到达和 (i-单词长度, i) 之间的子串是否与单词相同决定
+
+状态转移方程为 `dp[i] = dp[i - word.length] && check(s[i - word.length])`, `check(s[i - word.length])` 表示 `s[i - word.length]` 是否出现在字典中
+
+Java code
+
+```java
+class Solution {
+    public boolean wordBreak(String s, List<String> wordDict) {
+        int n = s.length();
+        int i = Integer.MAX_VALUE;
+        // 找到字典中最短的单词长度
+        for (String word : wordDict) {
+            i = Math.min(i, word.length());
+        }
+        if (i > n) {
+            // 字典中最短的单词比目标字符串长
+            return false;
+        }
+        // dp[i] 表示能否拼接出字符串中长度为 i 的子串
+        boolean[] dp = new boolean[n + 1];
+        dp[0] = true;
+        for (; i <= n; i++) {
+            for (String word : wordDict) {
+                if (dp[i]) {
+                    break;
+                }
+                if (i < word.length()) {
+                    continue;
+                }
+                dp[i] = dp[i - word.length()] && s.startsWith(word, i - word.length());
+            }
+        }
+        return dp[n];
+    }
+}
+```
+
 ## 221.最大正方形
 
-在一个由 `'0'` 和 `'1'` 组成的二维矩阵内，找到只包含 `'1'` 的最大正方形，并返回其面积。
+> 在一个由 `'0'` 和 `'1'` 组成的二维矩阵内，找到只包含 `'1'` 的最大正方形，并返回其面积。
+>
 
 链接: https://leetcode.cn/problems/maximal-square/
 
@@ -426,9 +477,10 @@ class Solution {
 
 ## 279.完全平方数
 
-给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。
-
-完全平方数 是一个整数，其值等于另一个整数的平方；换句话说，其值等于一个整数自乘的积。例如，1、4、9 和 16 都是完全平方数，而 3 和 11 不是。
+> 给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。
+>
+> 完全平方数 是一个整数，其值等于另一个整数的平方；换句话说，其值等于一个整数自乘的积。例如，1、4、9 和 16 都是完全平方数，而 3 和 11 不是。
+>
 
 链接: https://leetcode.cn/problems/perfect-squares
 
@@ -459,13 +511,14 @@ class Solution {
 
 ## 617.合并二叉树
 
-给你两棵二叉树： root1 和 root2 。
-
-想象一下，当你将其中一棵覆盖到另一棵之上时，两棵树上的一些节点将会重叠（而另一些不会）。你需要将这两棵树合并成一棵新二叉树。合并的规则是：如果两个节点重叠，那么将这两个节点的值相加作为合并后节点的新值；否则，不为 null 的节点将直接作为新二叉树的节点。
-
-返回合并后的二叉树。
-
-注意: 合并过程必须从两个树的根节点开始。
+> 给你两棵二叉树： root1 和 root2 。
+>
+> 想象一下，当你将其中一棵覆盖到另一棵之上时，两棵树上的一些节点将会重叠（而另一些不会）。你需要将这两棵树合并成一棵新二叉树。合并的规则是：如果两个节点重叠，那么将这两个节点的值相加作为合并后节点的新值；否则，不为 null 的节点将直接作为新二叉树的节点。
+>
+> 返回合并后的二叉树。
+>
+> 注意: 合并过程必须从两个树的根节点开始。
+>
 
 链接: https://leetcode.cn/problems/merge-two-binary-trees
 
@@ -841,6 +894,7 @@ class Solution {
 | 96   | [不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/) |   Medium   |  √   |      |
 | 120  |  [三角形最小路径和](https://leetcode.cn/problems/triangle/)  |   Medium   |  √   |      |
 | 121  | [买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock) |    Easy    |  √   |      |
+| 139  |     [单词拆分](https://leetcode.cn/problems/word-break/)     |   Medium   |  √   |      |
 | 152  | [乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) |   Medium   |  √   |  √   |
 | 279  | [完全平方数](https://leetcode.cn/problems/perfect-squares/)  |   Medium   |  √   |      |
 | 322  |    [零钱兑换](https://leetcode.cn/problems/coin-change/)     |   Medium   |  √   |      |
