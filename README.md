@@ -612,6 +612,7 @@ class Solution {
 | 606               | [根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/) |    Easy    |  √   |  √   |
 | 653               | [两数之和 IV - 输入 BST](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) |    Easy    |  √   |  √   |
 | 654               | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/) |   Medium   |  √   |      |
+| 655               | [输出二叉树](https://leetcode.cn/problems/print-binary-tree/) |   Medium   |  √   |      |
 | 1302              | [层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/) |   Medium   |  √   |  √   |
 | 1609              |    [奇偶树](https://leetcode.cn/problems/even-odd-tree/)     |   Medium   |  √   |      |
 | 2049              | [统计最高分的节点数目](https://leetcode.cn/problems/count-nodes-with-the-highest-score/) |   Medium   |  √   |      |
