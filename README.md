@@ -2,6 +2,14 @@
 
 收录学习算法过程中在 [LeetCode](https://leetcode.cn/) 上做的题
 
+[剑指 Offer (Coding Interviews)](#剑指 Offer)
+
+[剑指 Offer II (Coding Interviews II)](#剑指 Offer II)
+
+[LeetCode Hot 100](#Leetcode Hot 100)
+
+[LeetCode Problems](#LeetCode Problems)
+
 学习资料: [左程云算法课程](https://www.bilibili.com/video/BV13g41157hK?spm_id_from=333.999.0.0)
 
 [我的力扣主页](https://leetcode.cn/u/neohv/)
@@ -10,16 +18,28 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 
 [My LeetCode Homepage](https://leetcode.cn/u/neohv/)
 
-# HOT 100
+# [剑指 Offer](https://leetcode.cn/problem-list/xb9nqhhg/)
 
-## 84.柱状图中最大的矩形
+## [38.字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof)
+
+## [51.数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
+
+# [剑指 Offer II](https://leetcode.cn/problem-list/e8X3pBZi/)
+
+## [027.回文链表](https://leetcode.cn/problems/aMhZSa)
+
+## [053.二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8)
+
+## [062.实现前缀树](https://leetcode.cn/problems/QC3q1f)
+
+# [LeetCode HOT 100](https://leetcode.cn/problem-list/2cktkvj/)
+
+## [84.柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
 
 > 给定 *n* 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
 >
 > 求在该柱状图中，能够勾勒出来的矩形的最大面积。
 >
-
-链接: https://leetcode.cn/problems/largest-rectangle-in-histogram/
 
 分析: 每个柱子能构成的面积最大的矩形的高是该柱子的高度, 宽是左右两边第一个高度小于该柱子高度的两个柱子之间的距离
 
@@ -116,12 +136,10 @@ class Solution {
 }
 ```
 
-## 85.最大矩形
+## [85.最大矩形](https://leetcode.cn/problems/maximal-rectangle/)
 
 > 给定一个仅包含 `0` 和 `1` 、大小为 `rows x cols` 的二维二进制矩阵，找出只包含 `1` 的最大矩形，并返回其面积。
 >
-
-链接: https://leetcode.cn/problems/maximal-rectangle/
 
 分析: 此题与 [84.柱状图中最大的矩形](#84.柱状图中最大的矩形) 类似, 可将二维数组视为一维数组, 统计连续 "1" 的个数, 对每行求最大矩形面积
 
@@ -176,12 +194,10 @@ class Solution {
 }
 ```
 
-## 96.不同的二叉搜索树
+## [96.不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
 
 > 给你一个整数 `n` ，求恰由 `n` 个节点组成且节点值从 `1` 到 `n` 互不相同的 **二叉搜索树** 有多少种？返回满足题意的二叉搜索树的种数。
 >
-
-链接: https://leetcode.cn/problems/unique-binary-search-trees/
 
 分析:
 
@@ -234,12 +250,10 @@ class Solution {
    }
    ```
 
-## 105.从前序与中序遍历序列构造二叉树
+## [105.从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 > 给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
 >
-
-链接: https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 
 分析: 前序遍历序列总是 [根节点 [左子树] [右子树]], 中序遍历序列总是 [[左子树] 根节点 [右子树]], 对遍历序列进行递归即可构造出二叉树
 
@@ -325,13 +339,11 @@ class Solution {
 }
 ```
 
-## 139.单词拆分
+## [139.单词拆分](https://leetcode.cn/problems/word-break)
 
 > 给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s 。
 >
 > 注意：不要求字典中出现的单词全部都使用，并且字典中的单词可以重复使用。
-
-链接: https://leetcode.cn/problems/word-break
 
 分析: 字符串 s 中的 i 位置能否到达与 i-单词长度 位置是否能到达和 (i-单词长度, i) 之间的子串是否与单词相同决定
 
@@ -371,12 +383,10 @@ class Solution {
 }
 ```
 
-## 221.最大正方形
+## [221.最大正方形](https://leetcode.cn/problems/maximal-square/)
 
 > 在一个由 `'0'` 和 `'1'` 组成的二维矩阵内，找到只包含 `'1'` 的最大正方形，并返回其面积。
 >
-
-链接: https://leetcode.cn/problems/maximal-square/
 
 分析: 
 
@@ -475,14 +485,12 @@ class Solution {
    }
    ```
 
-## 279.完全平方数
+## [279.完全平方数](https://leetcode.cn/problems/perfect-squares)
 
 > 给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。
 >
 > 完全平方数 是一个整数，其值等于另一个整数的平方；换句话说，其值等于一个整数自乘的积。例如，1、4、9 和 16 都是完全平方数，而 3 和 11 不是。
 >
-
-链接: https://leetcode.cn/problems/perfect-squares
 
 分析: 典型的到达目标值的最小路径, 可以使用动态规划, 分别将到达 1 到 n 的最小完全平方数数量求出
 
@@ -509,7 +517,7 @@ class Solution {
 }
 ```
 
-## 617.合并二叉树
+## [617.合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees)
 
 > 给你两棵二叉树： root1 和 root2 。
 >
@@ -519,8 +527,6 @@ class Solution {
 >
 > 注意: 合并过程必须从两个树的根节点开始。
 >
-
-链接: https://leetcode.cn/problems/merge-two-binary-trees
 
 分析: 树上每个节点的合并逻辑相同, 直接递归
 
@@ -555,22 +561,21 @@ class Solution {
 }
 ```
 
-# Problems
+# [LeetCode Problems](https://leetcode.cn/problemset/all/)
 
 ## 排序
 
-| ID            |                            Title                             | Difficulty | Java |  Go  |
-| :------------ | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 56            |  [合并区间](https://leetcode.cn/problems/merge-intervals/)   |   Medium   |  √   |      |
-| 75            |    [颜色分类](https://leetcode.cn/problems/sort-colors/)     |   Medium   |  √   |      |
-| 88            | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array) |    Easy    |  √   |      |
-| 215           | [数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/) |   Medium   |  √   |  √   |
-| 506           |   [相对名次](https://leetcode.cn/problems/relative-ranks)    |    Easy    |  √   |      |
-| 899           |   [有序队列](https://leetcode.cn/problems/orderly-queue/)    |    Hard    |  √   |      |
-| 912           |    [排序数组](https://leetcode.cn/problems/sort-an-array)    |   Medium   |  √   |      |
-| 1996          | [游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/) |   Medium   |  √   |      |
-| 2191          | [将杂乱无章的数字排序](https://leetcode.cn/problems/sort-the-jumbled-numbers/) |   Medium   |  √   |      |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |    Hard    |  √   |      |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 56   |  [合并区间](https://leetcode.cn/problems/merge-intervals/)   |   Medium   |  √   |      |
+| 75   |    [颜色分类](https://leetcode.cn/problems/sort-colors/)     |   Medium   |  √   |      |
+| 88   | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array) |    Easy    |  √   |      |
+| 215  | [数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/) |   Medium   |  √   |  √   |
+| 506  |   [相对名次](https://leetcode.cn/problems/relative-ranks)    |    Easy    |  √   |      |
+| 899  |   [有序队列](https://leetcode.cn/problems/orderly-queue/)    |    Hard    |  √   |      |
+| 912  |    [排序数组](https://leetcode.cn/problems/sort-an-array)    |   Medium   |  √   |      |
+| 1996 | [游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/) |   Medium   |  √   |      |
+| 2191 | [将杂乱无章的数字排序](https://leetcode.cn/problems/sort-the-jumbled-numbers/) |   Medium   |  √   |      |
 
 ### 常见排序算法比较
 
@@ -610,68 +615,66 @@ class Solution {
 
 ## 链表
 
-| ID                |                            Title                             | Difficulty | Java |  Go  | C++  |
-| :---------------- | :----------------------------------------------------------: | :--------: | :--: | :--: | :--: |
-| 2                 |  [两数相加](https://leetcode.cn/problems/add-two-numbers/)   |   Medium   |      |  √   |  √   |
-| 19                | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) |   Medium   |  √   |      |      |
-| 21                | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) |    Easy    |  √   |      |      |
-| 23                | [合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/) |    Hard    |  √   |      |      |
-| 24                | [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/) |   Medium   |  √   |      |      |
-| 61                |     [旋转链表](https://leetcode.cn/problems/rotate-list)     |   Medium   |  √   |      |      |
-| 82                | [删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii) |   Medium   |  √   |      |      |
-| 83                | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list) |    Easy    |  √   |      |      |
-| 86                |   [分隔链表](https://leetcode.cn/problems/partition-list)    |   Medium   |  √   |  √   |      |
-| 92                | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii) |   Medium   |  √   |      |      |
-| 138               | [复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer) |   Medium   |  √   |      |      |
-| 141               |  [环形链表](https://leetcode.cn/problems/linked-list-cycle)  |    Easy    |  √   |      |      |
-| 142               | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii) |   Medium   |  √   |      |      |
-| 148               |      [排序链表](https://leetcode.cn/problems/sort-list)      |   Medium   |  √   |      |      |
-| 160               | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists) |    Easy    |  √   |      |      |
-| 203               | [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements) |    Easy    |  √   |      |      |
-| 206               | [反转链表](https://leetcode.cn/problems/reverse-linked-list) |    Easy    |  √   |      |      |
-| 234               | [回文链表](https://leetcode.cn/problems/palindrome-linked-list) |    Easy    |  √   |      |      |
-| 237               | [删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list) |    Easy    |  √   |      |      |
-| 328               | [奇偶链表](https://leetcode.cn/problems/odd-even-linked-list) |   Medium   |  √   |      |      |
-| 725               | [分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts) |   Medium   |  √   |      |      |
-| 876               | [链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list) |    Easy    |  √   |      |      |
-| 2095              | [删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   |  √   |      |      |
-| 2130              | [链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/) |   Medium   |  √   |      |      |
-| 2181              | [合并零之间的节点](https://leetcode.cn/problems/merge-nodes-in-between-zeros/) |   Medium   |  √   |      |      |
-| 剑指 Offer II 027 |       [回文链表](https://leetcode.cn/problems/aMhZSa/)       |    Easy    |  √   |      |      |
+| ID   |                            Title                             | Difficulty | Java |  Go  | C++  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: | :--: |
+| 2    |  [两数相加](https://leetcode.cn/problems/add-two-numbers/)   |   Medium   |      |  √   |  √   |
+| 19   | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) |   Medium   |  √   |      |      |
+| 21   | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) |    Easy    |  √   |      |      |
+| 23   | [合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/) |    Hard    |  √   |      |      |
+| 24   | [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/) |   Medium   |  √   |      |      |
+| 61   |     [旋转链表](https://leetcode.cn/problems/rotate-list)     |   Medium   |  √   |      |      |
+| 82   | [删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii) |   Medium   |  √   |      |      |
+| 83   | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list) |    Easy    |  √   |      |      |
+| 86   |   [分隔链表](https://leetcode.cn/problems/partition-list)    |   Medium   |  √   |  √   |      |
+| 92   | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii) |   Medium   |  √   |      |      |
+| 138  | [复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer) |   Medium   |  √   |      |      |
+| 141  |  [环形链表](https://leetcode.cn/problems/linked-list-cycle)  |    Easy    |  √   |      |      |
+| 142  | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii) |   Medium   |  √   |      |      |
+| 148  |      [排序链表](https://leetcode.cn/problems/sort-list)      |   Medium   |  √   |      |      |
+| 160  | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists) |    Easy    |  √   |      |      |
+| 203  | [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements) |    Easy    |  √   |      |      |
+| 206  | [反转链表](https://leetcode.cn/problems/reverse-linked-list) |    Easy    |  √   |      |      |
+| 234  | [回文链表](https://leetcode.cn/problems/palindrome-linked-list) |    Easy    |  √   |      |      |
+| 237  | [删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list) |    Easy    |  √   |      |      |
+| 328  | [奇偶链表](https://leetcode.cn/problems/odd-even-linked-list) |   Medium   |  √   |      |      |
+| 725  | [分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts) |   Medium   |  √   |      |      |
+| 876  | [链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list) |    Easy    |  √   |      |      |
+| 2095 | [删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   |  √   |      |      |
+| 2130 | [链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/) |   Medium   |  √   |      |      |
+| 2181 | [合并零之间的节点](https://leetcode.cn/problems/merge-nodes-in-between-zeros/) |   Medium   |  √   |      |      |
 
 ## 树
 
-| ID                |                            Title                             | Difficulty | Java |  Go  |
-| :---------------- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 94                | [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal) |    Easy    |  √   |      |
-| 98                | [验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree) |   Medium   |  √   |  √   |
-| 100               |     [相同的树](https://leetcode.com/problems/same-tree/)     |    Easy    |  √   |      |
-| 102               | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal) |   Medium   |  √   |      |
-| 104               | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree) |    Easy    |  √   |      |
-| 105               | [从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |   Medium   |  √   |      |
-| 107               | [二叉树的层序遍历 II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii) |   Medium   |  √   |      |
-| 110               | [平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree) |    Easy    |  √   |      |
-| 114               | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) |   Medium   |  √   |  √   |
-| 144               | [二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal) |    Easy    |  √   |      |
-| 145               | [二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal) |    Easy    |  √   |      |
-| 222               | [完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes) |   Medium   |  √   |      |
-| 226               | [翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) |    Easy    |  √   |  √   |
-| 236               | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree) |   Medium   |  √   |      |
-| 297               | [二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree) |    Hard    |  √   |      |
-| 429               | [N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) |   Medium   |  √   |  √   |
-| 513               | [找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/) |   Medium   |      |  √   |
-| 543               | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) |    Easy    |  √   |  √   |
-| 589               | [N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/) |    Easy    |  √   |      |
-| 606               | [根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/) |    Easy    |  √   |  √   |
-| 653               | [两数之和 IV - 输入 BST](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) |    Easy    |  √   |  √   |
-| 654               | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/) |   Medium   |  √   |      |
-| 655               | [输出二叉树](https://leetcode.cn/problems/print-binary-tree/) |   Medium   |  √   |      |
-| 1302              | [层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/) |   Medium   |  √   |  √   |
-| 1609              |    [奇偶树](https://leetcode.cn/problems/even-odd-tree/)     |   Medium   |  √   |      |
-| 2049              | [统计最高分的节点数目](https://leetcode.cn/problems/count-nodes-with-the-highest-score/) |   Medium   |  √   |      |
-| 2096              | [从二叉树一个节点到另一个节点每一步的方向](https://leetcode.cn/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   |  √   |      |
-| 2196              | [根据描述创建二叉树](https://leetcode.cn/problems/create-binary-tree-from-descriptions/) |   Medium   |  √   |      |
-| 剑指 Offer II 053 | [二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8/) |   Medium   |  √   |      |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 94   | [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal) |    Easy    |  √   |      |
+| 98   | [验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree) |   Medium   |  √   |  √   |
+| 100  |     [相同的树](https://leetcode.com/problems/same-tree/)     |    Easy    |  √   |      |
+| 102  | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal) |   Medium   |  √   |      |
+| 104  | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree) |    Easy    |  √   |      |
+| 105  | [从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |   Medium   |  √   |      |
+| 107  | [二叉树的层序遍历 II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii) |   Medium   |  √   |      |
+| 110  | [平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree) |    Easy    |  √   |      |
+| 114  | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) |   Medium   |  √   |  √   |
+| 144  | [二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal) |    Easy    |  √   |      |
+| 145  | [二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal) |    Easy    |  √   |      |
+| 222  | [完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes) |   Medium   |  √   |      |
+| 226  | [翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) |    Easy    |  √   |  √   |
+| 236  | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree) |   Medium   |  √   |      |
+| 297  | [二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree) |    Hard    |  √   |      |
+| 429  | [N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) |   Medium   |  √   |  √   |
+| 513  | [找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/) |   Medium   |      |  √   |
+| 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) |    Easy    |  √   |  √   |
+| 589  | [N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/) |    Easy    |  √   |      |
+| 606  | [根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/) |    Easy    |  √   |  √   |
+| 653  | [两数之和 IV - 输入 BST](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) |    Easy    |  √   |  √   |
+| 654  | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/) |   Medium   |  √   |      |
+| 655  | [输出二叉树](https://leetcode.cn/problems/print-binary-tree/) |   Medium   |  √   |      |
+| 1302 | [层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/) |   Medium   |  √   |  √   |
+| 1609 |    [奇偶树](https://leetcode.cn/problems/even-odd-tree/)     |   Medium   |  √   |      |
+| 2049 | [统计最高分的节点数目](https://leetcode.cn/problems/count-nodes-with-the-highest-score/) |   Medium   |  √   |      |
+| 2096 | [从二叉树一个节点到另一个节点每一步的方向](https://leetcode.cn/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   |  √   |      |
+| 2196 | [根据描述创建二叉树](https://leetcode.cn/problems/create-binary-tree-from-descriptions/) |   Medium   |  √   |      |
 
 ## 图
 
@@ -686,10 +689,9 @@ class Solution {
 
 ## 前缀树
 
-| ID                |                            Title                             | Difficulty | Java |  Go  |
-| :---------------- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 208               | [实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree) |   Medium   |  √   |      |
-| 剑指 Offer II 062 |      [实现前缀树](https://leetcode.cn/problems/QC3q1f/)      |   Medium   |  √   |      |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 208  | [实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree) |   Medium   |  √   |      |
 
 ## 并查集
 
@@ -738,19 +740,18 @@ class Solution {
 
 ## 回溯
 
-| ID            |                            Title                             | Difficulty | Java |  Go  |
-| :------------ | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 17            | [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |   Medium   |  √   |      |
-| 22            | [括号生成](https://leetcode.cn/problems/generate-parentheses/) |   Medium   |  √   |      |
-| 46            |     [全排列](https://leetcode.cn/problems/permutations/)     |   Medium   |  √   |      |
-| 47            |  [全排列 II](https://leetcode.cn/problems/permutations-ii/)  |   Medium   |  √   |      |
-| 52            |    [N皇后 II](https://leetcode.cn/problems/n-queens-ii/)     |    Hard    |  √   |      |
-| 78            |        [子集](https://leetcode.cn/problems/subsets/)         |   Medium   |  √   |      |
-| 357           | [统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
-| 784           | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) |   Medium   |  √   |      |
-| 2044          | [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
-| 2212          | [射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/) |   Medium   |  √   |      |
-| 剑指 Offer 38 | [字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/) |   Medium   |  √   |      |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 17   | [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |   Medium   |  √   |      |
+| 22   | [括号生成](https://leetcode.cn/problems/generate-parentheses/) |   Medium   |  √   |      |
+| 46   |     [全排列](https://leetcode.cn/problems/permutations/)     |   Medium   |  √   |      |
+| 47   |  [全排列 II](https://leetcode.cn/problems/permutations-ii/)  |   Medium   |  √   |      |
+| 52   |    [N皇后 II](https://leetcode.cn/problems/n-queens-ii/)     |    Hard    |  √   |      |
+| 78   |        [子集](https://leetcode.cn/problems/subsets/)         |   Medium   |  √   |      |
+| 357  | [统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
+| 784  | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) |   Medium   |  √   |      |
+| 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
+| 2212 | [射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/) |   Medium   |  √   |      |
 
 ## 滑动窗口
 
@@ -774,6 +775,7 @@ class Solution {
 | 804  | [唯一摩尔斯密码词](https://leetcode.cn/problems/unique-morse-code-words/) |    Easy    |  √   |  √   |
 | 884  | [两句话中的不常见单词](https://leetcode.cn/problems/uncommon-words-from-two-sentences/) |    Easy    |  √   |      |
 | 1001 | [网格照明](https://leetcode.cn/problems/grid-illumination/)  |    Hard    |  √   |      |
+| 1460 | [通过翻转子数组使两个数组相等](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/) |    Easy    |  √   |      |
 | 1656 | [设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/) |    Easy    |  √   |      |
 | 2215 | [找出两数组的不同](https://leetcode.cn/problems/find-the-difference-of-two-arrays/) |    Easy    |  √   |      |
 
