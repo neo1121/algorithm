@@ -2,13 +2,13 @@
 
 收录学习算法过程中在 [LeetCode](https://leetcode.cn/) 上做的题
 
-[剑指 Offer (Coding Interviews)](#剑指 Offer)
+[剑指 Offer (Coding Interviews)](#剑指-offer)
 
-[剑指 Offer II (Coding Interviews II)](#剑指 Offer II)
+[剑指 Offer II (Coding Interviews II)](#剑指-offer-II)
 
-[LeetCode Hot 100](#Leetcode Hot 100)
+[LeetCode Hot 100](#leetcode-hot-100)
 
-[LeetCode Problems](#LeetCode Problems)
+[LeetCode Problems](#leetcode-problems)
 
 学习资料: [左程云算法课程](https://www.bilibili.com/video/BV13g41157hK?spm_id_from=333.999.0.0)
 
