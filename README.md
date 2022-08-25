@@ -884,6 +884,7 @@ class Solution {
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
 | 33   | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) |   Medium   |  √   |      |
 | 540  | [有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/) |   Medium   |  √   |      |
+| 658  | [找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/) |   Medium   |  √   |      |
 | 704  |    [二分查找](https://leetcode.cn/problems/binary-search)    |    Easy    |  √   |      |
 | 744  | [寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/) |    Easy    |  √   |  √   |
 
