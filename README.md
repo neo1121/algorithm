@@ -602,6 +602,7 @@ class Solution {
 | 4    | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) |    Hard    |  √   |      |
 | 295  | [数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream) |    Hard    |  √   |      |
 | 373  | [查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) |   Medium   |  √   |      |
+| 1464 | [数组中两元素的最大乘积](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) |    Easy    |  √   |      |
 | 2161 | [根据给定数字划分数组](https://leetcode.cn/problems/partition-array-according-to-given-pivot/) |   Medium   |  √   |      |
 | 2164 | [对奇偶下标分别排序](https://leetcode.cn/problems/sort-even-and-odd-indices-independently/) |    Easy    |  √   |      |
 | 2182 | [构造限制重复的字符串](https://leetcode.cn/problems/construct-string-with-repeat-limit/) |   Medium   |  √   |      |
