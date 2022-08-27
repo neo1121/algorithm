@@ -517,6 +517,78 @@ class Solution {
 }
 ```
 
+## [494.目标和](https://leetcode.cn/problems/target-sum/)
+
+> 给你一个整数数组 nums 和一个整数 target 。
+>
+> 向数组中的每个整数前添加 '+' 或 '-' ，然后串联起所有整数，可以构造一个 表达式 ：
+>
+> 例如，nums = [2, 1] ，可以在 2 之前添加 '+' ，在 1 之前添加 '-' ，然后串联起来得到表达式 "+2-1" 。
+> 返回可以通过上述方法构造的、运算结果等于 target 的不同 表达式 的数目。
+
+分析: 题目要求串联所有整数构造表达式, 数据量为 `1 <= nums.length <= 20`, 最多有 2^20 种可能, 可以使用 DFS 并优化成记忆化搜索
+
+Java code
+
+```java
+// dfs
+class Solution {
+    static int ans;
+
+    public int findTargetSumWays(int[] nums, int target) {
+        ans = 0;
+        dfs(nums, target, 0, 0);
+        return ans;
+    }
+
+    static void dfs(int[] nums, int target, int index, int sum) {
+        if (index == nums.length) {
+            if (sum == target) {
+                ans += 1;
+            }
+            return;
+        }
+        dfs(nums, target, index + 1, sum + nums[index]);
+        dfs(nums, target, index + 1, sum - nums[index]);
+    }
+}
+```
+
+```java
+// 优化为记忆化搜索
+class Solution {
+    static int[][] memo;
+
+    public int findTargetSumWays(int[] nums, int target) {
+        memo = new int[nums.length][2010];
+        return dfs(nums, target, 0, 0);
+    }
+
+    static int dfs(int[] nums, int target, int index, int sum) {
+        if (index == nums.length) {
+            return sum == target ? 1 : 0;
+        }
+        // 对负数的和哈希
+        int t = (sum + 1000) % 2010;
+        if (memo[index][t] > 0) {
+            return memo[index][t];
+        }
+        if (memo[index][t] < 0) {
+            return 0;
+        }
+        int ret = dfs(nums, target, index + 1, sum + nums[index])
+                + dfs(nums, target, index + 1, sum - nums[index]);
+        if (ret == 0) {
+            // 没有可能的情况将 memo 设为-1
+            memo[index][t] = -1;
+            return 0;
+        }
+        memo[index][t] = ret;
+        return ret;
+    }
+}
+```
+
 ## [617.合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees)
 
 > 给你两棵二叉树： root1 和 root2 。
@@ -740,21 +812,6 @@ class Solution {
 | 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
 | 486  | [预测赢家](https://leetcode.cn/problems/predict-the-winner/) |   Medium   |  √   |      |
 
-## 回溯
-
-| ID   |                            Title                             | Difficulty | Java |  Go  |
-| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 17   | [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |   Medium   |  √   |      |
-| 22   | [括号生成](https://leetcode.cn/problems/generate-parentheses/) |   Medium   |  √   |      |
-| 46   |     [全排列](https://leetcode.cn/problems/permutations/)     |   Medium   |  √   |      |
-| 47   |  [全排列 II](https://leetcode.cn/problems/permutations-ii/)  |   Medium   |  √   |      |
-| 52   |    [N皇后 II](https://leetcode.cn/problems/n-queens-ii/)     |    Hard    |  √   |      |
-| 78   |        [子集](https://leetcode.cn/problems/subsets/)         |   Medium   |  √   |      |
-| 357  | [统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
-| 784  | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) |   Medium   |  √   |      |
-| 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
-| 2212 | [射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/) |   Medium   |  √   |      |
-
 ## 滑动窗口
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
@@ -953,11 +1010,27 @@ class Solution {
 | 329  | [矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/) |    Hard    |      |  √   |
 | 386  | [字典序排数](https://leetcode.cn/problems/lexicographical-numbers/) |   Medium   |  √   |      |
 | 463  | [岛屿的周长](https://leetcode.cn/problems/island-perimeter/) |    Easy    |  √   |      |
+| 494  |      [目标和](https://leetcode.cn/problems/target-sum/)      |   Medium   |  √   |      |
 | 695  | [岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/) |   Medium   |  √   |  √   |
 | 1020 | [飞地的数量](https://leetcode.cn/problems/number-of-enclaves/) |   Medium   |  √   |      |
 | 1219 | [黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold/) |   Medium   |  √   |      |
 | 1254 | [统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/) |   Medium   |  √   |      |
 | 1905 | [统计子岛屿](https://leetcode.cn/problems/count-sub-islands/) |   Medium   |  √   |      |
+
+## 回溯
+
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 17   | [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |   Medium   |  √   |      |
+| 22   | [括号生成](https://leetcode.cn/problems/generate-parentheses/) |   Medium   |  √   |      |
+| 46   |     [全排列](https://leetcode.cn/problems/permutations/)     |   Medium   |  √   |      |
+| 47   |  [全排列 II](https://leetcode.cn/problems/permutations-ii/)  |   Medium   |  √   |      |
+| 52   |    [N皇后 II](https://leetcode.cn/problems/n-queens-ii/)     |    Hard    |  √   |      |
+| 78   |        [子集](https://leetcode.cn/problems/subsets/)         |   Medium   |  √   |      |
+| 357  | [统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
+| 784  | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) |   Medium   |  √   |      |
+| 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
+| 2212 | [射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/) |   Medium   |  √   |      |
 
 ## 位运算
 
