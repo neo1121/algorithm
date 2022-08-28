@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_912.radixSort;
 
-import java.util.Arrays;
-
 // stable
 public class Solution {
 
@@ -67,10 +65,5 @@ public class Solution {
                 nums[i] += difference;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {-1, 2, -8, -10};
-        System.out.println(Arrays.toString(new Solution().sortArray(nums)));
     }
 }

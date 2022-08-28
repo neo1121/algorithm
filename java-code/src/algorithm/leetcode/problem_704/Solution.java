@@ -18,10 +18,4 @@ public class Solution {
         if (nums[m] != target) return -1;
         return m;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {-1, 0, 3, 5, 9, 12};
-        System.out.println(new Solution().search(nums, 2));
-    }
-
 }

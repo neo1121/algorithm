@@ -109,17 +109,4 @@ public class Solution {
         return retHead.next;
     }
 
-    // for test
-    public static void main(String[] args) {
-        ListNode node1 = new ListNode(4);
-        ListNode node2 = new ListNode(9);
-        node2.next = new ListNode(-1);
-        node1.next = node2;
-        ListNode node3 = new Solution().sortList2(node1);
-        while (node3 != null) {
-            System.out.println(node3.val);
-            node3 = node3.next;
-        }
-    }
-
 }

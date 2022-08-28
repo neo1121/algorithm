@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_88;
 
-import java.util.Arrays;
-
 public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         // points to current position
@@ -23,15 +21,5 @@ public class Solution {
         for (i = 0; i< nums1.length; i++){
             nums1[i] = help[i];
         }
-    }
-
-    // for test
-    public static void main(String[] args) {
-        int[] nums1 = {1,2,3,0,0,0};
-        int[] nums2 = {2,5,6};
-        int m = 3;
-        int n = 3;
-        new Solution().merge(nums1,m,nums2,n);
-        System.out.println(Arrays.toString(nums1));
     }
 }

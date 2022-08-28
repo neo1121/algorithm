@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_912.quicksort;
 
-import java.util.Arrays;
-
 // non-stable
 public class Solution {
     public int[] sortArray(int[] nums) {
@@ -41,11 +39,5 @@ public class Solution {
         }
         swap(nums, more, r);
         return new int[]{less, more};
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {5, 2, 3, 1};
-        new Solution().sortArray(nums);
-        System.out.println(Arrays.toString(nums));
     }
 }

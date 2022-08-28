@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_912.selectionSort;
 
-import java.util.Arrays;
-
 // overtime
 // non-stable
 public class Solution {
@@ -31,10 +29,5 @@ public class Solution {
             int minIndex = getMin(nums, i, nums.length - 1);
             swap(nums, i, minIndex);
         }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {5, 2, 3, 1};
-        System.out.println(Arrays.toString(new Solution().sortArray(nums)));
     }
 }

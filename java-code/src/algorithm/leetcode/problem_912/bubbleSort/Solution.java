@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_912.bubbleSort;
 
-import java.util.Arrays;
-
 // overtime
 // stable
 public class Solution {
@@ -24,10 +22,5 @@ public class Solution {
                     swap(nums, j, j+1);
             }
         }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, -3, 0, 4, 7};
-        System.out.println(Arrays.toString(new Solution().sortArray(nums)));
     }
 }

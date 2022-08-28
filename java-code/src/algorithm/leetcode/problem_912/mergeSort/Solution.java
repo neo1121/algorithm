@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_912.mergeSort;
 
-import java.util.Arrays;
-
 // stability depends on the code
 public class Solution {
     public int[] sortArray(int[] nums) {
@@ -35,12 +33,5 @@ public class Solution {
         for (i = 0; i < help.length; i++) {
             nums[l + i] = help[i];
         }
-    }
-
-    // for test
-    public static void main(String[] args) {
-        int[] nums = {5, 1, 1, 2, 0, 0};
-        new Solution().sortArray(nums);
-        System.out.println(Arrays.toString(nums));
     }
 }

@@ -1065,6 +1065,7 @@ class Solution {
 | 537  | [复数乘法](https://leetcode.cn/problems/complex-number-multiplication/) |   Medium   |  √   |      |
 | 553  |  [最优除法](https://leetcode.cn/problems/optimal-division/)  |   Medium   |  √   |  √   |
 | 650  | [只有两个键的键盘](https://leetcode.cn/problems/2-keys-keyboard) |   Medium   |  √   |      |
+| 793  | [阶乘函数后 K 个零](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) |    Hard    |  √   |      |
 | 1154 | [一年中的第几天](https://leetcode.cn/problems/day-of-the-year/) |    Easy    |  √   |      |
 | 1185 | [一周中的第几天](https://leetcode.cn/problems/day-of-the-week/) |    Easy    |  √   |      |
 | 1447 | [最简分数](https://leetcode.cn/problems/simplified-fractions/) |   Medium   |  √   |      |

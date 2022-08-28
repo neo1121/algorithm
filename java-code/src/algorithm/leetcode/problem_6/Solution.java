@@ -27,7 +27,7 @@ public class Solution {
         }
         StringBuilder sb = new StringBuilder();
         for (String str : strs) {
-            System.out.println(str);
+//            System.out.println(str);
             sb.append(str);
         }
         return sb.toString();

@@ -21,8 +21,4 @@ public class Solution {
         }
         return count;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().countPoints("B0R0"));
-    }
 }

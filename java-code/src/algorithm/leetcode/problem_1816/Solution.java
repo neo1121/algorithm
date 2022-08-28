@@ -12,10 +12,4 @@ public class Solution {
         }
         return sb.toString();
     }
-
-    public static void main(String[] args) {
-        String s = "Hello how are you Contestant";
-        int k = 4;
-        System.out.println(new Solution().truncateSentence(s, k));
-    }
 }

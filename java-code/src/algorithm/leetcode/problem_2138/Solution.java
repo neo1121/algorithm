@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_2138;
 
-import java.util.Arrays;
-
 public class Solution {
     public static String repeat(String s, int time) {
         StringBuilder sb = new StringBuilder();
@@ -24,7 +22,6 @@ public class Solution {
                 ret[index] = s.substring(i, i + k);
             }
         }
-        System.out.println(Arrays.toString(ret));
         if (ret[len - 1].length() < k) {
             ret[len - 1] += repeat(fill + "", k - ret[len - 1].length());
         }

@@ -25,8 +25,4 @@ public class Solution {
         chars[index] = Character.toUpperCase(chars[index]);
         process(chars, index + 1, res);
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().letterCasePermutation("JPvpaP9b9"));
-    }
 }

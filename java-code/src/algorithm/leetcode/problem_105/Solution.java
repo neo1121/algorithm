@@ -24,7 +24,7 @@ public class Solution {
         return build(preorder, inorder, 0, 0, preorder.length);
     }
 
-    static TreeNode build(int[] preorder, int[] inorder, int ps, int is, int len) {
+    TreeNode build(int[] preorder, int[] inorder, int ps, int is, int len) {
         if (len <= 0) {
             return null;
         }

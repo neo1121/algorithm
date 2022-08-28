@@ -28,7 +28,7 @@ public class Solution {
         return build(nums, 0, nums.length - 1);
     }
 
-    static TreeNode build(int[] nums, int l, int r) {
+    TreeNode build(int[] nums, int l, int r) {
         if (l > r) {
             return null;
         }
@@ -39,7 +39,7 @@ public class Solution {
         return root;
     }
 
-    static int findMax(int[] nums, int l, int r) {
+    int findMax(int[] nums, int l, int r) {
         int index = l;
         for (int i = l + 1; i <= r; i++) {
             if (nums[index] < nums[i]) {

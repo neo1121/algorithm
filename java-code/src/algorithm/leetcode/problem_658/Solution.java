@@ -41,7 +41,7 @@ public class Solution {
         return ans;
     }
 
-    static int binarySearch(int[] arr, int l, int r, int tar) {
+    int binarySearch(int[] arr, int l, int r, int tar) {
         while (l < r) {
             int mid = l + (r - l) / 2;
             if (arr[mid] == tar) {

@@ -46,9 +46,4 @@ public class Solution {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        Integer[] nums = new Integer[]{3, 43, 48, 94, 85, 33, 64, 32, 63, 66};
-        Arrays.sort(nums, new MyComparator());
-        System.out.println(Arrays.toString(nums));
-    }
 }

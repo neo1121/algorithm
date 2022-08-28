@@ -61,8 +61,4 @@ public class Solution {
         }
         return (sb.length() > 1 && sb.charAt(0) == '0') ? sb.substring(1) : sb.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().add("999", "19999"));
-    }
 }

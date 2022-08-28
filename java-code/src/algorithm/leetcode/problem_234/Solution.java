@@ -100,20 +100,4 @@ public class Solution {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        ListNode headCopy = head;
-        for (int i = 2; i <= 5; i++) {
-            headCopy.next = new ListNode(i);
-            headCopy = headCopy.next;
-        }
-        boolean ans = new Solution().isPalindrome3(head);
-        System.out.println(ans);
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
-        }
-    }
-
 }

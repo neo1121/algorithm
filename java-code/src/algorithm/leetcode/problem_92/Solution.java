@@ -19,7 +19,6 @@ class ListNode {
 
 public class Solution {
 
-
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if (left == right) return head;
         ListNode headCopy = new ListNode();
@@ -61,20 +60,6 @@ public class Solution {
             reverseHead = cur;
         }
         return reverseHead;
-    }
-
-    public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        ListNode headCopy = head;
-        for (int i = 2; i <= 5; i++) {
-            headCopy.next = new ListNode(i);
-            headCopy = headCopy.next;
-        }
-        head = new Solution().reverseBetween(head, 2, 4);
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
-        }
     }
 
 }

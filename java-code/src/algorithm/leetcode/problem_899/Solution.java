@@ -16,7 +16,7 @@ public class Solution {
         return s.substring(start, chars.length) + s.substring(0, start);
     }
 
-    static int cmp(char[] chars, int i, int j) {
+    int cmp(char[] chars, int i, int j) {
         for (int k = 0; k < chars.length; k++) {
             if (chars[(i + k) % chars.length] == chars[(j + k) % chars.length]) {
                 continue;

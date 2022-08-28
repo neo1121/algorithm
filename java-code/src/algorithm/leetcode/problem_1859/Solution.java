@@ -25,8 +25,4 @@ public class Solution {
         ret.deleteCharAt(ret.length() - 1);
         return ret.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().sortSentence("is2 sentence4 This1 a3"));
-    }
 }

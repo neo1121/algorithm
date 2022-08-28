@@ -86,8 +86,4 @@ public class Solution {
         }
         return ret;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().lexicalOrder2(1000));
-    }
 }

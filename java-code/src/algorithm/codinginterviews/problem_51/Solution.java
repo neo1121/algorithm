@@ -37,10 +37,4 @@ public class Solution {
         }
         return count;
     }
-
-    // for test
-    public static void main(String[] args) {
-        int[] nums = {5, 7, 6, 4};
-        System.out.println(new Solution().reversePairs(nums));
-    }
 }

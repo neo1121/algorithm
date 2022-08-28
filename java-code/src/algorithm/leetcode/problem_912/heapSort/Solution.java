@@ -1,7 +1,5 @@
 package algorithm.leetcode.problem_912.heapSort;
 
-import java.util.Arrays;
-
 // non-stable
 public class Solution {
     public int[] sortArray(int[] nums) {
@@ -46,10 +44,5 @@ public class Solution {
             swap(nums, i, largest);
             i = largest;
         }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 3, 0, 4, 7};
-        System.out.println(Arrays.toString(new Solution().sortArray(nums)));
     }
 }

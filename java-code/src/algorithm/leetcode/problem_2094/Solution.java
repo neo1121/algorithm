@@ -1,6 +1,5 @@
 package algorithm.leetcode.problem_2094;
 
-import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -21,10 +20,5 @@ public class Solution {
             }
         }
         return set.stream().mapToInt(Integer::intValue).toArray();
-    }
-
-    public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3};
-        System.out.println(Arrays.toString(new Solution().findEvenNumbers(nums)));
     }
 }

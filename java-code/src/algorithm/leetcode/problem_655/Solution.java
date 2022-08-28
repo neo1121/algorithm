@@ -46,7 +46,7 @@ public class Solution {
         return ans;
     }
 
-    static void make(TreeNode root, int r, int c) {
+    void make(TreeNode root, int r, int c) {
         if (root == null) {
             return;
         }
@@ -55,7 +55,7 @@ public class Solution {
         make(root.right, r + 1, (int) (c + Math.pow(2, height - r - 1)));
     }
 
-    static int calcHeight(TreeNode root) {
+    int calcHeight(TreeNode root) {
         int height = 0;
         TreeNode end = root;
         TreeNode nextEnd = null;
