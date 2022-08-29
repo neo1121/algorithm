@@ -517,6 +517,113 @@ class Solution {
 }
 ```
 
+## [394. 字符串解码](https://leetcode.cn/problems/decode-string/)
+
+> 给定一个经过编码的字符串，返回它解码后的字符串。
+>
+> 编码规则为: k[encoded_string]，表示其中方括号内部的 encoded_string 正好重复 k 次。注意 k 保证为正整数。
+>
+> 你可以认为输入字符串总是有效的；输入字符串中没有额外的空格，且输入的方括号总是符合格式要求的。
+>
+> 此外，你可以认为原始数据不包含数字，所有的数字只表示重复的次数 k ，例如不会出现像 3a 或 2[4] 的输入。
+>
+
+分析: 用两个栈分别存储 k 和 ' [ ] ' 内字母, 用一个`StringBuilder sb` 存遍历到该位置时的字母字符串
+
+1. 遇到数字, 构造 k
+2. 遇到 ' [ ', 将 k 和 之前的字母字符串 分别入栈, 更新 k 值
+3. 遇到 ' ] ', 弹出 k 和 字母字符串, 循环 k 次将 sb 重复添加到字母字符串中, 更新 sb 值
+4. 遇到字母, 添加到 sb 中
+
+Java code
+
+```java
+class Solution {
+    public String decodeString(String s) {
+        StringBuilder sb = new StringBuilder();
+        char[] chars = s.toCharArray();
+        Stack<String> sStack = new Stack<>();
+        Stack<Integer> kStack = new Stack<>();
+        for (int i = 0; i < chars.length; ) {
+            if (chars[i] >= '0' && chars[i] <= '9') {
+                int k = 0;
+                while (chars[i] != '[') {
+                    k = k * 10 + chars[i] - '0';
+                    i += 1;
+                }
+                kStack.push(k);
+            } else if (chars[i] == '[') {
+                i += 1;
+                StringBuilder t = new StringBuilder();
+                while (chars[i] >= 'a' && chars[i] <= 'z') {
+                    t.append(chars[i]);
+                    i += 1;
+                }
+                sStack.push(t.toString());
+            } else if (chars[i] == ']') {
+                String subS = sStack.pop();
+                int k = kStack.pop();
+                if (sStack.isEmpty()) {
+                    sb.append(repeat(subS, k));
+                } else {
+                    sStack.push(sStack.pop() + repeat(subS, k));
+                }
+                i += 1;
+            } else {
+                if (sStack.isEmpty()) {
+                    sb.append(chars[i]);
+                } else {
+                    sStack.push(sStack.pop() + chars[i]);
+                }
+                i += 1;
+            }
+        }
+        return sb.toString();
+    }
+
+    public String repeat(String s, int k) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < k; i++) {
+            sb.append(s);
+        }
+        return sb.toString();
+    }
+}
+```
+
+```java
+// 优化: 避免出入栈
+class Solution {
+    public String decodeString(String s) {
+        StringBuilder sb = new StringBuilder();
+        char[] chars = s.toCharArray();
+        Stack<StringBuilder> sbStack = new Stack<>();
+        Stack<Integer> kStack = new Stack<>();
+        int k = 0;
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] >= '0' && chars[i] <= '9') {
+                k = k * 10 + chars[i] - '0';
+            } else if (chars[i] == '[') {
+                kStack.push(k);
+                k = 0;
+                sbStack.push(sb);
+                sb = new StringBuilder();
+            } else if (chars[i] == ']') {
+                StringBuilder pre = sbStack.pop();
+                int tempK = kStack.pop();
+                for (int j = 0; j < tempK; j++) {
+                    pre.append(sb);
+                }
+                sb = pre;
+            } else {
+                sb.append(chars[i]);
+            }
+        }
+        return sb.toString();
+    }
+}
+```
+
 ## [494. 目标和](https://leetcode.cn/problems/target-sum/)
 
 > 给你一个整数数组 nums 和一个整数 target 。
@@ -768,6 +875,7 @@ class Solution {
 | 234  | [回文链表](https://leetcode.cn/problems/palindrome-linked-list) |    Easy    |  √   |      |      |
 | 237  | [删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list) |    Easy    |  √   |      |      |
 | 328  | [奇偶链表](https://leetcode.cn/problems/odd-even-linked-list) |   Medium   |  √   |      |      |
+| 394  |  [字符串解码](https://leetcode.cn/problems/decode-string/)   |   Medium   |  √   |      |      |
 | 725  | [分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts) |   Medium   |  √   |      |      |
 | 876  | [链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list) |    Easy    |  √   |      |      |
 | 2095 | [删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   |  √   |      |      |
