@@ -1104,6 +1104,7 @@ class Solution {
 | 838  |   [推多米诺](https://leetcode.cn/problems/push-dominoes/)    |   Medium   |  √   |      |
 | 997  | [找到小镇的法官](https://leetcode.cn/problems/find-the-town-judge/) |    Easy    |  √   |      |
 | 1342 | [将数字变成 0 的操作次数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero/) |    Easy    |  √   |      |
+| 1470 | [重新排列数组](https://leetcode.cn/problems/shuffle-the-array/) |    Easy    |  √   |      |
 | 1518 |   [换酒问题](https://leetcode.cn/problems/water-bottles/)    |    Easy    |  √   |      |
 | 1995 | [统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/) |    Easy    |  √   |      |
 | 2028 | [找出缺失的观测数据](https://leetcode.cn/problems/find-missing-observations/) |   Medium   |  √   |  √   |
