@@ -42,7 +42,7 @@ public class Solution {
         return true;
     }
 
-    class Type {
+    static class Type {
         boolean valid;
         long max;
         long min;

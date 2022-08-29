@@ -22,8 +22,8 @@ class TreeNode {
 }
 
 public class Solution {
-    static String[][] res;
-    static int height;
+    String[][] res;
+    int height;
 
     public List<List<String>> printTree(TreeNode root) {
         height = calcHeight(root) - 1;

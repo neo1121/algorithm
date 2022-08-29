@@ -1,7 +1,7 @@
 package algorithm.leetcode.problem_494;
 
 public class Solution {
-    static int[][] memo;
+    int[][] memo;
 
     public int findTargetSumWays(int[] nums, int target) {
         memo = new int[nums.length][2010];

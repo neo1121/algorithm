@@ -20,21 +20,21 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 
 # [剑指 Offer](https://leetcode.cn/problem-list/xb9nqhhg/)
 
-## [38.字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof)
+## [38. 字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof)
 
-## [51.数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
+## [51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
 
 # [剑指 Offer II](https://leetcode.cn/problem-list/e8X3pBZi/)
 
-## [027.回文链表](https://leetcode.cn/problems/aMhZSa)
+## [027. 回文链表](https://leetcode.cn/problems/aMhZSa)
 
-## [053.二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8)
+## [053. 二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8)
 
-## [062.实现前缀树](https://leetcode.cn/problems/QC3q1f)
+## [062. 实现前缀树](https://leetcode.cn/problems/QC3q1f)
 
 # [LeetCode HOT 100](https://leetcode.cn/problem-list/2cktkvj/)
 
-## [84.柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
+## [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
 
 > 给定 *n* 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
 >
@@ -136,7 +136,7 @@ class Solution {
 }
 ```
 
-## [85.最大矩形](https://leetcode.cn/problems/maximal-rectangle/)
+## [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/)
 
 > 给定一个仅包含 `0` 和 `1` 、大小为 `rows x cols` 的二维二进制矩阵，找出只包含 `1` 的最大矩形，并返回其面积。
 >
@@ -194,7 +194,7 @@ class Solution {
 }
 ```
 
-## [96.不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
+## [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
 
 > 给你一个整数 `n` ，求恰由 `n` 个节点组成且节点值从 `1` 到 `n` 互不相同的 **二叉搜索树** 有多少种？返回满足题意的二叉搜索树的种数。
 >
@@ -250,7 +250,7 @@ class Solution {
    }
    ```
 
-## [105.从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+## [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 > 给定两个整数数组 preorder 和 inorder ，其中 preorder 是二叉树的先序遍历， inorder 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
 >
@@ -339,7 +339,7 @@ class Solution {
 }
 ```
 
-## [139.单词拆分](https://leetcode.cn/problems/word-break)
+## [139. 单词拆分](https://leetcode.cn/problems/word-break)
 
 > 给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s 。
 >
@@ -383,7 +383,7 @@ class Solution {
 }
 ```
 
-## [221.最大正方形](https://leetcode.cn/problems/maximal-square/)
+## [221. 最大正方形](https://leetcode.cn/problems/maximal-square/)
 
 > 在一个由 `'0'` 和 `'1'` 组成的二维矩阵内，找到只包含 `'1'` 的最大正方形，并返回其面积。
 >
@@ -485,7 +485,7 @@ class Solution {
    }
    ```
 
-## [279.完全平方数](https://leetcode.cn/problems/perfect-squares)
+## [279. 完全平方数](https://leetcode.cn/problems/perfect-squares)
 
 > 给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。
 >
@@ -517,7 +517,7 @@ class Solution {
 }
 ```
 
-## [494.目标和](https://leetcode.cn/problems/target-sum/)
+## [494. 目标和](https://leetcode.cn/problems/target-sum/)
 
 > 给你一个整数数组 nums 和一个整数 target 。
 >
@@ -587,9 +587,67 @@ class Solution {
         return ret;
     }
 }
+
 ```
 
-## [617.合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees)
+## [538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/)
+
+> 给出二叉 搜索 树的根节点，该树的节点值各不相同，请你将其转换为累加树（Greater Sum Tree），使每个节点 node 的新值等于原树中大于或等于 node.val 的值之和。
+>
+> 提醒一下，二叉搜索树满足下列约束条件：
+>
+> 节点的左子树仅包含键 小于 节点键的节点。
+> 节点的右子树仅包含键 大于 节点键的节点。
+> 左右子树也必须是二叉搜索树。
+
+分析: 按照中序遍历将二叉搜索树写为数组会发现, 累加树中节点的值是其在数组中对应位置的值与之后位置的值之和
+
+Java code
+
+```java
+// 时间复杂度为 O(2n)
+class Solution {
+    public TreeNode convertBST(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        LDR(root, stack);
+        int pre = 0;
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            node.val += pre;
+            pre = node.val;
+        }
+        return root;
+    }
+
+    public void LDR(TreeNode root, Stack<TreeNode> stack) {
+        if (root == null) {
+            return;
+        }
+        LDR(root.left, stack);
+        stack.push(root);
+        LDR(root.right, stack);
+    }
+}
+```
+
+```java
+// 时间复杂度为 O(n)
+class Solution {
+    int pre = 0;
+
+    public TreeNode convertBST(TreeNode root) {
+        if (root != null) {
+            convertBST(root.right);
+            root.val += pre;
+            pre = root.val;
+            convertBST(root.left);
+        }
+        return root;
+    }
+}
+```
+
+## [617. 合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees)
 
 > 给你两棵二叉树： root1 和 root2 。
 >
@@ -737,6 +795,7 @@ class Solution {
 | 297  | [二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree) |    Hard    |  √   |      |
 | 429  | [N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) |   Medium   |  √   |  √   |
 | 513  | [找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/) |   Medium   |      |  √   |
+| 538  | [把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/) |   Medium   |  √   |      |
 | 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) |    Easy    |  √   |  √   |
 | 589  | [N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/) |    Easy    |  √   |      |
 | 606  | [根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/) |    Easy    |  √   |  √   |
@@ -961,7 +1020,6 @@ class Solution {
 | 279  | [完全平方数](https://leetcode.cn/problems/perfect-squares/)  |   Medium   |  √   |      |
 | 322  |    [零钱兑换](https://leetcode.cn/problems/coin-change/)     |   Medium   |  √   |      |
 | 746  | [使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) |    Easy    |  √   |      |
-| 913  |   [猫和老鼠](https://leetcode.cn/problems/cat-and-mouse/)    |    Hard    |  √   |      |
 | 931  | [下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/) |   Medium   |  √   |      |
 | 983  | [最低票价](https://leetcode.cn/problems/minimum-cost-for-tickets/) |   Medium   |  √   |      |
 | 1220 | [统计元音字母序列的数目](https://leetcode.cn/problems/count-vowels-permutation/) |    Hard    |  √   |      |

@@ -1,7 +1,7 @@
 package algorithm.leetcode.problem_2138;
 
 public class Solution {
-    public static String repeat(String s, int time) {
+    public String repeat(String s, int time) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < time; i++) {
             sb.append(s);

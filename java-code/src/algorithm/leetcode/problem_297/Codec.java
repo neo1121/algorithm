@@ -1,9 +1,5 @@
 package algorithm.leetcode.problem_297;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-
 class TreeNode {
     int val;
     TreeNode left;
@@ -14,7 +10,7 @@ class TreeNode {
     }
 }
 
-public class Solution {
+public class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -34,10 +30,9 @@ public class Solution {
     }
 
     // Decodes your encoded data to tree.
-    public static int i = 0;
+    public int i = 0;
 
     public TreeNode deserialize(String data) {
-        i = 0;
         String[] chars = data.split("[_]");
         return process(chars);
     }
