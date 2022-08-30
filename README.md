@@ -624,6 +624,121 @@ class Solution {
 }
 ```
 
+## [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
+
+> 给定两个字符串 s 和 p，找到 s 中所有 p 的 异位词 的子串，返回这些子串的起始索引。不考虑答案输出的顺序。
+>
+> 异位词 指由相同字母重排列形成的字符串（包括相同的字符串）。
+
+分析:
+
+1. 模拟
+
+   Java code
+
+   ```java
+   class Solution {
+       public List<Integer> findAnagrams(String s, String p) {
+           List<Integer> ans = new ArrayList<>();
+           for (int i = 0; i < s.length() - p.length() + 1; i++) {
+               if (!isAnagrams(s, p, i)) {
+                   continue;
+               }
+               ans.add(i);
+               while (i < s.length() - p.length() && s.charAt(i) == s.charAt(i + p.length())) {
+                   i += 1;
+                   ans.add(i);
+               }
+           }
+           return ans;
+       }
+   
+       public boolean isAnagrams(String s, String p, int beg) {
+           int[] r = new int[26];
+           for (int i = 0; i < p.length(); i++) {
+               r[s.charAt(i + beg) - 'a'] += 1;
+               r[p.charAt(i) - 'a'] -= 1;
+           }
+           for (int i = 0; i < 26; i++) {
+               if (r[i] != 0) {
+                   return false;
+               }
+           }
+           return true;
+       }
+   }
+   ```
+
+2. 滑动窗口
+
+   用两个数组分别对两个字符串中的字母计数, 若计数相等则为 异位词
+
+   Java code
+
+   ```java
+   class Solution {
+       public List<Integer> findAnagrams(String s, String p) {
+           List<Integer> ans = new ArrayList<>();
+           if (s.length() < p.length()) {
+               return ans;
+           }
+           char[] charsS = s.toCharArray();
+           char[] charsP = p.toCharArray();
+           int[] cntS = new int[26];
+           int[] cntP = new int[26];
+           for (int i = 0; i < charsP.length; i++) {
+               cntP[charsP[i] - 'a'] += 1;
+               cntS[charsS[i] - 'a'] += 1;
+           }
+           if (Arrays.equals(cntP, cntS)) {
+               ans.add(0);
+           }
+           for (int i = 0; i < charsS.length - charsP.length; i++) {
+               cntS[charsS[i] - 'a'] -= 1;
+               cntS[charsS[i + charsP.length] - 'a'] += 1;
+               if (Arrays.equals(cntP, cntS)) {
+                   ans.add(i + 1);
+               }
+           }
+           return ans;
+       }
+   }
+   ```
+
+   ```java
+   // 优化: 避免对两个计数数组进行比较
+   class Solution {
+       public List<Integer> findAnagrams(String s, String p) {
+           List<Integer> ans = new ArrayList<>();
+           char[] charsS = s.toCharArray();
+           char[] charsP = p.toCharArray();
+           int[] cntS = new int[26];
+           int[] cntP = new int[26];
+   
+           for (char c : charsP) {
+               cntP[c - 'a'] += 1;
+           }
+   
+           int left = 0;
+           int right = 0;
+   
+           while (right < charsS.length) {
+               cntS[charsS[right] - 'a'] += 1;
+               while (cntS[charsS[right] - 'a'] > cntP[charsS[right] - 'a']) {
+                   // 抛弃直到与当前字符相同字符位置之前的子串
+                   cntS[charsS[left] - 'a'] -= 1;
+                   left += 1;
+               }
+               if (right - left + 1 == charsP.length) {
+                   ans.add(left);
+               }
+               right += 1;
+           }
+           return ans;
+       }
+   }
+   ```
+
 ## [494. 目标和](https://leetcode.cn/problems/target-sum/)
 
 > 给你一个整数数组 nums 和一个整数 target 。
