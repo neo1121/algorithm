@@ -961,10 +961,11 @@ class Solution {
 
 ## 栈
 
-| ID   |                          Title                          | Difficulty | Java |  Go  |
-| :--- | :-----------------------------------------------------: | :--------: | :--: | :--: |
-| 71   | [简化路径](https://leetcode.cn/problems/simplify-path/) |   Medium   |  √   |      |
-| 155  |    [最小栈](https://leetcode.cn/problems/min-stack/)    |    Easy    |  √   |      |
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 71   |   [简化路径](https://leetcode.cn/problems/simplify-path/)    |   Medium   |  √   |      |
+| 155  |      [最小栈](https://leetcode.cn/problems/min-stack/)       |    Easy    |  √   |      |
+| 946  | [验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/) |   Medium   |  √   |      |
 
 ## 链表
 
