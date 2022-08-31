@@ -1178,6 +1178,7 @@ class Solution {
 | 581  | [最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) |   Medium   |  √   |      |
 | 739  | [每日温度](https://leetcode.cn/problems/daily-temperatures/) |   Medium   |  √   |      |
 | 769  | [最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/) |   Medium   |  √   |      |
+| 1475 | [商品折扣后的最终价格](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) |    Easy    |  √   |      |
 
 ## 数组
 
