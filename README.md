@@ -1010,6 +1010,7 @@ class Solution {
 | 105  | [从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |   Medium   |  √   |      |
 | 107  | [二叉树的层序遍历 II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii) |   Medium   |  √   |      |
 | 110  | [平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree) |    Easy    |  √   |      |
+| 112  |      [路径总和](https://leetcode.cn/problems/path-sum/)      |    Easy    |  √   |      |
 | 114  | [二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) |   Medium   |  √   |  √   |
 | 144  | [二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal) |    Easy    |  √   |      |
 | 145  | [二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal) |    Easy    |  √   |      |
