@@ -1029,6 +1029,7 @@ class Solution {
 | 654  | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/) |   Medium   |  √   |      |
 | 655  | [输出二叉树](https://leetcode.cn/problems/print-binary-tree/) |   Medium   |  √   |      |
 | 662  | [二叉树最大宽度](https://leetcode.cn/problems/maximum-width-of-binary-tree/) |   Medium   |  √   |      |
+| 687  | [最长同值路径](https://leetcode.cn/problems/longest-univalue-path/) |   Medium   |  √   |      |
 | 998  | [最大二叉树 II](https://leetcode.cn/problems/maximum-binary-tree-ii/) |   Medium   |  √   |      |
 | 1302 | [层数最深叶子节点的和](https://leetcode.cn/problems/deepest-leaves-sum/) |   Medium   |  √   |  √   |
 | 1609 |    [奇偶树](https://leetcode.cn/problems/even-odd-tree/)     |   Medium   |  √   |      |
