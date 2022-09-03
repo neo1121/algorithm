@@ -624,6 +624,78 @@ class Solution {
 }
 ```
 
+## [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/)
+
+> 给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目。
+>
+> 路径 不需要从根节点开始，也不需要在叶子节点结束，但是路径方向必须是向下的（只能从父节点到子节点）。
+
+分析:
+
+1. 双递归
+
+   Java code
+
+   ```java
+   class Solution {
+       public int pathSum(TreeNode root, int targetSum) {
+           if(root == null) {
+               return 0;
+           }
+           int ans = dfs(root, targetSum);
+           ans += pathSum(root.left, targetSum);
+           ans += pathSum(root.right, targetSum);
+           return ans;
+       }
+   	
+       // 返回从 root 节点开始的路径和 (包含路径中的每个节点) 为 targetSum 的数量
+       public int dfs(TreeNode root, long targetSum) {
+           if (root == null) {
+               return 0;
+           }
+           long curSum = targetSum - root.val;
+           int ans = curSum == 0 ? 1 : 0;
+           ans += dfs(root.left, curSum);
+           ans += dfs(root.right, curSum);
+           return ans;
+       }
+   }
+   ```
+
+2. 前缀和
+
+   假设已经记录下 `root -> node1 -> node2 -> node3 -> node4` 这条路径中每个节点的前缀和, 当前遍历到 `node4` 节点, `curSum` 为 `root -> node4` 的路径和, 如果存在 `n` 个 `curSum - targetSum` 的前缀和则说明有 `n` 条路径和为 `targetSum` 的路径
+
+   前缀和: 如 `root -> node2` 的前缀和为 `root.val + node1.val` 
+
+   Java code
+
+   ```java
+   class Solution {
+       private HashMap<Long, Integer> prefixSum;
+   
+       public int pathSum(TreeNode root, int targetSum) {
+           prefixSum = new HashMap<>();
+           prefixSum.put(0L, 1);
+           return dfs(root, targetSum, 0);
+       }
+   
+       public int dfs(TreeNode root, long targetSum, long preSum) {
+           if (root == null) {
+               return 0;
+           }
+           long curSum = preSum + root.val;
+           int ans = prefixSum.getOrDefault(curSum - targetSum, 0);
+           int cnt = prefixSum.getOrDefault(curSum, 0);
+           prefixSum.put(curSum, cnt + 1);
+           ans += dfs(root.left, targetSum, curSum);
+           ans += dfs(root.right, targetSum, curSum);
+           prefixSum.put(curSum, cnt);
+           return ans;
+       }
+   }
+   ```
+
 ## [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
 
 > 给定两个字符串 s 和 p，找到 s 中所有 p 的 异位词 的子串，返回这些子串的起始索引。不考虑答案输出的顺序。
@@ -1020,6 +1092,7 @@ class Solution {
 | 236  | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree) |   Medium   |  √   |      |
 | 297  | [二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree) |    Hard    |  √   |      |
 | 429  | [N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) |   Medium   |  √   |  √   |
+| 437  |  [路径总和 III](https://leetcode.cn/problems/path-sum-iii/)  |   Medium   |  √   |      |
 | 513  | [找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/) |   Medium   |      |  √   |
 | 538  | [把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/) |   Medium   |  √   |      |
 | 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) |    Easy    |  √   |  √   |
