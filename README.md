@@ -1072,6 +1072,7 @@ class Solution {
 | 334  | [递增的三元子序列](https://leetcode.cn/problems/increasing-triplet-subsequence/) |   Medium   |  √   |      |
 | 435  | [无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/) |   Medium   |  √   |      |
 | 455  |   [分发饼干](https://leetcode.cn/problems/assign-cookies/)   |    Easy    |  √   |      |
+| 646  | [最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/) |   Medium   |  √   |      |
 | 768  | [最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/) |    Hard    |  √   |      |
 | 807  | [保持城市天际线](https://leetcode.cn/problems/max-increase-to-keep-city-skyline/) |   Medium   |  √   |      |
 | 846  | [一手顺子](https://leetcode.cn/problems/hand-of-straights/)  |   Medium   |  √   |      |
