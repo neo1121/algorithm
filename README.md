@@ -8,6 +8,10 @@
 
 [LeetCode Hot 100](#leetcode-hot-100)
 
+[名企真题](#名企真题)
+
+- [美团](#美团)
+
 [LeetCode Problems](#leetcode-problems)
 
 学习资料: [左程云算法课程](https://www.bilibili.com/video/BV13g41157hK?spm_id_from=333.999.0.0)
@@ -981,6 +985,206 @@ class Solution {
         root.left = mergeTrees(root1.left, root2.left);
         root.right = mergeTrees(root1.right, root2.right);
         return root;
+    }
+}
+```
+
+# 名企真题
+
+```java
+// Java 快速 I/O 模板
+import java.io.*;
+import java.util.StringTokenizer;
+
+class MyReader implements Closeable{
+    private StringTokenizer st;
+    private BufferedReader reader;
+
+    public MyReader() {
+        reader = new BufferedReader(new InputStreamReader(System.in));
+        st = new StringTokenizer("");
+    }
+
+    public String nextLine() throws IOException {
+        String line = reader.readLine();
+        return line == null ? "" : line;
+    }
+
+    public boolean hasNext() throws IOException {
+        if (st.hasMoreTokens()) {
+            return true;
+        }
+        st = new StringTokenizer(nextLine());
+        return st.hasMoreTokens();
+    }
+
+    public int nextInt() throws IOException {
+        if (hasNext()) {
+            return Integer.parseInt(st.nextToken());
+        }
+        return 0;
+    }
+
+    public String nextString() throws IOException {
+        if (hasNext()) {
+            return st.nextToken();
+        }
+        return "";
+    }
+
+    @Override
+    public void close() throws IOException {
+        reader.close();
+    }
+}
+
+
+class MyWriter implements Closeable {
+    private BufferedWriter writer;
+
+    public MyWriter() {
+        writer = new BufferedWriter(new OutputStreamWriter(System.out));
+    }
+
+    public void print(Object o) throws IOException {
+        writer.write(o.toString());
+    }
+
+    public void println(Object o) throws IOException {
+        writer.write(o.toString());
+        writer.write('\n');
+    }
+
+    @Override
+    public void close() throws IOException {
+        writer.flush();
+        writer.close();
+    }
+}
+```
+
+## 美团
+
+#### [meituan-001. 小美的用户名](https://leetcode.cn/problems/BaR9fy/)
+
+> 小美是美团的前端工程师，为了防止系统被恶意攻击，小美必须要在用户输入用户名之前做一个合法性检查，一个合法的用户名必须满足以下几个要求：
+>
+> 用户名的首字符必须是大写或者小写字母。
+> 用户名只能包含大小写字母，数字。
+> 用户名需要包含至少一个字母和一个数字。
+> 如果用户名合法，请输出 "Accept"，反之输出 "Wrong"。
+
+分析: 简单模拟
+
+Java code
+
+```java
+public class Main {
+    public static void main(String[] args) throws IOException {
+        MyReader reader = new MyReader();
+        MyWriter writer = new MyWriter();
+
+        int t = reader.nextInt();
+
+        for (int i = 0; i < t; i++) {
+            char[] name = reader.nextString().toCharArray();
+            if (!(name[0] >= 'a' && name[0] <= 'z') && !(name[0] >= 'A' && name[0] <= 'Z')) {
+                writer.println("Wrong");
+                continue;
+            }
+            boolean hasDigital = false;
+            boolean onlyLetters = true;
+            for (int j = 1; j < name.length; j++) {
+                if (name[j] >= '0' && name[j] <= '9') {
+                    hasDigital = true;
+                    continue;
+                }
+                if (!(name[j] >= 'a' && name[j] <= 'z') && !(name[j] >= 'A' && name[j] <= 'Z')) {
+                    onlyLetters = false;
+                    break;
+                }
+            }
+            if (hasDigital && onlyLetters) {
+                writer.println("Accept");
+            } else {
+                writer.println("Wrong");
+            }
+        }
+        writer.close();
+    }
+}
+```
+
+#### [meituan-002. 小美的仓库整理](https://leetcode.cn/problems/TJZLyC/)
+
+> 小美是美团仓库的管理员，她会根据单据的要求按顺序取出仓库中的货物，每取出一件货物后会把剩余货物重新堆放，使得自己方便查找。已知货物入库的时候是按顺序堆放在一起的。如果小美取出其中一件货物，则会把货物所在的一堆物品以取出的货物为界分成两堆，这样可以保证货物局部的顺序不变。
+> 已知货物最初是按 1~n 的顺序堆放的，每件货物的重量为 w[i] ,小美会根据单据依次不放回的取出货物。请问根据上述操作，小美每取出一件货物之后，重量和最大的一堆货物重量是多少？
+
+分析: 使用前缀和快速计算每堆重量和, 使用 `TreeSet` 记录分割点可以快速找到区间的左右边界, 使用 `TreeMap` 记录区间和数量可以快速找到最大区间和
+
+Java code
+
+```java
+public class Main {
+    public static void main(String[] args) throws IOException {
+        MyReader reader = new MyReader();
+        MyWriter writer = new MyWriter();
+
+        int n = reader.nextInt();
+
+        int[] w = new int[n];
+        for (int i = 0; i < n; i++) {
+            w[i] = reader.nextInt();
+        }
+
+        int[] query = new int[n];
+        for (int i = 0; i < n; i++) {
+            query[i] = reader.nextInt();
+        }
+
+        int[] prefixSum = new int[n + 2];
+        for (int i = 1; i <= n; i++) {
+            prefixSum[i] = prefixSum[i - 1] + w[i - 1];
+        }
+
+        // 分割点
+        TreeSet<Integer> bound = new TreeSet<>();
+        bound.add(0);
+        bound.add(n + 1);
+
+        // 区间和 -> 数量
+        TreeMap<Integer, Integer> segSum = new TreeMap<>();
+
+        for (int i = 0; i < n; i++) {
+            int pos = query[i];
+
+            int left = bound.lower(pos);
+            // 分割后左边区间和
+            int leftSum = prefixSum[pos - 1] - prefixSum[left];
+            segSum.put(leftSum, segSum.getOrDefault(leftSum, 0) + 1);
+
+            int right = bound.higher(pos);
+            // 分割后右边区间和
+            int rightSum = prefixSum[right - 1] - prefixSum[pos];
+            segSum.put(rightSum, segSum.getOrDefault(rightSum, 0) + 1);
+
+            // 当前区间和数量减一
+            int curSum = prefixSum[right - 1] - prefixSum[left];
+            Integer cnt = segSum.get(curSum);
+            if (cnt != null) {
+                if (cnt == 1) {
+                    segSum.remove(curSum);
+                } else {
+                    segSum.put(curSum, cnt - 1);
+                }
+            }
+            // 添加分割点
+            bound.add(pos);
+            
+            writer.println(segSum.lastKey());
+        }
+        reader.close();
+        writer.close();
     }
 }
 ```
