@@ -1439,6 +1439,7 @@ public class Main {
 | 2049 | [统计最高分的节点数目](https://leetcode.cn/problems/count-nodes-with-the-highest-score/) |   Medium   |  √   |      |
 | 2096 | [从二叉树一个节点到另一个节点每一步的方向](https://leetcode.cn/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |   Medium   |  √   |      |
 | 2196 | [根据描述创建二叉树](https://leetcode.cn/problems/create-binary-tree-from-descriptions/) |   Medium   |  √   |      |
+| 2236 | [判断根结点是否等于子结点之和](https://leetcode.cn/problems/root-equals-sum-of-children/) |    Easy    |  √   |      |
 
 ## 图
 
