@@ -1615,6 +1615,7 @@ public class Main {
 | 1582 | [二进制矩阵中的特殊位置](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) |    Easy    |  √   |      |
 | 1725 | [可以形成最大正方形的矩形数目](https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square/) |    Easy    |  √   |      |
 | 1748 | [唯一元素的和](https://leetcode.cn/problems/sum-of-unique-elements/) |    Easy    |  √   |      |
+| 1929 | [数组串联](https://leetcode.cn/problems/concatenation-of-array/) |    Easy    |  √   |      |
 | 1984 | [学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) |    Easy    |  √   |      |
 | 2006 | [差的绝对值为 K 的数对数目](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k/) |    Easy    |  √   |      |
 | 2013 |  [检测正方形](https://leetcode.cn/problems/detect-squares/)  |   Medium   |  √   |      |
