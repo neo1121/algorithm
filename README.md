@@ -1709,6 +1709,7 @@ public class Main {
 | 1219 | [黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold/) |   Medium   |  √   |      |
 | 1254 | [统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/) |   Medium   |  √   |      |
 | 1905 | [统计子岛屿](https://leetcode.cn/problems/count-sub-islands/) |   Medium   |  √   |      |
+| 2400 | [恰好移动 k 步到达某一位置的方法数目](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) |   Medium   |  √   |      |
 
 ## 回溯
 
