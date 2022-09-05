@@ -1773,6 +1773,7 @@ public class Main {
 | 2110 | [股票平滑下跌阶段的数目](https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock/) |   Medium   |  √   |      |
 | 2119 | [反转两次的数字](https://leetcode.cn/problems/a-number-after-a-double-reversal/) |    Easy    |  √   |      |
 | 2177 | [找到和为给定整数的三个连续整数](https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number/) |   Medium   |  √   |      |
+| 2235 | [两整数相加](https://leetcode.cn/problems/add-two-integers/) |    Easy    |  √   |      |
 
 ## 枚举
 
