@@ -1811,3 +1811,4 @@ public class Main {
 | 2194 | [Excel 表中某个范围内的单元格](https://leetcode.cn/problems/cells-in-a-range-on-an-excel-sheet/) |    Easy    |  √   |      |
 | 2211 | [统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/) |   Medium   |  √   |      |
 | 2221 | [数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/) |   Medium   |  √   |      |
+| 2396 | [严格回文的数字](https://leetcode.cn/problems/strictly-palindromic-number/) |   Medium   |  √   |      |
