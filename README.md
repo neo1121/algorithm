@@ -1812,3 +1812,4 @@ public class Main {
 | 2211 | [统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/) |   Medium   |  √   |      |
 | 2221 | [数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/) |   Medium   |  √   |      |
 | 2396 | [严格回文的数字](https://leetcode.cn/problems/strictly-palindromic-number/) |   Medium   |  √   |      |
+| 2399 | [检查相同字母间的距离](https://leetcode.cn/problems/check-distances-between-same-letters/) |    Easy    |  √   |      |
