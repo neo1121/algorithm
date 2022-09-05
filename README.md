@@ -1427,6 +1427,7 @@ public class Main {
 | 543  | [二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) |    Easy    |  √   |  √   |
 | 589  | [N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/) |    Easy    |  √   |      |
 | 606  | [根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/) |    Easy    |  √   |  √   |
+| 652  | [寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/) |   Medium   |  √   |      |
 | 653  | [两数之和 IV - 输入 BST](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) |    Easy    |  √   |  √   |
 | 654  | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/) |   Medium   |  √   |      |
 | 655  | [输出二叉树](https://leetcode.cn/problems/print-binary-tree/) |   Medium   |  √   |      |
