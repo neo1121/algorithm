@@ -1256,6 +1256,64 @@ public class Main {
 }
 ```
 
+### [meituan-004. 小团的复制粘贴](https://leetcode.cn/problems/TOVGD1/)
+
+> 小团是一个莫得感情的 CtrlCV 大师，他有一个下标从 1 开始的序列 A 和一个初始全部为 -1 序列 B ，两个序列的长度都是 n 。他会进行若干次操作，每一次操作，他都会选择 A 序列中一段连续区间，将其粘贴到 B 序列中的某一个连续的位置，在这个过程中他也会查询 B 序列中某一个位置上的值。
+> 我们用如下的方式表示他的粘贴操作和查询操作：
+> 粘贴操作：1 k x y，表示把 A 序列中从下标 x 位置开始的连续 k 个元素粘贴到 B 序列中从下标 y 开始的连续 k 个位置上。原始序列中的元素被覆盖。（注意：输入数据可能会出现粘贴后 k 个元素超出 B 序列原有长度的情况，超出部分可忽略）
+> 查询操作：2 x，表示询问B序列下标 x 处的值是多少。
+
+分析: 简单模拟
+
+Java code
+
+```java
+public class Main {
+    public static int n;
+    public static int[] A;
+    public static int[] B;
+
+    public static void main(String[] args) throws IOException {
+        MyIO io = new MyIO();
+
+        n = io.nextInt();
+
+        A = new int[n];
+        B = new int[n];
+        for (int i = 0; i < n; i++) {
+            A[i] = io.nextInt();
+            B[i] = -1;
+        }
+
+        int m = io.nextInt();
+
+        for (int i = 0; i < m; i++) {
+            int op = io.nextInt();
+            if (op == 1) {
+                copy(io.nextInt(), io.nextInt() - 1, io.nextInt() - 1);
+            } else {
+                io.println(query(io.nextInt() - 1));
+            }
+        }
+
+        io.close();
+    }
+
+    public static int query(int x) {
+        return B[x];
+    }
+
+    public static void copy(int k, int x, int y) {
+        for (int i = x; i < x + k; i++) {
+            if (y + i - x >= n) {
+                break;
+            }
+            B[y + i - x] = A[i];
+        }
+    }
+}
+```
+
 # [LeetCode Problems](https://leetcode.cn/problemset/all/)
 
 ## 排序
