@@ -1740,6 +1740,7 @@ public class Main {
 | 461  |  [汉明距离](https://leetcode.cn/problems/hamming-distance/)  |    Easy    |  √   |  √   |
 | 540  | [有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/) |   Medium   |  √   |      |
 | 693  | [交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/) |    Easy    |  √   |      |
+| 1720 | [解码异或后的数组](https://leetcode.cn/problems/decode-xored-array/) |    Easy    |  √   |      |
 | 2166 |   [设计位集](https://leetcode.cn/problems/design-bitset/)    |   Medium   |  √   |      |
 | 2220 | [转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/) |    Easy    |  √   |      |
 
