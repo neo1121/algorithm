@@ -4,7 +4,7 @@
 
 [剑指 Offer (Coding Interviews)](#剑指-offer)
 
-[剑指 Offer II (Coding Interviews II)](#剑指-offer-II)
+[剑指 Offer 专项突击版 (Coding Interviews II)](#剑指-offer-专项突击版)
 
 [LeetCode Hot 100](#leetcode-hot-100)
 
@@ -28,7 +28,7 @@ A collection of problems solved on the [LeetCode](https://leetcode.cn/) when wat
 
 ## [51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
 
-# [剑指 Offer II](https://leetcode.cn/problem-list/e8X3pBZi/)
+# [剑指 Offer 专项突击版](https://leetcode.cn/problem-list/e8X3pBZi/)
 
 ## [027. 回文链表](https://leetcode.cn/problems/aMhZSa)
 
@@ -1629,6 +1629,7 @@ public class Main {
 | 2190 | [数组中紧跟 key 之后出现最频繁的数字](https://leetcode.cn/problems/most-frequent-number-following-key-in-an-array/) |    Easy    |  √   |      |
 | 2206 | [将数组划分成相等数对](https://leetcode.cn/problems/divide-array-into-equal-pairs/) |    Easy    |  √   |      |
 | 2210 | [统计数组中峰和谷的数量](https://leetcode.cn/problems/count-hills-and-valleys-in-an-array/) |    Easy    |  √   |      |
+| 2395 | [和相等的子数组](https://leetcode.cn/problems/find-subarrays-with-equal-sum/) |    Easy    |  √   |      |
 
 ## 二分
 
