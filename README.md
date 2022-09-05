@@ -1484,6 +1484,7 @@ public class Main {
 | 1005 | [K 次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations) |    Easy    |  √   |      |
 | 1405 | [最长快乐字符串](https://leetcode.cn/problems/longest-happy-string/) |   Medium   |  √   |      |
 | 1414 | [和为 K 的最少斐波那契数字数目](https://leetcode.cn/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) |   Medium   |  √   |      |
+| 1689 | [十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |   Medium   |  √   |      |
 | 2126 | [摧毁小行星](https://leetcode.cn/problems/destroying-asteroids/) |   Medium   |  √   |      |
 | 2139 | [得到目标值的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-score/) |   Medium   |  √   |      |
 | 2144 | [打折购买糖果的最小开销](https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount/) |    Easy    |  √   |      |
