@@ -1768,6 +1768,7 @@ public class Main {
 | 1447 | [最简分数](https://leetcode.cn/problems/simplified-fractions/) |   Medium   |  √   |      |
 | 1688 | [比赛中的配对次数](https://leetcode.cn/problems/count-of-matches-in-tournament/) |    Easy    |  √   |      |
 | 1716 | [计算力扣银行的钱](https://leetcode.cn/problems/calculate-money-in-leetcode-bank/) |    Easy    |  √   |      |
+| 1828 | [统计一个圆中点的数目](https://leetcode.cn/problems/queries-on-number-of-points-inside-a-circle/) |   Medium   |  √   |      |
 | 2001 | [可互换矩形的组数](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles) |   Medium   |  √   |      |
 | 2011 | [执行操作后的变量值](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations) |    Easy    |  √   |      |
 | 2029 |  [石子游戏 IX](https://leetcode.cn/problems/stone-game-ix/)  |   Medium   |  √   |      |
