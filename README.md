@@ -1802,6 +1802,7 @@ public class Main {
 | 1342 | [将数字变成 0 的操作次数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero/) |    Easy    |  √   |      |
 | 1470 | [重新排列数组](https://leetcode.cn/problems/shuffle-the-array/) |    Easy    |  √   |      |
 | 1518 |   [换酒问题](https://leetcode.cn/problems/water-bottles/)    |    Easy    |  √   |      |
+| 1920 | [基于排列构建数组](https://leetcode.cn/problems/build-array-from-permutation/) |    Easy    |  √   |      |
 | 1995 | [统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/) |    Easy    |  √   |      |
 | 2028 | [找出缺失的观测数据](https://leetcode.cn/problems/find-missing-observations/) |   Medium   |  √   |  √   |
 | 2043 | [简易银行系统](https://leetcode.cn/problems/simple-bank-system/) |   Medium   |  √   |  √   |
