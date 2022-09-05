@@ -996,54 +996,58 @@ class Solution {
 import java.io.*;
 import java.util.StringTokenizer;
 
-class MyReader implements Closeable{
+class MyIO implements Closeable {
     private StringTokenizer st;
-    private BufferedReader reader;
+    private final BufferedReader reader;
+    private final BufferedWriter writer;
 
-    public MyReader() {
+    public MyIO() {
         reader = new BufferedReader(new InputStreamReader(System.in));
+        writer = new BufferedWriter(new OutputStreamWriter(System.out));
         st = new StringTokenizer("");
     }
 
     public String nextLine() throws IOException {
-        String line = reader.readLine();
-        return line == null ? "" : line;
+        return reader.readLine();
     }
 
-    public boolean hasNext() throws IOException {
-        if (st.hasMoreTokens()) {
-            return true;
+    public String next() throws IOException {
+        while (!st.hasMoreTokens()) {
+            st = new StringTokenizer(reader.readLine());
         }
-        st = new StringTokenizer(nextLine());
-        return st.hasMoreTokens();
+        return st.nextToken();
     }
 
     public int nextInt() throws IOException {
-        if (hasNext()) {
-            return Integer.parseInt(st.nextToken());
-        }
-        return 0;
+        return Integer.parseInt(next());
+    }
+
+    public long nextLong() throws IOException {
+        return Long.parseLong(next());
+    }
+
+    public short nextShort() throws IOException {
+        return Short.parseShort(next());
+    }
+
+    public double nextDouble() throws IOException {
+        return Double.parseDouble(next());
+    }
+
+    public float nextFloat() throws IOException {
+        return Float.parseFloat(next());
+    }
+
+    public byte nextByte() throws IOException {
+        return Byte.parseByte(next());
     }
 
     public String nextString() throws IOException {
-        if (hasNext()) {
-            return st.nextToken();
-        }
-        return "";
+        return next();
     }
 
-    @Override
-    public void close() throws IOException {
-        reader.close();
-    }
-}
-
-
-class MyWriter implements Closeable {
-    private BufferedWriter writer;
-
-    public MyWriter() {
-        writer = new BufferedWriter(new OutputStreamWriter(System.out));
+    public char nextChar() throws IOException {
+        return next().charAt(0);
     }
 
     public void print(Object o) throws IOException {
@@ -1052,20 +1056,34 @@ class MyWriter implements Closeable {
 
     public void println(Object o) throws IOException {
         writer.write(o.toString());
-        writer.write('\n');
+        writer.newLine();
+    }
+
+    public void printWithSP(Object o) throws IOException {
+        writer.write(o.toString());
+        writer.write(' ');
     }
 
     @Override
     public void close() throws IOException {
         writer.flush();
         writer.close();
+        reader.close();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        MyIO io = new MyIO();
+
+        io.close();
     }
 }
 ```
 
 ## 美团
 
-#### [meituan-001. 小美的用户名](https://leetcode.cn/problems/BaR9fy/)
+### [meituan-001. 小美的用户名](https://leetcode.cn/problems/BaR9fy/)
 
 > 小美是美团的前端工程师，为了防止系统被恶意攻击，小美必须要在用户输入用户名之前做一个合法性检查，一个合法的用户名必须满足以下几个要求：
 >
@@ -1081,15 +1099,14 @@ Java code
 ```java
 public class Main {
     public static void main(String[] args) throws IOException {
-        MyReader reader = new MyReader();
-        MyWriter writer = new MyWriter();
+        MyIO io = new MyIO();
 
-        int t = reader.nextInt();
+        int t = io.nextInt();
 
         for (int i = 0; i < t; i++) {
-            char[] name = reader.nextString().toCharArray();
+            char[] name = io.nextString().toCharArray();
             if (!(name[0] >= 'a' && name[0] <= 'z') && !(name[0] >= 'A' && name[0] <= 'Z')) {
-                writer.println("Wrong");
+                io.println("Wrong");
                 continue;
             }
             boolean hasDigital = false;
@@ -1105,17 +1122,17 @@ public class Main {
                 }
             }
             if (hasDigital && onlyLetters) {
-                writer.println("Accept");
+                io.println("Accept");
             } else {
-                writer.println("Wrong");
+                io.println("Wrong");
             }
         }
-        writer.close();
+        io.close();
     }
 }
 ```
 
-#### [meituan-002. 小美的仓库整理](https://leetcode.cn/problems/TJZLyC/)
+### [meituan-002. 小美的仓库整理](https://leetcode.cn/problems/TJZLyC/)
 
 > 小美是美团仓库的管理员，她会根据单据的要求按顺序取出仓库中的货物，每取出一件货物后会把剩余货物重新堆放，使得自己方便查找。已知货物入库的时候是按顺序堆放在一起的。如果小美取出其中一件货物，则会把货物所在的一堆物品以取出的货物为界分成两堆，这样可以保证货物局部的顺序不变。
 > 已知货物最初是按 1~n 的顺序堆放的，每件货物的重量为 w[i] ,小美会根据单据依次不放回的取出货物。请问根据上述操作，小美每取出一件货物之后，重量和最大的一堆货物重量是多少？
@@ -1127,19 +1144,18 @@ Java code
 ```java
 public class Main {
     public static void main(String[] args) throws IOException {
-        MyReader reader = new MyReader();
-        MyWriter writer = new MyWriter();
+        MyIO io = new MyIO();
 
-        int n = reader.nextInt();
+        int n = io.nextInt();
 
         int[] w = new int[n];
         for (int i = 0; i < n; i++) {
-            w[i] = reader.nextInt();
+            w[i] = io.nextInt();
         }
 
         int[] query = new int[n];
         for (int i = 0; i < n; i++) {
-            query[i] = reader.nextInt();
+            query[i] = io.nextInt();
         }
 
         int[] prefixSum = new int[n + 2];
@@ -1181,10 +1197,61 @@ public class Main {
             // 添加分割点
             bound.add(pos);
             
-            writer.println(segSum.lastKey());
+            io.println(segSum.lastKey());
         }
-        reader.close();
-        writer.close();
+        io.close();
+    }
+}
+```
+
+### [meituan-003. 小美的跑腿代购](https://leetcode.cn/problems/GXV5dX/)
+
+> 小美的一个兼职是美团的一名跑腿代购员，她有 n 个订单可以接，订单编号是 1~n ，但是因为订单的时效性，他只能选择其中 m 个订单接取，精明的小美当然希望自己总的获利是最大的，已知，一份订单会提供以下信息，跑腿价格 v ，商品重量 w kg，商品每重 1kg ，代购费用要加 2 元，而一份订单可以赚到的钱是跑腿价格和重量加价之和。小美可是开兰博基尼送货的人，所以自然不会在意自己会累这种事情。请问小美应该选择哪些订单，使得自己获得的钱最多。
+> 请你按照选择的订单编号的从小到大顺序，如果存在多种方案，输出订单编号字典序较小的方案。
+
+分析: 费用升序排序, 费用相等的按索引升序排序, 注意 `输出订单编号字典序较小的方案` 结果也要升序排序
+
+Java code
+
+```java
+public class Main {
+    public static void main(String[] args) throws IOException {
+        MyIO io = new MyIO();
+
+        int n = io.nextInt();
+        int m = io.nextInt();
+
+        int[][] profit = new int[n][2];
+
+        for (int i = 0; i < n; i++) {
+            int v = io.nextInt();
+            int w = io.nextInt();
+            profit[i] = new int[]{v + w * 2, i + 1};
+        }
+
+        Arrays.sort(profit, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] a, int[] b) {
+                if (a[0] == b[0]) {
+                    return a[1] - b[1];
+                }
+                return b[0] - a[0];
+            }
+        });
+
+        int[] ans = new int[m];
+
+        for (int i = 0; i < m; i++) {
+            ans[i] = profit[i][1];
+        }
+
+        Arrays.sort(ans);
+
+        for (int i = 0; i < m; i++) {
+            io.print(ans[i] + " ");
+        }
+
+        io.close();
     }
 }
 ```
