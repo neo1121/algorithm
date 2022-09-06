@@ -1600,7 +1600,6 @@ public class Main {
 | 26   | [删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) |    Easy    |  √   |      |
 | 27   |   [移除元素](https://leetcode.cn/problems/remove-element/)   |    Easy    |  √   |      |
 | 34   | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Medium   |  √   |      |
-| 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) |    Easy    |  √   |      |
 | 36   |   [有效的数独](https://leetcode.cn/problems/valid-sudoku/)   |   Medium   |  √   |      |
 | 48   |    [旋转图像](https://leetcode.cn/problems/rotate-image/)    |   Medium   |  √   |      |
 | 66   |        [加一](https://leetcode.cn/problems/plus-one/)        |    Easy    |  √   |      |
@@ -1652,6 +1651,7 @@ public class Main {
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) |    Easy    |  √   |      |
 | 53   | [最大子数组和](https://leetcode.cn/problems/maximum-subarray/) |    Easy    |  √   |  √   |
 | 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
 | 96   | [不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/) |   Medium   |  √   |      |
@@ -1812,6 +1812,7 @@ public class Main {
 | 1342 | [将数字变成 0 的操作次数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero/) |    Easy    |  √   |      |
 | 1470 | [重新排列数组](https://leetcode.cn/problems/shuffle-the-array/) |    Easy    |  √   |      |
 | 1518 |   [换酒问题](https://leetcode.cn/problems/water-bottles/)    |    Easy    |  √   |      |
+| 1769 | [移动所有球到每个盒子所需的最小操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) |   Medium   |  √   |      |
 | 1920 | [基于排列构建数组](https://leetcode.cn/problems/build-array-from-permutation/) |    Easy    |  √   |      |
 | 1995 | [统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/) |    Easy    |  √   |      |
 | 2028 | [找出缺失的观测数据](https://leetcode.cn/problems/find-missing-observations/) |   Medium   |  √   |  √   |
