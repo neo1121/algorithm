@@ -1648,6 +1648,12 @@ public class Main {
 | 704  |    [二分查找](https://leetcode.cn/problems/binary-search)    |    Easy    |  √   |      |
 | 744  | [寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/) |    Easy    |  √   |  √   |
 
+## 双指针
+
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| ---- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 977  | [有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/) |    Easy    |  √   |      |
+
 ## 动态规划
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
