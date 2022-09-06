@@ -1548,6 +1548,7 @@ public class Main {
 | 796  |  [旋转字符串](https://leetcode.cn/problems/rotate-string/)   |    Easy    |  √   |  √   |
 | 917  | [仅仅反转字母](https://leetcode.cn/problems/reverse-only-letters/) |    Easy    |  √   |      |
 | 1078 | [Bigram 分词](https://leetcode.cn/problems/occurrences-after-bigram/) |    Easy    |  √   |      |
+| 1108 | [IP 地址无效化](https://leetcode.cn/problems/defanging-an-ip-address/) |    Easy    |  √   |      |
 | 1189 | [“气球” 的最大数量](https://leetcode.cn/problems/maximum-number-of-balloons/) |    Easy    |  √   |      |
 | 1332 | [删除回文子序列](https://leetcode.cn/problems/remove-palindromic-subsequences/) |    Easy    |  √   |      |
 | 1422 | [分割字符串的最大得分](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/) |    Easy    |  √   |      |
