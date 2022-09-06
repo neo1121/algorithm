@@ -1640,8 +1640,9 @@ public class Main {
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) |    Easy    |  √   |      |
 | 33   | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) |   Medium   |  √   |      |
+| 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) |    Easy    |  √   |      |
+| 278  | [第一个错误的版本](https://leetcode.cn/problems/first-bad-version/) |    Easy    |  √   |      |
 | 540  | [有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/) |   Medium   |  √   |      |
 | 658  | [找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/) |   Medium   |  √   |      |
 | 704  |    [二分查找](https://leetcode.cn/problems/binary-search)    |    Easy    |  √   |      |
