@@ -1729,6 +1729,7 @@ public class Main {
 | 78   |        [子集](https://leetcode.cn/problems/subsets/)         |   Medium   |  √   |      |
 | 357  | [统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
 | 784  | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) |   Medium   |  √   |      |
+| 1863 | [找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/) |    Easy    |  √   |      |
 | 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
 | 2212 | [射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/) |   Medium   |  √   |      |
 
