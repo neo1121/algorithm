@@ -1545,6 +1545,7 @@ public class Main {
 | 686  | [重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/) |   Medium   |  √   |      |
 | 709  | [转换成小写字母](https://leetcode.cn/problems/to-lower-case/) |    Easy    |  √   |      |
 | 748  | [最短补全词](https://leetcode.cn/problems/shortest-completing-word/) |    Easy    |  √   |      |
+| 771  | [宝石与石头](https://leetcode.cn/problems/jewels-and-stones/) |    Easy    |  √   |      |
 | 796  |  [旋转字符串](https://leetcode.cn/problems/rotate-string/)   |    Easy    |  √   |  √   |
 | 917  | [仅仅反转字母](https://leetcode.cn/problems/reverse-only-letters/) |    Easy    |  √   |      |
 | 1078 | [Bigram 分词](https://leetcode.cn/problems/occurrences-after-bigram/) |    Easy    |  √   |      |
