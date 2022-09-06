@@ -1608,7 +1608,6 @@ public class Main {
 | 283  |     [移动零](https://leetcode.cn/problems/move-zeroes/)      |    Easy    |  √   |  √   |
 | 448  | [找到所有数组中消失的数字](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) |    Easy    |  √   |  √   |
 | 674  | [最长连续递增序列](https://leetcode.cn/problems/longest-continuous-increasing-subsequence/) |    Easy    |      |  √   |
-| 704  |    [二分查找](https://leetcode.cn/problems/binary-search)    |    Easy    |  √   |      |
 | 717  | [1比特与2比特字符](https://leetcode.cn/problems/1-bit-and-2-bit-characters/) |    Easy    |  √   |      |
 | 747  | [至少是其他数字两倍的最大数](https://leetcode.cn/problems/largest-number-at-least-twice-of-others/) |    Easy    |  √   |      |
 | 986  | [区间列表的交集](https://leetcode.cn/problems/interval-list-intersections/) |   Medium   |      |  √   |
@@ -1641,6 +1640,7 @@ public class Main {
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) |    Easy    |  √   |      |
 | 33   | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) |   Medium   |  √   |      |
 | 540  | [有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/) |   Medium   |  √   |      |
 | 658  | [找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/) |   Medium   |  √   |      |
@@ -1651,7 +1651,6 @@ public class Main {
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
 | :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 35   | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) |    Easy    |  √   |      |
 | 53   | [最大子数组和](https://leetcode.cn/problems/maximum-subarray/) |    Easy    |  √   |  √   |
 | 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
 | 96   | [不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/) |   Medium   |  √   |      |
