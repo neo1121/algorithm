@@ -1348,26 +1348,6 @@ public class Main {
 | 641  | [设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/) |   Medium   |  √   |      |
 | 2149 | [按符号重排数组](https://leetcode.cn/problems/rearrange-array-elements-by-sign/) |   Medium   |  √   |      |
 
-## 堆
-
-| ID   |                            Title                             | Difficulty | Java |  Go  |
-| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 4    | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) |    Hard    |  √   |      |
-| 295  | [数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream) |    Hard    |  √   |      |
-| 373  | [查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) |   Medium   |  √   |      |
-| 1464 | [数组中两元素的最大乘积](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) |    Easy    |  √   |      |
-| 2161 | [根据给定数字划分数组](https://leetcode.cn/problems/partition-array-according-to-given-pivot/) |   Medium   |  √   |      |
-| 2164 | [对奇偶下标分别排序](https://leetcode.cn/problems/sort-even-and-odd-indices-independently/) |    Easy    |  √   |      |
-| 2182 | [构造限制重复的字符串](https://leetcode.cn/problems/construct-string-with-repeat-limit/) |   Medium   |  √   |      |
-
-## 栈
-
-| ID   |                            Title                             | Difficulty | Java |  Go  |
-| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 71   |   [简化路径](https://leetcode.cn/problems/simplify-path/)    |   Medium   |  √   |      |
-| 155  |      [最小栈](https://leetcode.cn/problems/min-stack/)       |    Easy    |  √   |      |
-| 946  | [验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/) |   Medium   |  √   |      |
-
 ## 链表
 
 | ID   |                            Title                             | Difficulty | Java |  Go  | C++  |
@@ -1398,6 +1378,26 @@ public class Main {
 | 2095 | [删除链表的中间节点](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/) |   Medium   |  √   |      |      |
 | 2130 | [链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/) |   Medium   |  √   |      |      |
 | 2181 | [合并零之间的节点](https://leetcode.cn/problems/merge-nodes-in-between-zeros/) |   Medium   |  √   |      |      |
+
+## 堆
+
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 4    | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) |    Hard    |  √   |      |
+| 295  | [数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream) |    Hard    |  √   |      |
+| 373  | [查找和最小的 K 对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) |   Medium   |  √   |      |
+| 1464 | [数组中两元素的最大乘积](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) |    Easy    |  √   |      |
+| 2161 | [根据给定数字划分数组](https://leetcode.cn/problems/partition-array-according-to-given-pivot/) |   Medium   |  √   |      |
+| 2164 | [对奇偶下标分别排序](https://leetcode.cn/problems/sort-even-and-odd-indices-independently/) |    Easy    |  √   |      |
+| 2182 | [构造限制重复的字符串](https://leetcode.cn/problems/construct-string-with-repeat-limit/) |   Medium   |  √   |      |
+
+## 栈
+
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 71   |   [简化路径](https://leetcode.cn/problems/simplify-path/)    |   Medium   |  √   |      |
+| 155  |      [最小栈](https://leetcode.cn/problems/min-stack/)       |    Easy    |  √   |      |
+| 946  | [验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/) |   Medium   |  √   |      |
 
 ## 树
 
@@ -1497,14 +1497,6 @@ public class Main {
 | 2208 | [将数组和减半的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/) |   Medium   |  √   |      |
 | 2216 | [美化数组的最少删除数](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/) |   Medium   |  √   |      |
 
-## 暴力递归
-
-| ID   |                            Title                             | Difficulty | Java |  Go  |
-| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
-| 62   |    [不同路径](https://leetcode.cn/problems/unique-paths/)    |   Medium   |  √   |      |
-| 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
-| 486  | [预测赢家](https://leetcode.cn/problems/predict-the-winner/) |   Medium   |  √   |      |
-
 ## 滑动窗口
 
 | ID   |                            Title                             | Difficulty | Java |  Go  |
@@ -1556,6 +1548,7 @@ public class Main {
 | 1446 | [连续字符](https://leetcode.cn/problems/consecutive-characters/) |    Easy    |  √   |      |
 | 1455 | [检查单词是否为句中其他单词的前缀](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) |    Easy    |  √   |      |
 | 1576 | [替换所有的问号](https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) |    Easy    |  √   |      |
+| 1592 | [重新排列单词间的空格](https://leetcode.cn/problems/rearrange-spaces-between-words/) |    Easy    |  √   |      |
 | 1614 | [括号的最大嵌套深度](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/) |    Easy    |  √   |      |
 | 1629 | [按键持续时间最长的键](https://leetcode.cn/problems/slowest-key/) |    Easy    |  √   |      |
 | 1816 |  [截断句子](https://leetcode.cn/problems/truncate-sentence)  |    Easy    |  √   |      |
@@ -1723,6 +1716,14 @@ public class Main {
 | 1254 | [统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/) |   Medium   |  √   |      |
 | 1905 | [统计子岛屿](https://leetcode.cn/problems/count-sub-islands/) |   Medium   |  √   |      |
 | 2400 | [恰好移动 k 步到达某一位置的方法数目](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) |   Medium   |  √   |      |
+
+## 递归
+
+| ID   |                            Title                             | Difficulty | Java |  Go  |
+| :--- | :----------------------------------------------------------: | :--------: | :--: | :--: |
+| 62   |    [不同路径](https://leetcode.cn/problems/unique-paths/)    |   Medium   |  √   |      |
+| 64   | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/) |   Medium   |  √   |      |
+| 486  | [预测赢家](https://leetcode.cn/problems/predict-the-winner/) |   Medium   |  √   |      |
 
 ## 回溯
 
