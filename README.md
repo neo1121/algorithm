@@ -10,6 +10,7 @@
 
 [名企真题](#名企真题)
 
+- [快速 I/O 模板](快速-I/O-模板)
 - [美团](#美团)
 
 [LeetCode Problems](#leetcode-problems)
@@ -991,6 +992,10 @@ class Solution {
 
 # 名企真题
 
+## 快速 I/O 模板
+
+Java code
+
 ```java
 // Java 快速 I/O 模板
 import java.io.*;
@@ -1736,6 +1741,7 @@ public class Main {
 | 52   |    [N皇后 II](https://leetcode.cn/problems/n-queens-ii/)     |    Hard    |  √   |      |
 | 78   |        [子集](https://leetcode.cn/problems/subsets/)         |   Medium   |  √   |      |
 | 357  | [统计各位数字都不同的数字个数](https://leetcode.cn/problems/count-numbers-with-unique-digits/) |   Medium   |  √   |  √   |
+| 526  | [优美的排列](https://leetcode.cn/problems/beautiful-arrangement/) |   Medium   |  √   |      |
 | 784  | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) |   Medium   |  √   |      |
 | 1863 | [找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/) |    Easy    |  √   |      |
 | 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |   Medium   |  √   |  √   |
