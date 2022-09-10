@@ -10,7 +10,7 @@
 
 [名企真题](#名企真题)
 
-- [快速 I/O 模板](快速-I/O-模板)
+- [快速 I/O 模板](#快速-I/O-模板)
 - [美团](#美团)
 
 [LeetCode Problems](#leetcode-problems)
